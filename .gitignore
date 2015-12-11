@@ -6,6 +6,7 @@ custom/*
 download/*
 downloadlists/*
 fof_scripts/hint_stats.txt
+fof_scripts/intro_records.txt
 maps/graphs/*
 maps/soundcache/*
 mapsrc/*
