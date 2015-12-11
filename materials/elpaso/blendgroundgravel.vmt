@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+"$basetexture" "nature/gravelfloor002a"
+
+"$surfaceprop" "dirt"
+ 
+"$basetexture2" "tijuana/ground_tijuana"
+
+	"$detail" "mv/macro01a"
+	"$detailscale" .35
+	"$detailblendfactor" 1.0 
+
+   "%tooltexture" "elpaso/sandground1"
+
+} 

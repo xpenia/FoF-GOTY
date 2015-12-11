@@ -1,0 +1,9 @@
+WorldVertexTransition
+{
+$basetexture "mv\terra1" 
+$basetexture2 "elpaso\sandground1"
+$blendmodulatetexture "nature/blend_texture_01"
+$surfaceprop dirt
+$surfaceprop2 sand
+"%keywords" fof
+}

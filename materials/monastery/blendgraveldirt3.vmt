@@ -1,0 +1,19 @@
+"WorldVertexTransition"
+{
+      "$basetexture2" "monastery/redground2"
+"%detailtype" "grass03"
+   
+//"$detail" "overlays/macro01b_rev"
+//"$detailscale" .5
+
+"$bumpmap" "monastery/blank_normal"
+"$bumpmap2" "monastery/blank_normal"
+ 
+   "$surfaceprop" "dirt"
+
+   "$basetexture" "monastery/redground1"
+
+   "%tooltexture" "nature/grassfloor003a"
+        "$basetexturetransform" "center .5 .5 scale 1 1 rotate 0  translate 0 0"
+        "$basetexturetransform2" "center .5 .5 scale 4 4 rotate 0 translate 0 0"
+} 

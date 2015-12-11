@@ -1,0 +1,13 @@
+"LightMappedGeneric"
+{
+
+"$basetexture" "models/mv/butt3"
+//"$bumpmap" "models/mv/butt3_normal"
+
+"$surfaceprop" "boulder"   
+
+$seamless_scale 0.0006
+
+"%tooltexture" "models/mv/butt3"
+
+} 

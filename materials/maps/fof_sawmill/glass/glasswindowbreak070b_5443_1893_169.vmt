@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/glass/glasswindowbreak070b.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/fof_sawmill_12/c5443_1893_169"
+		"Proxies"
+		{
+		}
+	}
+}

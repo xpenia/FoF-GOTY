@@ -1,0 +1,14 @@
+"UnlitTwoTexture"
+{
+	"$baseTexture" "snowy/riverfx01"
+	"$texture2" "snowy/riverfxbase" 
+	"$additive" 1
+	"$translucent" 1
+	"$model" 1
+	"$no_fullbright" 1
+	"$nolod" "1"
+	"$nomip" "1"
+	"$color" "[.95 .95 .95]"
+	"$nodecal" 1
+}
+

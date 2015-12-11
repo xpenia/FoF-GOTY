@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/MONASTERY/WOODFLOOR03.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/fof_sawmill_12/c5441_1634_33"
+	}
+}

@@ -1,0 +1,13 @@
+// envmaptint_fix
+"UnLitGeneric"
+{
+	"$baseTexture" "models\npc\ghost\ghost_skull"	
+	"$bumpmap" "models/playermodels/flat_normal"	
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ 1 1 0]"
+	
+	"$phong" "1"
+	"$phongboost"	"3"
+	"$phongfresnelranges"	"[5 1 2]"
+}

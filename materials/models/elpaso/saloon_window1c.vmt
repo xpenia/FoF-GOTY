@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/saloon_window1"
+"$surfaceprop" "glass"
+"$envmap" "env_cubemap"
+"$envmapmask" "models\elpaso/saloon_window1_mask"
+"%compilepassbullets" 1 
+//"$envmapcontrast" .6
+//"$envmapsaturation" .8
+"$envmaptint" "[.46 .46 .46]"
+"$model" 1
+"$selfillum" 1
+"$translucent" "1"
+"$model" 1
+}

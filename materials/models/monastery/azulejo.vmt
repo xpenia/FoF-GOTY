@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+
+"$baseTexture" "models\monastery/azulejo"
+"$envmap" "env_cubemap"
+"$bumpmap" "models\monastery/azulejo_normal"     
+"$envmapcontrast" .8
+
+"$normalmapalphaenvmapmask" 1
+//"$envmaptint" "[.2 .2 .2]"
+"$envmapsaturation" "[.4 .4 .4]"
+
+
+"$model" 1
+}

@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+"$basetexture" "models\elpaso/elpaso_3dskb"
+"$bumpmap2" "tijuana/3dskybox3_normal"
+"$surfaceprop" "sand"
+
+//"%detailtype" "elpasograss16"
+
+ 
+"$basetexture2" "tijuana/floor"
+"$bumpmap" "tijuana/3dskybox3_normal"
+
+//"$detail" "elpaso/macro01a"
+//"$detailscale" .1
+   "%tooltexture" "tijuana/3dskybox3_normal"
+
+} 

@@ -1,0 +1,58 @@
+"Water"
+{
+	"$abovewater" 1
+	"%compilewater" 1
+	"$forcecheap" 1
+	"$CHEAPWATERSTARTDISTANCE" 500.0
+	"$CHEAPWATERENDDISTANCE" 1000.0
+	"$envmap" "env_cubemap"
+	"Water_DX60"
+	{
+		"$fallbackmaterial" "nature/water_canals_water2_dx70"
+	}	
+	"Water_DX9_HDR"
+	{
+		"$envmap" "env_cubemap"
+	}
+	
+	"%tooltexture" "dev/water_normal"
+	"$refractamount" ".1"
+//	"$refracttint" "[0.95 1.0 0.97]"
+
+	"$reflectamount" "1.5"
+	"$reflecttint" "[1 1 1]"
+
+	"$scale" "[1 1]"
+
+	"$bumpmap" "dev/water_dudv"
+	"$normalmap" "dev/water_normal"
+
+	"$surfaceprop" "water"
+	"$bottommaterial" "eliminator/water_ati_beneath"
+	"$bumpframe" "0"
+
+	"$fogenable" 1
+	"$fogcolor" "{20 42 37}"
+	"$fogstart" 100.00
+	"$fogend" 200.00
+
+	"$scroll1" "[.002 .002 .01]"
+	"$scroll2" "[-.005 .005 .015]"
+
+	"Proxies"
+	{
+//		"AnimatedTexture"
+//		{
+//			"animatedtexturevar" "$normalmap"
+//			"animatedtextureframenumvar" "$bumpframe"
+//			"animatedtextureframerate" 30.00
+//		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .005
+			"texturescrollangle" 45.00
+		}
+	}
+}

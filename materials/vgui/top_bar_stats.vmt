@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI\top_bar_stats"
+	"$vertexcolor" 1
+	"$nolod" "1"
+	"$vertexalpha" 1
+}

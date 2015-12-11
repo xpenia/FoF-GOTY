@@ -1,0 +1,31 @@
+"VertexLitGeneric"
+{
+	$basetexture models/weapons/w_carbine
+	$bumpmap models/weapons/w_carbine_n
+
+
+	"$normalmapalphaenvmapmask" 1
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .3 .3 .3 ]"
+	"$envmapconstrast" "1"
+	$envmapsaturation .25
+
+	"$phong"     "1"
+	"$phongexponent"  "8"
+	//$phongexponenttexture models/weapons/coltnavy_s
+	"$phongboost"   1
+	"$phongfresnelranges"   "[.75 .5 1]"
+	"$phongalbedotint" "1"
+
+	"$halflambert" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "512"	
+	"$rimexponent" "512"
+	"$rimlightboost" ".1"
+
+
+
+	
+}

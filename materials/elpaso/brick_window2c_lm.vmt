@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "models/elpaso/brick_window2b"
+	"$surfaceprop" "glass"
+	
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/elpaso/brick_window2_mask"
+
+	//"$envmapcontrast" 1
+	//"$envmapsaturation" 1
+	"$envmaptint" "[.76 .76 .76]"
+	"$selfillum" 1
+}

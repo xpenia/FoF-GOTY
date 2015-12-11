@@ -1,0 +1,6 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "elpaso/stucco_yellow_damaged"
+	//"$bumpmap" "elpaso/stucco_yellow_damaged_normal"
+	"$surfaceprop" "sand"
+}

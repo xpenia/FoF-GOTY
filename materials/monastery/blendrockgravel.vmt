@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+      "$basetexture2" "monastery/rock3m"
+"$bumpmap2" "monastery/rock2m_normal"
+       
+
+"$basetexture" "monastery/rock2m"
+"$bumpmap" "monastery/rock2m_normal"
+
+//"$bumpscale" 0.10
+ "$surfaceprop" "boulder"
+
+   "%tooltexture" "monastery/rock3m"
+
+} 

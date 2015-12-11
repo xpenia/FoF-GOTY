@@ -1,0 +1,19 @@
+"WorldVertexTransition"
+{
+"$basetexture2" "monastery/redground6"
+"$basetexture" "monastery/redground4"
+
+"%detailtype" "elpasograss"
+   
+"$bumpmap2" "monastery/blank_normal"
+"$bumpmap" "monastery/redground4_normal"
+   
+//"$detail" "overlays/macro01a"
+//"$detailscale" 1
+ 
+   "$surfaceprop" "dirt"
+
+  
+
+ 
+} 

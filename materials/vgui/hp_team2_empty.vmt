@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+
+	"$basetexture" "VGUI\hp_team2_empty"
+	"$translucent" 1
+	"$ignorez" 1
+	"$no_fullbright" 1
+	"$nolod" "1"
+}

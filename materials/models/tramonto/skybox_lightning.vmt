@@ -1,0 +1,12 @@
+"UnLitGeneric"
+{
+	"$baseTexture" "models\tramonto/skybox_lightning"
+
+	
+	"$selfillum" 1
+	"$translucent" 1 
+	"$additive" 1
+	"$alpha" 0.3
+	"$model" 1
+
+}

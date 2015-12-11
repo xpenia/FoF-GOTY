@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+"$basetexture"	"decals\custom\contact"
+"$translucent" "1"
+"$decal" 1
+"$decalscale" "0.1"
+"$surfaceprop" "default"
+} 

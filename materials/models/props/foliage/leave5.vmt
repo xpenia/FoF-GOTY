@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"models/props/foliage/leave5"
+	"$selfIllum"			0
+	"$translucent"			1
+	"$alpha"				1
+}

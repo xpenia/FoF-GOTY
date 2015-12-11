@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/bank_lamp"
+"$surfaceprop" "glass"
+	
+"$model" 1
+}

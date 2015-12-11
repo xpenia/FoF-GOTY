@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "elpaso/plaster_white"
+"$bumpmap" "elpaso/plaster_normal"
+	"$surfaceprop" "sand"
+	"%keywords" "elpaso"
+}

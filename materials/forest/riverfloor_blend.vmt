@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+
+
+"$surfaceprop" "rock" 
+  
+"$basetexture" "forest/riverfloor"
+ 
+"$basetexture2" "forest/rock"
+"$bumpmap2" "models/mv/butt3_normal"
+
+
+"%tooltexture" "forest/riverfloor"
+
+} 

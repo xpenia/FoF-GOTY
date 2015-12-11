@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+      "$basetexture2" "monastery/redground2"
+"$bumpmap2" "monastery/blank_normal"
+       
+
+"$basetexture" "monastery/rock2m"
+"$bumpmap" "monastery/rock2m_normal"
+
+ "$surfaceprop" "boulder"
+
+   "%tooltexture" "monastery/redground2"
+
+} 

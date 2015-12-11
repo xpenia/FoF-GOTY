@@ -1,0 +1,16 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "elpaso/stonewall1"
+	"$baseTexture2" "elpaso/stonewall1"
+	
+	//"$detail" "overlays/macro01a"
+	//"$detailscale" .1
+	//"$detailblendfactor" 1.7   
+		
+	"%tooltexture" "elpaso/stonewall1"
+	
+	"$seamless_scale" .006
+
+	"$surfaceprop" "boulder"
+	"$surfaceprop2" "boulder"
+}

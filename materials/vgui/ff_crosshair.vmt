@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+
+	"$basetexture" "VGUI\ff_crosshair"
+	"$vertexalpha" 1
+	"$nolod" "1"
+}

@@ -1,0 +1,9 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "monastery/woodfloor03"
+	"$surfaceprop" "wood"
+ 	"$envmap" "env_cubemap"
+	"$envmapcontrast" "1"
+	"$envmapmask" "monastery/woodfloor03_spec"
+
+}

@@ -1,0 +1,9 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOWBREAK070A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/fof_sawmill_12/c5556_2006_169"
+		"$crackmaterial"		"maps/fof_sawmill_12/glass/glasswindowbreak070b_5556_2006_169"
+	}
+}

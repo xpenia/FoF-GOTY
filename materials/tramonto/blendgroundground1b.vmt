@@ -1,0 +1,16 @@
+"WorldVertexTransition"
+{
+  
+"$basetexture" "tramonto/sand1"
+"$bumpmap" "tramonto/sand1_normal"
+
+"$surfaceprop" "sand" 
+
+"%detailtype" "elpasograss_sway"
+  
+"$basetexture2" "tramonto/ground1"
+"$bumpmap2" "tramonto/blank1024_normal"
+
+"%tooltexture" "tramonto/ground1"
+
+} 

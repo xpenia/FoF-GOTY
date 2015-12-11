@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture"		"loothill/wetmud"
+	"$surfaceprop"		"concrete"
+	"$bumpmap"		"loothill/wetmud_normal"
+	"$basetexturetransform2"		"center .5 .5 scale 6 6 rotate 0 translate 0 0"
+	"%tooltexture"		"snowy/snow02"
+	"$normalmapalphaenvmapmask"		"1"
+	"$envmap"		"cubemaps/cubemap_01"
+	"$envmaptint"		"[0.55 0.55 0.55 ]"
+}

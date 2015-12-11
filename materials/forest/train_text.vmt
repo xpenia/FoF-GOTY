@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "forest/train_text"
+	"$translucent" 1
+}

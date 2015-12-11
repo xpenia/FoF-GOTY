@@ -1,0 +1,8 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "monastery/decal_brick2"
+
+"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.250"
+}

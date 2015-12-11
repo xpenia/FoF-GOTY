@@ -1,0 +1,13 @@
+"UnLitGeneric"
+{
+	"$baseTexture" "models\elpaso/saloon_mirror"
+"$surfaceprop" "glass"
+	
+	"$envmap" "env_cubemap"
+"$envmapmask" "models\elpaso/saloon_mirror_mask"
+
+	"$envmapcontrast" .7
+	"$envmapsaturation" .2
+//	"$envmaptint" "[1 1 1]"
+"$model" 1
+}

@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+      "$basetexture" "mv/redground2"
+"%detailtype" "elpasograss16"
+   
+"$detail" "mv/macro01a"
+"$detailscale" .2
+ 
+   "$surfaceprop" "dirt"
+
+   "$basetexture2" "mv/redground3"
+
+   "%tooltexture" "mv/redground3"
+
+} 

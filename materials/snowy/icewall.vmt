@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+   "$basetexture" "snowy/icewall"
+
+  "$surfaceprop" "ice"
+
+
+"$bumpmap" "loothill/wetmud_normal"
+
+"$envmap" "env_cubemap"
+"$normalmapalphaenvmapmask" 1
+"$envmapsaturation" "0.8"
+"$envmapcontrast" "0.9"
+"$envmaptint" "[0 0.6 0.7]"
+"$bumpscale" "2"
+
+} 

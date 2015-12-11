@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models/playermodels\clothes\hat1"
+
+	"$nocull" "1"
+	"$nodecal" 1
+}

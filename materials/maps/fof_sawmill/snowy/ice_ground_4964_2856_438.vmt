@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SNOWY/ICE_GROUND.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/fof_sawmill_12/c4964_2856_438"
+	}
+}

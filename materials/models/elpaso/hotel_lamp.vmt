@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/hotel_lamp"
+
+"$surfaceprop" "glass"
+	
+	"$envmap" "env_cubemap"
+"$envmapmask" "models\elpaso/hotel_lamp_mask"
+
+	"$envmapcontrast" .7
+	"$envmapsaturation" .4
+	"$envmaptint" "[.36 .36 .36]"
+"$model" 1
+
+}

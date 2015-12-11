@@ -1,0 +1,19 @@
+"WorldVertexTransition"
+{
+
+"$basetexture" "peligro/rock_b2"
+"$bumpmap2" "models/monastery/rockgen_normal"
+
+"$surfaceprop" "boulder"   
+
+"$basetexture2" "peligro/rock_b2"
+"$bumpmap" "models/monastery/rockgen_normal"
+
+
+"$detail" "elpaso/macro01a"
+"$detailscale" .1
+
+
+"%tooltexture" "models/monastery/rock_b"
+
+} 

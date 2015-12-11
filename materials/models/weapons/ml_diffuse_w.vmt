@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/ml_diffuse"
+	"$bumpmap"  "models/weapons/ml_normal"
+
+	$normalmapalphaenvmapmask 1
+	
+	"$phong" "1"
+	"$phongboost" 0.4
+	"$phongexponenttexture" "models\weapons\ml_gloss"
+	$phongfresnelranges "[10 10 30]"
+	
+	$envmapFresnelMinMaxExp "[0 5 .4]"
+
+	$phongalbedotint 1
+	"$halflambert" "1"
+
+	"$detail" "models/weapons/ml_detail"	
+	"$detailscale" "1"
+	"$detailblendfactor" 0
+	"$detailblendmode" 1
+
+	"Proxies"
+	{		
+		"Booster"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+	}
+}

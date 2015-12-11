@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+"$baseTexture" "models/mv/mv_tree"
+"$bumpmap" "models/mv/mv_tree_normal"
+"$alphatest" 1
+"$nocull" "1"
+	
+}

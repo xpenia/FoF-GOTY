@@ -1,0 +1,21 @@
+
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\playermodels\player2\body_full"
+	"$nocull" "1"
+	"$bumpmap" "models/playermodels/flat_normal"
+
+	"$phong" "1"
+	"$phongexponent" "1"
+	"$phongboost" "0.3"	
+	"$lightwarptexture" "models\playermodels\player2\lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "0"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "0.01"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "0.1"					
+
+
+}

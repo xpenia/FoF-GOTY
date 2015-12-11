@@ -1,0 +1,20 @@
+"WorldVertexTransition"
+{
+
+"$basetexture" "models/mv/butt3"
+"$bumpmap" "models/mv/butt3_normal"
+
+"$basetexture2" "mv/redground1"
+"$bumpmap2" "tramonto/blank1024_normal"
+
+
+	"$detail" "mv/macro01a"
+	"$detailscale" .5
+	"$detailblendfactor" 1 
+
+"$surfaceprop" "boulder"    
+"$surfaceprop2" "dirt"
+
+"%tooltexture" "models/mv/butt3"
+
+} 

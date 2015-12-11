@@ -1,0 +1,54 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\playermodels\player1/body_full"	
+	"$bumpmap" "models/playermodels/flat_normal"
+	
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" ".3"	
+	"$lightwarptexture" "models\playermodels\player2\lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "0"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "0.01"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "0.1"			
+
+	"$glowcolor" "1"
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"$sheenPassEnabled" "1"
+
+	"$sheenmap" 		"cubemaps\cubemap_sheen001"
+	"$sheenmapmask" 		"Effects\AnimatedSheen\animatedsheen0"
+	"$sheenmaptint" 		"[ .25 .1 .25]"
+	"$sheenmapmaskframe" 	"0"
+	"$sheenindex" 		"0"
+	$SHEENMAPMASKSCALEX  350
+	$SHEENMAPMASKSCALEY  200
+
+
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" 		"$sheenmapmask"
+			"animatedtextureframenumvar" 	"$sheenmapmaskframe"
+			"animatedtextureframerate" 		"24"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+
+}

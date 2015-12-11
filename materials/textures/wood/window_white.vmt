@@ -1,0 +1,8 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "textures\wood/window_white"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "glass"
+	"%keywords" "elpaso"
+	"$envmapmask" "textures/wood/window_white_mask"
+}

@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+      "$basetexture2" "monastery/redground5"
+"$bumpmap2" "monastery/blank_normal"
+   
+ 
+"$basetexture" "monastery/rock2m"
+"$bumpmap" "monastery/rock2m_normal"
+
+
+   "%tooltexture" "monastery/rock2m"
+        "$basetexturetransform" "center .5 .5 scale 1 1 rotate 0  translate 0 0"
+        "$basetexturetransform2" "center .5 .5 scale 4 4 rotate 0 translate 0 0"
+} 

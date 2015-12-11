@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	$basetexture models/bar/bottle_3
+	$bumpmap models/bar/bottle_n
+
+	"$normalmapalphaenvmapmask" 1
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ 1 1 1 ]"
+
+	"$model" 1
+
+
+	
+}
