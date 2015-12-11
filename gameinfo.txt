@@ -2,7 +2,7 @@
 {
 	game	"Fistful of Frags - Game of the Year Edition"
 	title	""
-	title2	"11.12.15"
+	title2	"11.12.2015"
 	GameData	"fof.fgd"
 	InstancePath "maps/instances/"
 	type multiplayer_only
@@ -45,16 +45,14 @@
 			// as the first "mod" search path (after any user customizations).  This is also the one
 			// that's used when writing to the "mod" path.
 			game+mod+mod_write+default_write_path		|gameinfo_path|.
-			gamebin				|gameinfo_path|bin
+			gamebin										|gameinfo_path|bin
 
 			// We search VPK files before ordinary folders, because most files will be found in
 			// VPK and we can avoid making thousands of file system calls to attempt to open files
 			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
 			// system call.)
-			game				|all_source_engine_paths|hl2/hl2_english.vpk
-			game				|all_source_engine_paths|hl2/hl2_pak.vpk
-			game				|all_source_engine_paths|hl2/hl2_textures.vpk
 			game				|all_source_engine_paths|hl2/hl2_misc.vpk
+			game				|all_source_engine_paths|hl2/hl2_textures.vpk
 			platform			|all_source_engine_paths|platform/platform_misc.vpk
 
 			// Add the HL2 directory as a game search path.  This is also where where writes
