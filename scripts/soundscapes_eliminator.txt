@@ -1,0 +1,137 @@
+
+
+"eliminator"
+{
+
+	"dsp"	"1"
+	
+	"playlooping"
+	{
+		"volume" "0.7"
+		"wave" "ambient/outdoor/desert_daytime.wav"
+	}
+
+	"playrandom" //random bugs
+	{
+		"time" "6,15"
+		"volume" "0.2,0.35"
+		"soundlevel"	"SNDLVL_85dB"
+		"pitch" "100"
+
+		"rndwave"
+		{
+		"wave" "ambient/outdoor/desert_bugs1.wav"
+		"wave" "ambient/outdoor/desert_bugs2.wav"
+		"wave" "ambient/outdoor/desert_bugs3.wav"
+		}
+	}
+
+	
+	"playrandom"
+	{
+		"time"		"30,50"
+		"volume"	"0.2,0.4"
+		"pitch"		"80,100"
+		"soundlevel"	"SNDLVL_85dB"
+		
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"npc/crow/alert1.wav"
+			"wave"	"animals/eagle.wav"
+			"wave"	"animals/bird_looncall1.wav"
+			"wave"	"animals/bird_looncall2.wav"
+		}
+	}
+
+	
+ 	"playrandom"
+	{
+		"time" "30,120"
+		"volume" "1.0"
+		"pitch" "90,105"
+		"soundlevel" "SNDLVL_140dB"
+
+		"position" "0"
+
+		"rndwave"
+		{
+			"wave" "ambient/outdoor/train_horn_distant.wav"
+		}
+		
+	} 
+
+	
+	"playsoundscape"
+	{
+		"positionoverride"	"1"
+		"name"		"eliminator.birds"	
+		"volume"	"1.0"
+	}
+		"playsoundscape"
+	{
+		"positionoverride"	"2"
+		"name"		"eliminator.birds"	
+		"volume"	"1.0"
+	}
+	"playsoundscape"
+	{
+		"positionoverride"	"3"
+		"name"		"eliminator.birds"	
+		"volume"	"1.0"
+	}
+		"playsoundscape"
+	{
+		"positionoverride"	"4"
+		"name"		"eliminator.birds"	
+		"volume"	"1.0"
+	}
+		"playsoundscape"
+	{
+		"positionoverride"	"5"
+		"name"		"eliminator.birds"	
+		"volume"	"1.0"
+	}
+		"playsoundscape"
+	{
+		"positionoverride"	"6"
+		"name"		"eliminator.birds"	
+		"volume"	"1.0"
+	}
+	"playsoundscape"
+	{
+		"positionoverride"	"7"
+		"name"		"eliminator.birds"	
+		"volume"	"1.0"
+	}
+	
+	
+}
+
+
+"eliminator.birds"
+{
+	"playrandom"
+	{
+		"time"		"30,70"
+		"volume"	"0.15,0.3"
+		"pitch"		"90,115"
+		"soundlevel"	"SNDLVL_140dB"
+		
+		"position"	"0"
+
+		"rndwave"
+		{
+			"wave"	"ambient/levels/coast/coastbird1.wav"
+			"wave"	"ambient/levels/coast/coastbird2.wav"
+			"wave"	"ambient/levels/coast/coastbird3.wav"
+			"wave"	"ambient/levels/coast/coastbird4.wav"
+			"wave"	"ambient/levels/coast/coastbird5.wav"
+			"wave"	"ambient/levels/coast/coastbird6.wav"
+			"wave"	"ambient/levels/coast/coastbird7.wav"
+		}
+
+	}
+
+}

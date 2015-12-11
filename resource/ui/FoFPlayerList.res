@@ -1,0 +1,53 @@
+"resource/ui/FoFPlayerList.res"
+{
+	"FoFPlayerList"
+	{
+		"ControlName" "CFoFPlayerList"
+		"fieldName" "FoFPlayerList"
+		"xpos" "168"
+		"ypos" "55"
+		"wide" "467"
+		"tall" "388"
+		"autoResize" "0"
+		"pinCorner" "0"
+		"visible" "1"
+		"enabled" "1"
+		"tabPosition" "0"
+		"settitlebarvisible" "0"
+	}
+	"PlayerList"
+	{
+		"ControlName" "ListPanel"
+		"fieldName" "PlayerList"
+		"xpos" "28"
+		"ypos" "40"
+		"wide" "410"
+		"tall" "300"
+		"autoResize" "0"
+		"pinCorner" "0"
+		"visible" "1"
+		"enabled" "1"
+		"tabPosition" "0"
+	}
+	"Title"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"Title"
+		"xpos"			"28"
+		"ypos"			"10"
+		"zpos"			"4"
+		"wide"			"450"
+		"tall"			"40"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"font"				"MenuFontMed"
+		"labelText"			"#MuteList_Title"
+		"textAlignment"		"west"
+		"dulltext"			"0"
+		"brighttext"		"1"
+		"FgColor"			"255 178 255 255"
+	}
+}
+

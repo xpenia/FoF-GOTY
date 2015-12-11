@@ -1,0 +1,1576 @@
+detail
+{
+	eliminator_sway
+	{
+		"density" "650.0"
+
+		Group1
+		{
+			"alpha" "1"			
+			
+			Model1
+			{
+				"sprite" "0 0 127 127 1024" 
+				"spritesize" "0.5 0.0 20 27"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+				"shape_angle"   "10" //degrees of tip/flare
+           			"shape_size"   "0.025"
+           			"sway"   "0.2" 
+			}
+			Model2
+			{
+				"sprite" "146 0 127 127 1024" 
+				"spritesize" "0.5 0.0 20 23"
+				"spriterandomscale" "0.1"
+				"amount" "0.3"
+				"detailOrientation" "2"
+				"shape_angle"   "10" //degrees of tip/flare
+           			"shape_size"   "0.025"
+           			"sway"   "0.2" 
+			}
+			Model3
+			{
+				"sprite" "290 0 128 128 1024" 
+				"spritesize" "0.5 0.0 22 22"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+				"shape_angle"   "10" //degrees of tip/flare
+           			"shape_size"   "0.025"
+           			"sway"   "0.2" 
+			}
+			Model4
+			{
+				"sprite" "290 290 133 123 1024" 
+				"spritesize" "0.5 0.0 20 27"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+				"shape_angle"   "10" //degrees of tip/flare
+           			"shape_size"   "0.025"
+           			"sway"   "0.2" 
+			}
+		}
+		Group2
+		{
+			"alpha" "0"
+		}
+	}
+
+
+
+tijuana_drygrass
+	{
+		"density" "2000.0"
+
+		Group1
+		{
+			"alpha" "0"
+		}
+		Group2
+		{
+			"alpha" "1"
+	
+			Model1
+			{
+				"sprite" "0 531 257 150 1024" 
+				"spritesize" "0.5 0.0 26 14"
+				"spriterandomscale" "0.1"
+				"amount" "0.9"
+				"detailOrientation" "2"
+			}
+		}
+	}
+
+	
+tijuana_drygrass2
+	{
+		"density" "300.0"
+
+		Group1
+		{
+			"alpha" "1"
+	
+			Model1
+			{
+				"sprite" "0 531 257 150 1024" 
+				"spritesize" "0.5 0.0 26 14"
+				"spriterandomscale" "0.1"
+				"amount" "0.9"
+				"detailOrientation" "2"
+			}
+
+		}
+		Group2
+		{
+			"alpha" "0"
+		}
+	}
+	
+	
+	blacktower_sway
+	{
+		"density" "2500.0"
+
+		Group1
+		{
+			"alpha" "1"			
+			
+			Model1
+			{
+				"sprite" "290 290 133 123 1024" 
+				"spritesize" "0.5 0.0 20 27"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+				"sprite_shape" "bi"
+				"sway"	"1.6"
+			}
+		}
+		Group2
+		{
+			"alpha" "0"
+		}
+	}
+
+elpasograss
+	{
+		"density" "150.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "144 290 128 113 1024" 
+				"spritesize" "0.5 0.0 25 19"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 290 128 79 1024" 
+				"spritesize" "0.5 0.0 27 15"
+				"spriterandomscale" "0.1"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "0 156 126 100 1024" 
+				"spritesize" "0.5 0.0 20 17"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "146 146 128 128 1024" 
+				"spritesize" "0.5 0.0 20 20"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model5
+			{
+				"sprite" "290 146 128 128 1024" 
+				"spritesize" "0.5 0.0 27 27"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "290 290 133 123 1024" 
+				"spritesize" "0.5 0.0 20 27"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+		Group2
+		{
+			"alpha" "0"
+		}
+	}
+
+
+elpasograss16
+	{
+		"density" "1500.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "144 290 128 113 1024" 
+				"spritesize" "0.5 0.0 3 2.3"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 290 128 79 1024" 
+				"spritesize" "0.5 0.0 2.8 1.6"
+				"spriterandomscale" "0.1"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "0 156 126 100 1024" 
+				"spritesize" "0.5 0.0 3.6 3.4"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "146 146 128 128 1024" 
+				"spritesize" "0.5 0.0 2.5 2.5"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model5
+			{
+				"sprite" "290 146 128 128 1024" 
+				"spritesize" "0.5 0.0 3.2 3.2"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "290 290 133 123 1024" 
+				"spritesize" "0.5 0.0 3.0 3.2"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+		Group2
+		{
+			"alpha" "0"
+		}
+	}
+
+tijuana16
+	{
+		"density" "400.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "328 554 358 471 1024" 
+				"spritesize" "0.5 0.0 9 14"
+				"spriterandomscale" "0.2"
+				"amount" "0.7"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 802 323 221 1024" 
+				"spritesize" "0.5 0.0 7 5"
+				"spriterandomscale" "0.1"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+
+		}
+		Group2
+		{
+			"alpha" "0"
+		}
+	}
+
+
+
+elpasograss_sway
+	{
+		"density" "500.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "144 290 128 113 1024" 
+				"spritesize" "0.5 0.0 25 19"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+				"shape_angle"   "10" //degrees of tip/flare
+           			"shape_size"   "0.025"
+           			"sway"   "0.3" 
+			}
+			Model2
+			{
+				"sprite" "0 290 128 79 1024" 
+				"spritesize" "0.5 0.0 27 15"
+				"spriterandomscale" "0.1"
+				"amount" "0.15"
+				"detailOrientation" "2"
+				"shape_angle"   "15" //degrees of tip/flare
+           			"shape_size"   "0.025"
+           			"sway"   "0.3" 
+			}
+			Model3
+			{
+				"sprite" "0 156 126 100 1024" 
+				"spritesize" "0.5 0.0 20 17"
+				"spriterandomscale" "0.1"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"shape_angle"   "15" //degrees of tip/flare
+           			"shape_size"   "0.025"
+           			"sway"   "0.0" 
+			}
+			Model4
+			{
+				"sprite" "146 146 128 128 1024" 
+				"spritesize" "0.5 0.0 20 20"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model5
+			{
+				"sprite" "290 146 128 128 1024" 
+				"spritesize" "0.5 0.0 27 27"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"shape_angle"   "10" //degrees of tip/flare
+           			"shape_size"   "0.025"
+           			"sway"   "0.2" 
+			}
+			Model6
+			{
+				"sprite" "290 290 133 123 1024" 
+				"spritesize" "0.5 0.0 20 27"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"shape_angle"   "10" //degrees of tip/flare
+           			"shape_size"   "0.025"
+           			"sway"   "0.2" 
+			}
+			Model7
+			{
+				"sprite" "0 0 127 127 1024" 
+				"spritesize" "0.5 0.0 20 27"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"shape_angle"   "10" //degrees of tip/flare
+           			"shape_size"   "0.025"
+           			"sway"   "0.2" 
+			}
+			Model8
+			{
+				"sprite" "146 0 127 127 1024" 
+				"spritesize" "0.5 0.0 20 23"
+				"spriterandomscale" "0.1"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"shape_angle"   "10" //degrees of tip/flare
+           			"shape_size"   "0.025"
+           			"sway"   "0.2" 
+			}
+			Model9
+			{
+				"sprite" "290 0 128 128 1024" 
+				"spritesize" "0.5 0.0 22 22"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"shape_angle"   "10" //degrees of tip/flare
+           			"shape_size"   "0.025"
+           			"sway"   "0.2" 
+			}
+		}
+		Group2
+		{
+			"alpha" "0"
+		}
+	}
+
+
+elpasograss_sway_low
+	{
+		"density" "100.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "144 290 128 113 1024" 
+				"spritesize" "0.5 0.0 25 19"
+				"spriterandomscale" "0.1"
+				"amount" "0.2"
+				"detailOrientation" "2"
+				"shape_angle"   "10" //degrees of tip/flare
+           		"shape_size"   "0.025"
+           		"sway"   "0.3" 
+			}
+			Model2
+			{
+				"sprite" "0 290 128 79 1024" 
+				"spritesize" "0.5 0.0 22 12"
+				"spriterandomscale" "0.1"
+				"amount" "0.15"
+				"detailOrientation" "2"
+				"shape_angle"   "15" //degrees of tip/flare
+           			"shape_size"   "0.025"
+           			"sway"   "0.3" 
+			}
+			Model3
+			{
+				"sprite" "0 156 126 100 1024" 
+				"spritesize" "0.5 0.0 20 17"
+				"spriterandomscale" "0.1"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"shape_angle"   "15" //degrees of tip/flare
+           			"shape_size"   "0.025"
+           			"sway"   "0.0" 
+			}
+			Model4
+			{
+				"sprite" "146 146 128 128 1024" 
+				"spritesize" "0.5 0.0 20 20"
+				"spriterandomscale" "0.1"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model5
+			{
+				"sprite" "290 146 128 128 1024" 
+				"spritesize" "0.5 0.0 22 22"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"shape_angle"   "10" //degrees of tip/flare
+           			"shape_size"   "0.025"
+           			"sway"   "0.2" 
+			}
+			Model6
+			{
+				"sprite" "290 290 133 123 1024" 
+				"spritesize" "0.5 0.0 17 24"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"shape_angle"   "10" //degrees of tip/flare
+           			"shape_size"   "0.025"
+           			"sway"   "0.2" 
+			}
+			Model7
+			{
+				"sprite" "0 0 127 127 1024" 
+				"spritesize" "0.5 0.0 17 24"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"shape_angle"   "10" //degrees of tip/flare
+           			"shape_size"   "0.025"
+           			"sway"   "0.2" 
+			}
+			Model8
+			{
+				"sprite" "146 0 127 127 1024" 
+				"spritesize" "0.5 0.0 15 17"
+				"spriterandomscale" "0.1"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"shape_angle"   "10" //degrees of tip/flare
+           			"shape_size"   "0.025"
+           			"sway"   "0.2" 
+			}
+			Model9
+			{
+				"sprite" "290 0 128 128 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"shape_angle"   "10" //degrees of tip/flare
+           			"shape_size"   "0.025"
+           			"sway"   "0.2" 
+			}
+		}
+		Group2
+		{
+			"alpha" "0"
+		}
+	}
+
+
+
+crosses
+	{
+		"density" "700.0"
+
+		Group1
+		{
+			"alpha" "0.0"
+
+Model1
+			{
+			
+				"sprite" "545 47 64 200 1024" 
+				"spritesize" "0.5 0.0 2 6"
+				"spriterandomscale" "0.1"
+				"amount" "0.2"
+				"detailOrientation" "0"
+			}
+Model2
+			{
+			
+				"sprite" "597 289 169 324 1024" 
+				"spritesize" "0.5 0.0 2 5"
+				"spriterandomscale" "0.1"
+				"amount" "0.1"
+				"detailOrientation" "0"
+			}
+Model3
+			{
+				"sprite" "826 47 132 195 1024" 
+				"spritesize" "0.5 0.0 4 5"
+				"spriterandomscale" "0.1"
+				"amount" "0.2"
+				"detailOrientation" "0"
+			}			
+Model4
+			{
+				"sprite" "666 47 109 193 1024" 
+				"spritesize" "0.5 0.0 3 5"
+				"spriterandomscale" "0.1"
+				"amount" "0.2"
+				"detailOrientation" "0"
+			}
+Model5
+			{
+			
+				"sprite" "859 289 107 148 1024" 
+				"spritesize" "0.5 0.0 4 5"
+				"spriterandomscale" "0.1"
+				"amount" "0.1"
+				"detailOrientation" "0"
+			}
+Model6
+			{
+				"sprite" "846 463 123 175 1024" 
+				"spritesize" "0.5 0.0 3 4"
+				"spriterandomscale" "0.1"
+				"amount" "0.3"
+				"detailOrientation" "0"
+			}
+
+		}
+
+Group2
+		{
+			"alpha" "1"
+		}
+		
+	}
+
+
+
+grass02
+	{
+		"density" "600.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 25 33"
+				"spriterandomscale" "0.2"
+				"amount" "0.6"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 30 40"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 20 20"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group3
+		{
+			"alpha" "0.5"
+		}
+
+		Group4
+		{
+			"alpha" "0.3"
+
+		}
+
+		Group5
+		{
+			"alpha" "0.0"
+
+		}
+	}
+
+
+grass03
+	{
+		"density" "100.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "144 290 128 113 1024" 
+				"spritesize" "0.5 0.0 30 24"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 290 128 79 1024" 
+				"spritesize" "0.5 0.0 35 20"
+				"spriterandomscale" "0.1"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "0 156 126 100 1024" 
+				"spritesize" "0.5 0.0 40 35"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "146 146 128 128 1024" 
+				"spritesize" "0.5 0.0 25 25"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model5
+			{
+				"sprite" "290 146 128 128 1024" 
+				"spritesize" "0.5 0.0 35 35"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "290 290 133 123 1024" 
+				"spritesize" "0.5 0.0 25 35"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+		Group2
+		{
+			"alpha" "0"
+		}
+	}
+	
+
+rocks
+
+	{
+		"density" "50.0"
+
+		Group1
+		{
+			"alpha" "0.0"
+
+			Model1
+			{
+			"upright" "1.0"
+				"model" "models/eq/rock.mdl"
+				"amount" "0.2"
+			}
+			
+		}
+
+		Group2
+		{
+	
+			"alpha" "1"
+		}
+	}
+
+
+
+
+swamp_land_001
+	{
+		"density" "800.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/props_foliage/grass_swamp_001a.mdl"
+				"amount" "0.3"
+			}
+
+			Model2
+			{
+				"model" "models/props_foliage/grass_swamp_001b.mdl"
+				"amount" "0.3"
+			}
+
+		}
+		
+		Group2
+		{
+			"alpha" "0.0"
+
+			Model1
+			{
+				"model" "models/props_foliage/Grass_tuft_003a.mdl"
+				"amount" "0.05"
+			}
+
+			Model2
+			{
+				"model" "models/props_foliage/Grass_tuft_004b.mdl"
+				"amount" "0.05"
+			}
+		}
+	}
+
+	swamp_land_002
+	{
+		"density" "800.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/props_foliage/grass_swamp_001a.mdl"
+				"amount" "0.3"
+			}
+
+			Model2
+			{
+				"model" "models/props_foliage/grass_swamp_001b.mdl"
+				"amount" "0.3"
+			}
+
+		}
+		
+		Group2
+		{
+			"alpha" "0.0"
+
+			Model1
+			{
+				"model" "models/props_foliage/Grass_tuft_001a.mdl"
+				"amount" "0.1"
+			}
+
+			Model2
+			{
+				"model" "models/props_foliage/Grass_tuft_001b.mdl"
+				"amount" "0.1"
+			}
+		}
+	}
+
+	swamp_water_001
+	{
+		"density" "200.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/props_foliage/Grass_tuft_001a.mdl"
+				"amount" "0.3"
+			}
+
+			Model2
+			{
+				"model" "models/props_foliage/Grass_tuft_001b.mdl"
+				"amount" "0.3"
+			}
+		}
+		
+		Group2
+		{
+			"alpha" "0.0"
+
+			Model1
+			{
+				"model" "models/props_foliage/Grass_tuft_003a.mdl"
+				"amount" "0.1"
+			}
+
+			Model2
+			{
+				"model" "models/props_foliage/Grass_tuft_004b.mdl"
+				"amount" "0.3"
+			}
+		}
+	}
+			
+	grassland1
+	{
+		"density" "500.0"
+
+
+		Group1
+		{
+			"alpha" "0.0"
+
+			Model1
+			{
+				"model" "models/props_foliage/Grass_tuft_004a.mdl"
+				"amount" "0.1"
+			}
+
+			Model2
+			{
+				"model" "models/props_foliage/Grass_tuft_004b.mdl"
+				"amount" "0.1"
+			}
+			Model3
+			{
+				"model" "models/props_foliage/Grass_tuft_004c.mdl"
+				"amount" "0.1"
+			}
+			Model4
+			{
+				"model" "models/props_foliage/Grass_tuft_004d.mdl"
+				"amount" "0.1"
+			}
+		}
+		Group2
+		{
+			"alpha" "0.3"
+
+			Model1
+			{
+				"model" "models/props_foliage/Grass_tuft_001a.mdl"
+				"amount" "0.1"
+			}
+
+			Model2
+			{
+				"model" "models/props_foliage/Grass_tuft_001b.mdl"
+				"amount" "0.1"
+			}
+	
+		}
+		Group3
+		{
+			"alpha" "0.7"
+
+		}
+		Group4
+		{
+			"alpha" "1.0"
+
+		}
+		
+		
+	}
+
+	grassland2
+	{
+		"density" "1000.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/junk/w_traffcone.mdl"
+				"amount" "0.4"
+			}
+		}
+	}
+
+	
+
+	grass01
+	{
+		"density" "600.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 25 33"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 40 50"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 20 20"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 23 28"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			//shrub
+			Model4
+			{
+				"sprite" "288 144 128 128 512" 
+				"spritesize" "0.5 0.0 50 50"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group2
+		{
+			"alpha" "0.5"
+		Model1
+			{
+				"sprite" "0 144 128 128 512" 
+				"spritesize" "0.5 0.0 20 20"
+				"spriterandomscale" "0.2"
+				"amount" "1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group4
+		{
+			"alpha" "0.3"
+
+		}
+
+		Group5
+		{
+			"alpha" "0.0"
+
+		}
+	}
+
+	
+
+	coastline_grass01
+	//reduced size to 0.75
+	// density was 600 until 7/7/04. Reduced for global coast perf reasons - Sawyer
+	{
+		"density" "300.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 19 25"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 30 38"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 15 15"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 18 18"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			//shrub
+			Model4
+			{
+				"sprite" "288 144 128 128 512" 
+				"spritesize" "0.5 0.0 38 38"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group2
+		{
+	
+			"alpha" "0.0"
+		}
+	}
+
+	coastline_grass02
+	// Should be the same as coastline_grass01, but with less density for large areas.
+	//reduced size by 0.75
+	{
+		"density" "50.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 19 25"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 30 37.5"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 15 15"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 18 21"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			//shrub
+			Model4
+			{
+				"sprite" "288 144 128 128 512" 
+				"spritesize" "0.5 0.0 38 38"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group2
+		{
+	
+			"alpha" "0.0"
+		}
+	}
+	coastline_redgrass01
+	//reduced size by 0.75
+	{
+		"density" "600.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 19 25"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 23 30"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 15 15"
+				"spriterandomscale" "0.2"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 18 21"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			//shrub
+			Model5
+			{
+				"sprite" "144 288 128 128 512" 
+				"spritesize" "0.5 0.0 38 38"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "0 288 128 128 512" 
+				"spritesize" "0.5 0.0 23 23"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model7
+			{
+				"sprite" "288 288 128 128 512" 
+				"spritesize" "0.5 0.0 42 42"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group2
+		{
+	
+			"alpha" "0.0"
+		}
+	}
+
+	coastline_redgrass02
+	//reduced size by 0.75
+	{
+		"density" "600.0"
+
+		Group1
+		{
+			"alpha" "0"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 19 25"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 23 30"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 15 15"
+				"spriterandomscale" "0.2"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 18 21"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			//shrub
+			Model5
+			{
+				"sprite" "144 288 128 128 512" 
+				"spritesize" "0.5 0.0 38 38"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "0 288 128 128 512" 
+				"spritesize" "0.5 0.0 23 23"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model7
+			{
+				"sprite" "288 288 128 128 512" 
+				"spritesize" "0.5 0.0 42 42"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group2
+		{
+	
+			"alpha" "1"
+		}
+	}
+
+	coastline_redgrass03
+	//reduced size by 0.75
+	{
+		"density" "300.0"
+
+		Group1
+		{
+			"alpha" "0"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 19 25"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 23 30"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 15 15"
+				"spriterandomscale" "0.2"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 18 21"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			//shrub
+			Model5
+			{
+				"sprite" "144 288 128 128 512" 
+				"spritesize" "0.5 0.0 38 38"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "0 288 128 128 512" 
+				"spritesize" "0.5 0.0 23 23"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model7
+			{
+				"sprite" "288 288 128 128 512" 
+				"spritesize" "0.5 0.0 42 42"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group2
+		{
+	
+			"alpha" "1"
+		}
+	}
+
+		
+	redgrass
+	//reduced size by 0.75
+	{
+		"density" "2000.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 19 25"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 23 30"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 15 15"
+				"spriterandomscale" "0.2"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 18 21"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			//shrub
+			Model5
+			{
+				"sprite" "144 288 128 128 512" 
+				"spritesize" "0.5 0.0 38 38"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "0 288 128 128 512" 
+				"spritesize" "0.5 0.0 23 23"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model7
+			{
+				"sprite" "288 288 128 128 512" 
+				"spritesize" "0.5 0.0 29 29"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group2
+		{
+	
+			"alpha" "0.0"
+		}
+	}
+
+
+	redgrass_light
+	//reduced size by 0.75
+	{
+		"density" "700.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 19 25"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 23 30"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 15 15"
+				"spriterandomscale" "0.2"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 18 21"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			//shrub
+			Model5
+			{
+				"sprite" "144 288 128 128 512" 
+				"spritesize" "0.5 0.0 38 38"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "0 288 128 128 512" 
+				"spritesize" "0.5 0.0 23 23"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model7
+			{
+				"sprite" "288 288 128 128 512" 
+				"spritesize" "0.5 0.0 29 29"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group2
+		{
+	
+			"alpha" "0.0"
+		}
+	}
+
+
+	short_redgrass
+	
+	{
+		"density" "2000.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 10 13"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 12 15"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 8 8"
+				"spriterandomscale" "0.2"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 9 11"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			//shrub
+			Model5
+			{
+				"sprite" "144 288 128 128 512" 
+				"spritesize" "0.5 0.0 19 19"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "0 288 128 128 512" 
+				"spritesize" "0.5 0.0 12 12"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model7
+			{
+				"sprite" "288 288 128 128 512" 
+				"spritesize" "0.5 0.0 15 15"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group2
+		{
+	
+			"alpha" "0.0"
+		}
+	}
+
+
+}
+

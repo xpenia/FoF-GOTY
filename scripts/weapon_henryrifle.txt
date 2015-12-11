@@ -1,0 +1,89 @@
+// Henry Rifle
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"	""
+	"viewmodel"			"models/weapons/v_henryrifle.mdl"
+	"playermodel"			"models/weapons/w_henryrifle.mdl"
+	"anim_prefix"			"shotgun"
+	"bucket"			"3"
+	"bucket_position"		"1"
+
+	"clip_size"             	"16"
+	"primary_ammo"			"Rifle"
+	"secondary_ammo"		"None"
+
+	"weight"				"3"
+	"item_flags"			"0"
+	"damage"			"55"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+
+		"empty"			"Weapon_HenryRifle.Empty"
+		//"reload"		"Weapon_HenryRifle.Insert"
+		"special1"		"Weapon_HenryRifle.Lever"
+		"single_shot"		"Weapon_HenryRifle.Single"
+
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"b"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"b"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"q"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"		"48"
+				"y"		"48"
+				"width"		"24"
+				"height"	"24"
+				
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+
+	ExpOffset // Ironsight
+  	{
+	     "xf"   "-10"
+ 	     "yf"   "-4.27"
+	     "zf"   "3.23"     
+   	}
+
+	Spread // 
+  	{
+	     "crouch"	"0.08"
+ 	     "idle"	"0.09"
+	     "walk"	"0.3"
+	     "run"	"0.35"
+	     "jump"	"0.45"
+	     "speed"	"0.3"		
+      	}
+
+	"break_limit"		"20"
+	"break_drop_penalty"	"10"
+	"GunSmokeMult"		"0.8"
+}

@@ -1,0 +1,433 @@
+//-------------------------------------------------------------------------
+// Game data for Fistful of Frags
+// Created and Maintained by: RYell
+// Last Updated: July 27, 2014
+//-------------------------------------------------------------------------
+
+@include "base.fgd"
+@include "hl2mp.fgd"
+
+
+@PointClass base(Parentname, Targetname, Angles) studio("models/items_fof/safe_crate.mdl") = fof_crate : ""
+[
+	output OnOpen(void) : "Crate was open"
+	output OnClose(void) : "Crate is closed again"
+]
+
+@PointClass base(Parentname, Targetname, Angles) studio("models/items_fof/safe_crate_small.mdl") = fof_crate_med : ""
+[
+	output OnOpen(void) : "Crate was open"
+	output OnClose(void) : "Crate is closed again"
+]
+
+@PointClass base(Parentname, Targetname, Angles) studio("models/items_fof/safe_crate_small.mdl") = fof_crate_low : ""
+[
+	output OnOpen(void) : "Crate was open"
+	output OnClose(void) : "Crate is closed again"
+]
+
+@PointClass base(Parentname, Targetname, Angles) studio("models/props/cap_circle_512.mdl") = fof_cap_entity : ""
+[
+	ClassFilter(choices) : "Which class activates the zone" : 2 : "" =
+	[
+		2 : "Vigilantes"	
+		3 : "Desperados"	
+	]
+	
+	AnnounceFilter(choices) : "Announce position:" : 0 : "" =
+	[
+		0 : "Both Teams"
+		2 : "Vigilantes"	
+		3 : "Desperados"	
+	]
+
+	Timer(float) : "Capture Time" : 30 : "Amount of seconds it takes to capture this zone"
+	
+	Radius(choices) : "Radius" : 256 : " " =
+	[
+		128 : "128 units"
+		256 : "256 units"			
+	]
+	
+	Enabled(choices) : "Is this zone enabled?" : 1 : " " =
+	[
+		0 : "False"
+		1 : "True"		
+	]
+	
+	WallTrace(choices) : "Solids block capture?" : 0 : "Player must see the capture entity to capture it" =
+	[
+		0 : "False"
+		1 : "True"		
+	]
+	
+	DecrementRate(float) : "Decrement Capture Rate" : 0 : "Capture progress decreases automatically when no players are inside if set higher than 0 (set float number as multiplier)"
+	
+	input EnableZone(void) : "Enables this capture zone"
+	input DisableZone(void) : "Disables this capture zone."
+	
+	input SetCapProgressTime(float) : "Set already captured time for this zone"
+	
+	output OnCaptured(void) : "Zone was captured."
+	output OnZoneEnabled(void) : "Zone just became active, at round start if enabled by default"
+	output OnCapStarted(void) : "Zone was empty and some player just stepped in"
+]
+
+//-----------------------------------------------------------------------
+//SPAWNS
+//-----------------------------------------------------------------------
+
+@PointClass base(PlayerClass, Angles, Parentname) studio("models/editor/playerstart.mdl") = info_player_fof :
+	"Only used in Fistful of Dollars mode. This entity indicates the position and facing direction at which the player will spawn"
+[
+]
+
+@PointClass base(PlayerClass, Targetname, Parentname, Angles) studio("models/playermodels/player1.mdl") = info_player_vigilante :
+	"Only used in co-op mode. This entity indicates the position and facing direction at which the player will spawn"
+[
+	StartDisabled(choices) : "Start Disabled?" : 0 : "Set true if you want this spawn to be inactive initially." =
+	[
+		0 : "False"
+		1 : "True"		
+	]
+
+input Enable(void) : "Enables this spawn point."
+input Disable(void) : "Disables this spawn point."
+]
+
+@PointClass base(PlayerClass, Targetname, Parentname, Angles) studio("models/playermodels/player2.mdl") = info_player_desperado :
+	"This entity indicates the position and facing direction at which the player will spawn"
+[
+	StartDisabled(choices) : "Start Disabled?" : 0 : "Set true if you want this spawn to be inactive initially." =
+	[
+		0 : "False"
+		1 : "True"		
+	]
+
+	input Enable(void) : "Enables this spawn point."
+	input Disable(void) : "Disables this spawn point."
+]
+
+@PointClass base(PlayerClass, Targetname, Parentname, Angles) studio("models/playermodels/bandito.mdl") = info_player_bandido :
+	"This entity indicates the position and facing direction at which the player will spawn"
+[
+	StartDisabled(choices) : "Start Disabled?" : 0 : "Set true if you want this spawn to be inactive initially." =
+	[
+		0 : "False"
+		1 : "True"		
+	]
+
+	input Enable(void) : "Enables this spawn point."
+	input Disable(void) : "Disables this spawn point."
+]
+
+@PointClass base(PlayerClass, Targetname, Parentname, Angles) studio("models/playermodels/frank.mdl") = info_player_ranger :
+	"This entity indicates the position and facing direction at which the player will spawn"
+[
+	StartDisabled(choices) : "Start Disabled?" : 0 : "Set true if you want this spawn to be inactive initially." =
+	[
+		0 : "False"
+		1 : "True"		
+	]
+
+	input Enable(void) : "Enables this spawn point."
+	input Disable(void) : "Disables this spawn point."
+]
+
+@PointClass base(Targetname) = fof_teamplay: "Use this to manage teamplay based gameplay."
+[
+	RespawnSystem(choices) : "Respawn system" : 0 : "" =
+		[
+			0 : "Unlimited respawns"
+			1 : "No respawns allowed"	
+		]
+		
+	RoundBased(choices) : "Round based gameplay?" : 0 : "" =
+		[
+			0 : "No"
+			1 : "Yes"	
+		]
+		
+	SwitchTeams(choices) : "Switch teams at the end of the round?" : 0 : "" =
+		[
+			0 : "No"
+			1 : "Yes"	
+		]
+		
+	input InputTie(void) : "Triggers an end round draw."
+	input InputVigVictory(void) : "Triggers the game end with victory for vigilantes."
+	input InputDespVictory(void) : "Triggers the game end with victory for desperados."		
+	input InputRespawnPlayers(integer) : "Respawn players from selected team: 0 = all alive players from both teams, 2 = all vigilantes, 3 = all desperados, -1 = any alive and dead players, -2 = only dead players"
+	
+	input ExtraTime(integer) : "Adds extra time to counter."	
+	input RoundTime(integer) : "Sets the total time for the entire round, decreases each time ExtraTime is called. When this timer ends, OnRoundTimeEnd is fired."
+	
+	input SetVigObjective(integer) : "Sets round objective for Vigilantes: 1 elimination, 2 zone capture, 3 cart push"
+	input SetDespObjective(integer) : "Sets round objective for Desperados: 1 elimination, 2 zone capture, 3 cart push"
+	input SetVigReward(integer) : "Sets round reward for Vigilantes"
+	input SetDespReward(integer) : "Sets round reward for Desperados"
+	
+	input SetVigScore(integer) : "Sets total round score for Vigilantes"
+	input SetDespScore(integer) : "Sets total round score for Desperados"
+	
+	input AddVigScore(integer) : "Adds round score for Vigilantes"
+	input AddDespScore(integer) : "Adds round score for Desperados"
+	
+	input AddCash_AllPlayers(integer) : "Add cash to all players"
+	input AddCash_Vigilantes(integer) : "Add cash to vigilante team"
+	input AddCash_Desperados(integer) : "Add cash to desperado team"
+	input AddCash_Auto(void) : "Add cash to all players using the automatic mode"
+	
+	input InputResetScores(void) : "Adds current team score to global team score and resets it"
+	
+	input DeclareWinner(void) : "Declare a winner (the team with most points)"
+
+	output OnRoundTimeEnd(void) : ""
+	output OnRoundEnd(void) : ""
+	output OnNoDespAlive(void) : ""
+	output OnNoVigAlive(void) : ""
+	output OnTimerEnd(void) : ""
+	output OnNewRound(void) : ""
+	output OnNewBuyRound(void) : ""
+	output OnRoundOdd(void) : ""
+	output OnRoundEven(void) : ""
+	output OnNewRoundRemove(void) : ""
+]
+
+@PointClass base(Item) studio("models/weapons/w_whiskey.mdl")= item_whiskey : "increases player HP at a cost..." 
+[
+Health(integer) : "Health" : 25 : ""
+]
+
+@PointClass base(Angles) = env_detail_controller : "An entity that lets you control the fade distances for detail props."
+[
+	fademindist(float) : "Start Fade Dist/Pixels" : 400 : "Distance at which the prop starts to fade."
+	fademaxdist(float) : "End Fade Dist/Pixels" : 1200 : "Maximum distance at which the prop is visible."
+]
+
+@NPCClass base(BaseNPC) studio("models/horse/horse1.mdl") = npc_horse : "Horse"
+[
+
+	saddle(choices) : "Saddle on?" : 0 =
+	[
+		0 : "No."
+		1 : "Yes."
+	]
+
+	skin(choices) : "Skin" : "0" =
+	[
+		"0" : "1"
+		"1" : "2"
+		"2" : "3"
+	]
+
+	input Kick( string ) : "Forces the horse to kick."
+
+]
+
+@PointClass base(prop_dynamic_base,EnableDisable) sphere(fademindist) sphere(fademaxdist) studioprop() = fof_cart_push :
+	"An entity that works along a func_traintrack to create a push the cart style game mode"
+[
+	TrainName(string) : "Train name" : "" : "Train name this entity is attached to"
+	
+	Radius(integer) : "Push radius" : 256 : "Distance within players will push the cart"
+	
+	VigPushDir(choices) : "Vigilantes push direction" : "0" =
+	[
+		"0" : "None"
+		"1" : "Forward"
+		"-1" : "Backwards"
+	]
+	
+	DespPushDir(choices) : "Desperados push direction" : "0" =
+	[
+		"0" : "None"
+		"1" : "Forward"
+		"-1" : "Backwards"
+	]
+	TotalPushTime(integer) : "Total push time" : 45 : "How many seconds a player has to push cart to get full notoriety reward"
+	
+	IdleAnim(string) : "Idle animation name" : "" : ""
+	MoveAnim(string) : "Move animation name" : "" : ""
+]
+
+
+@BaseClass color(0 0 200) base(Targetname, Angles) sphere(fademindist) sphere(fademaxdist) = WeaponFoF
+[
+	spawnflags(Flags) =
+	[
+		1 : "Start constrained" : 0
+		2 : "Deny player pickup (reserve for NPC)" : 0
+		4 : "Not puntable by Gravity Gun" : 0
+		8 : "Boost based weapon" : 0
+	]
+
+	output OnPlayerUse(void) : "Fires when the player +uses this weapon"
+	output OnPlayerPickup(void) : "Fires when the player picks up this weapon"
+	output OnNPCPickup(void) : "Fires when an NPC picks up this weapon"
+	output OnCacheInteraction(void) : "Fires when the player 'proves' they've found this weapon. Fires on: Player Touch, +USE pickup, Physcannon pickup, Physcannon punt."
+
+	fademindist(float) : "Start Fade Dist/Pixels" : -1 : "Distance at which the prop starts to fade (<0 = use fademaxdist). If 'Screen Space Fade' is selected, this represents the number of pixels wide covered by the prop when it starts to fade."
+	fademaxdist(float) : "End Fade Dist/Pixels" : 0 : "Maximum distance at which the prop is visible (0 = don't fade out). If 'Screen Space Fade' is selected, this represents the *minimum* number of pixels wide covered by the prop when it fades."
+	fadescale(float) : "Fade Scale" : 1 : "If you specify a fade in the worldspawn, or if the engine is running under dx7, then the engine will forcibly fade out props even if fademindist/fademaxdist isn't specified." +
+												 " This scale factor gives you some control over the fade. Using 0 here turns off the forcible fades." +
+]
+
+@PointClass base(WeaponFoF) studio("models/weapons/w_peacemaker.mdl") = weapon_peacemaker : "Peacemaker" []
+@PointClass base(WeaponFoF) studio("models/weapons/w_maresleg.mdl") = weapon_maresleg : "Mare's Leg" []
+@PointClass base(WeaponFoF) studio("models/weapons/w_walker.mdl") = weapon_walker : "Colt Walker" []
+@PointClass base(WeaponFoF) studio("models/weapons/w_schofield.mdl") = weapon_schofield : "Schofield" []
+@PointClass base(WeaponFoF) studio("models/weapons/w_sawed_shotgun.mdl") = weapon_sawedoff_shotgun : "Sawed-off Shotgun" []
+@PointClass base(WeaponFoF) studio("models/weapons/w_sharps.mdl") = weapon_sharps : "Sharps rifle" []
+@PointClass base(WeaponFoF) studio("models/weapons/w_carbine.mdl") = weapon_carbine : "Smith Carbine" []
+
+//
+// SOLID ENTITIES
+//
+
+@SolidClass = func_ladder :
+"Ladder. Players will be able to move freely along this brush, as if it was a ladder." +
+"Apply the toolsinvisibleladder material to a func_ladder brush."
+[
+]
+
+@SolidClass base(Targetname, Origin, RenderFields) = func_train
+[
+	spawnflags(flags) =
+	[
+		8 : "Non-solid" : 0
+	]
+	texframeindex(integer) : "Initial Brush Frame Index" : : "Use this to set the initial frame of materials with multiple frames in the brush"
+	target(target_destination) : "First path_corner"
+	noise1(sound) : "Movement Sound" : : "The sound to play when the train moves."
+	noise2(sound) : "Stop Sound" : : "The sound to play when the train stops moving."
+	speed(float) : "Speed" : "50.000000" : "Speed at which the brush moves."
+	volume(float) : "Sound volume [0.0, 10.0]" : "0.000000"
+	dmg(float) : "Crush Damage" : "0.000000"
+	input Toggle(void) : "Toggle movement"
+	input Start(void) : "Start movement"
+	input Stop(void) : "Stop movement"
+	input Use(void) : "Toggle movement - has a different functionality than Toggle"
+]
+
+@SolidClass base(Targetname) = fof_buyzone : ""
+[
+	team(choices) : "Team" : 2 : "" =
+		[
+			2 : "Vigilantes"
+			3 : "Desperados"		
+		]
+]
+
+@SolidClass base(Targetname) = fof_dynamite_remover : ""
+[
+	team(choices) : "Team" : 0 : "" =
+		[
+			0 : "All dynamite"
+			2 : "Vigilantes dynamite"
+			3 : "Desperados dynamite"		
+		]
+]
+
+@SolidClass base(Trigger, Targetname) = trigger_hurt_fof :
+	"A trigger volume that damages entities that touch it."
+[
+	master(string) : "Master (Obsolete)" : : "Legacy support: The name of a master entity. If the master hasn't been activated, this entity will not activate."
+	damage(integer) : "Damage" : 10 : "The amount of damage done to entities that touch this trigger. The damage is done every half-second. See also 'Damage Model' for extra details on how damage can be dealt."
+	damagecap(integer) : "Damage Cap" : 20 : "Maximum damage dealt per second. This field is only used if you select the Doubling w/Forgiveness damage model, via the spawnflag."
+	damagetype(choices) : "Damage Type" : 0 =
+	[
+		0 : "GENERIC"
+		1 : "CRUSH"
+		2 : "BULLET"
+		4 : "SLASH"
+		8 : "BURN"
+		16 : "FREEZE"
+		32 : "FALL"
+		64 : "BLAST"
+		128 : "CLUB"
+		256 : "SHOCK"
+		512 : "SONIC"
+		1024 : "ENERGYBEAM"
+		16384: "DROWN"
+		32768 : "PARALYSE"
+		65536 : "NERVEGAS"
+		131072 : "POISON"
+		262144 : "RADIATION"
+		524288 : "DROWNRECOVER"
+		1048576 : "CHEMICAL"
+		2097152 : "SLOWBURN"
+		4194304 : "SLOWFREEZE"
+	]
+
+	damagemodel(choices) : "Damage Model" : 0 : "How damage is dealt. Normal always does the specified amount of damage each half second. Doubling starts with the specified amount and doubles it each time it hurts the toucher. Forgiveness means that if the toucher gets out of the trigger the damage will reset to the specified value. Good for making triggers that are deadly over time without having to cause massive damage on each touch." =
+	[
+		0 : "Normal"
+		1 : "Doubling w/forgiveness"
+	]
+	
+	nodmgforce(choices) : "Zero Damage Force" : 0 : "Should the damaged entity receive no physics force from this trigger." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	teamfilter(choices) : "Team exclusion" : 0 : "" =
+	[
+		0 : "No exclusion, all teams receive damage"
+		2 : "Vigilantes"
+		3 : "Desperados"
+		4 : "Bandidos"
+		5 : "Rangers"
+	]
+	
+	onlykicked(choices) : "Damage kicked players only" : 0 : "" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	// Inputs
+	input SetDamage(float) : "Set a new amount of damage for this trigger."
+	
+	// Outputs
+	output OnHurt(void) : "Fired whenever this trigger hurts something other than a player."
+	output OnHurtPlayer(void) : "Fired whenever this trigger hurts a player."
+]
+
+@SolidClass base(Targetname, Parentname, Origin, RenderFields, Global, Inputfilter, EnableDisable, Shadow) = func_respawnroomvisualizer : 
+	"Brushes that become visible to enemy players when they get close. Use them to mark areas that they're unable to enter (i.e. respawn rooms)." 
+[
+	spawnflags(flags) =
+	[
+		2: "Ignore player +USE" : 1
+	]
+
+	TeamBlock(choices) : "Blocks team" : 1 : "Used to control the solidity/collision of these brushes." =
+	[
+		0 : "None"
+		2 : "Vigilantes"
+		3 : "Desperados"
+	]
+
+	Solidity(choices) : "Solidity" : 1 : "Used to control the solidity/collision of these brushes." =
+	[
+		0 : "Toggle"
+		1 : "Never Solid"
+		2 : "Always Solid"
+	]
+
+	vrad_brush_cast_shadows(choices) : "Shadows" : 0 : "Set this if this brush casts lightmap shadows." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	solid_to_enemies(choices) : "Solid to Enemies" : 1 : "Determines if this area is solid to enemy players." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]	
+	
+	input SetSolid(bool) : "Set whether this area is solid to enemy players or not. 0 = No, 1 = Yes"
+]

@@ -1,0 +1,26 @@
+// region: 1 NA, 2 EU, 3 Russia 4 South America 5 Oceania 6 Asia
+// mode: 1 Shootout 2 Teamplay, 3 Break Bad, 4 Elimination, 5 Last Man Standing
+"Servers"
+{
+	"item"
+	{
+		"ip"		"178.162.34.110"
+		"port"		"27017"
+		"region"	"3"
+		"mode"		"5"
+	}
+	"item"
+	{
+		"ip"		"178.162.34.110"
+		"port"		"27016"
+		"region"	"3"
+		"mode"		"1"
+	}
+	"item"
+	{
+		"ip"		"178.162.34.110"
+		"port"		"27018"
+		"region"	"3"
+		"mode"		"1"
+	}
+}

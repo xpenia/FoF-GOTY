@@ -1,0 +1,365 @@
+"sprites/640_hud"
+{
+	TextureData
+	{
+		"jailbars"
+		{
+				"file"		"vgui/jailbars"
+				"x"			"0"
+				"y"			"0"
+				"width"		"512"
+				"height"	"512"
+		}
+		"icon_def"
+		{
+				"file"		"vgui/icon_def"
+				"x"			"0"
+				"y"			"0"
+				"width"		"64"
+				"height"	"64"
+		}
+		"icon_cap"
+		{
+				"file"		"vgui/icon_cap"
+				"x"			"0"
+				"y"			"0"
+				"width"		"64"
+				"height"	"64"
+		}
+		"obj_cap_flag"
+		{
+				"file"		"vgui/cap_flag"
+				"x"			"0"
+				"y"			"0"
+				"width"		"512"
+				"height"	"512"
+		}
+		"obj_defend"
+		{
+				"file"		"vgui/cap_flag"
+				"x"			"0"
+				"y"			"0"
+				"width"		"512"
+				"height"	"512"
+		}
+		"obj_elimination"
+		{			
+				"file"		"vgui/obj_elimination"
+				"x"			"0"
+				"y"			"0"
+				"width"		"512"
+				"height"	"512"
+		}
+		"obj_cart"
+		{			
+				"file"		"vgui/obj_cart"
+				"x"			"0"
+				"y"			"0"
+				"width"		"512"
+				"height"	"512"
+		}
+		"death_thrown_gun"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"R"
+		}
+
+		"d_skull"
+		{
+			
+				"font"		"HL2MPTypeDeath"
+				"character"	"N"
+		}
+		"headshot"
+		{
+			
+				"font"		"HL2MPTypeDeath"
+				"character"	"I"
+		}
+		"penetration"
+		{
+			
+				"font"		"HL2MPTypeDeath"
+				"character"	"F"
+		}
+		"whiskey"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"Q"
+		}
+		"starempty"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"G"
+		}
+		"death_fists"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"O"
+		}
+		"death_fists_brass"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"h"
+		}
+		"death_coltnavy"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"."
+		}
+		"death_coltnavy2"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"."
+		}
+		"death_dualnavy"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"J"
+		}
+		"death_dualpeacemaker"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"S"
+		}
+		"death_peacemaker"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"P"
+		}
+		"death_fa_peacemaker"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"P"
+		}
+		"death_peacemaker2"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"P"
+		}
+		"death_henryrifle"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"2"
+		}
+		"death_sharps"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"1"
+		}
+		
+		"death_carbine"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"8"
+		}
+		"death_coachgun"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"0"
+		}
+		"death_shotgun"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"U"
+		}
+		"death_bow"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"T"
+		}
+		"death_arrow"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"3"
+		}
+		"death_arrow_fiery"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"3"
+		}
+		"death_dynamite"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"4"
+		}
+		"death_dynamite_black"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"w"
+		}
+		"death_deringer"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"M"
+		}
+		"death_deringer2"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"M"
+		}
+		"death_walker"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"W"
+		}
+		"death_walker2"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"W"
+		}
+		"death_maresleg"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"X"
+		}
+		"death_maresleg2"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"X"
+		}
+		"death_schofield"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"V"
+		}
+		"death_schofield2"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"V"
+		}
+		"death_volcanic"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"v"
+		}
+		"death_volcanic2"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"v"
+		}
+		"death_sawedoff_shotgun"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"f"
+		}
+		"death_sawedoff_shotgun2"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"f"
+		}
+		"death_physics"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"d"
+		}
+		"death_blast"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"H"
+		}
+		"death_knife"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"6"
+		}
+		"death_thrown_knife"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"L"
+		}
+		"death_axe"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"5"
+		}
+		"death_machete"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"i"
+		}
+		"death_kick"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"e"
+		}
+		"death_kick-fall"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"g"
+		}
+		"death_thrown_axe"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"K"
+		}
+		"death_thrown_machete"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"j"
+		}
+		"weapon_throw"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"a"
+		}
+		"weapon_throw2"
+		{
+				"font"		"HL2MPTypeDeath"
+				"character"	"b"
+		}
+		"voice_player"
+		{
+				"file"		"voice/icntlk_sv"
+				"x"		"0"
+				"y"		"0"
+				"width"		"32"
+				"height"	"32"
+		}
+		"voice_self"
+		{
+				"file"		"voice/icntlk_local"
+				"x"		"0"
+				"y"		"0"
+				"width"		"32"
+				"height"	"32"
+		}
+		"fp_versus"
+		{
+			"font"		"HL2MPTypeDeath"
+			"character"	"Y"
+		}		
+		"pain_up"
+		{
+				"file"		"sprites/640_pain_up"
+				"x"			"0"
+				"y"			"0"
+				"width"		"512"
+				"height"	"192"
+		}
+		"pain_down"
+		{
+				"file"		"sprites/640_pain_down"
+				"x"			"0"
+				"y"			"0"
+				"width"		"512"
+				"height"	"192"
+		}
+		"pain_left"
+		{
+				"file"		"sprites/640_pain_left"
+				"x"			"0"
+				"y"			"0"
+				"width"		"192"
+				"height"	"512"
+		}
+		"pain_right"
+		{
+				"file"		"sprites/640_pain_right"
+				"x"			"0"
+				"y"			"0"
+				"width"		"192"
+				"height"	"512"
+		}
+	}	
+}

@@ -1,0 +1,226 @@
+// screen size is 400x300
+
+"Intro"
+{
+	"item"
+	{
+		"page"		"0"
+		"text"		"#intro_title_learn"	
+		"font_size"	"2"
+		"color"		"1"
+		"align"		"0"
+		"sizex"		"400"
+		"sizey"		"60"
+		"posx"		"0"
+		"posy"		"80"
+	}
+	"item"
+	{
+		"page"		"0"
+		"text"		"#intro_aim_title"	
+		"font_size"	"2"
+		"align"		"0"
+		"sizex"		"450"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"140"
+	}
+//1
+	"item"
+	{
+		"page"		"1"
+		"text"		"#intro_aim_ch_title"	
+		"font_size"	"2"
+		"color"		"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"0"
+	}
+	"item"
+	{
+		"page"		"1"
+		"text"		"#intro_aim_ch_1"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"45"
+	}	
+	"item"
+	{
+		"page"		"1"
+		"text"		"#intro_aim_ch_2"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"110"
+		"posx"		"0"
+		"posy"		"95"
+	}
+	"item"
+	{
+		"page"		"1"
+		"text"		"100%"	
+		"color"		"1"
+		"font_size"	"3"
+		"align"		"0"
+		"sizex"		"100"
+		"sizey"		"50"
+		"posx"		"75"
+		"posy"		"175"
+	}
+	"item"
+	{
+		"page"		"1"
+		"text"		"60%"
+		"color"		"1"	
+		"font_size"	"3"
+		"align"		"0"
+		"sizex"		"100"
+		"sizey"		"50"
+		"posx"		"172"
+		"posy"		"180"
+	}
+	"item"
+	{
+		"page"		"1"
+		"text"		"30%"	
+		"color"		"1"
+		"font_size"	"3"
+		"align"		"0"
+		"sizex"		"100"
+		"sizey"		"50"
+		"posx"		"255"
+		"posy"		"195"
+	}
+	"item"
+	{
+		"page"		"1"
+		"text"		"intros/accuracy"
+		"font_size"	"0"
+		"align"		"2"
+		"sizex"		"250"
+		"sizey"		"125"
+		"posx"		"80"
+		"posy"		"185"
+	}	
+//2
+	"item"
+	{
+		"page"		"2"
+		"text"		"#intro_aim_mov_title"	
+		"color"		"1"
+		"font_size"	"2"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"20"
+	}
+	"item"
+	{
+		"page"		"2"
+		"text"		"#intro_aim_mov_1"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"85"
+		"posx"		"0"
+		"posy"		"75"
+	}
+	"item"
+	{
+		"page"		"2"
+		"text"		"#intro_aim_mov_2"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"80"
+		"posx"		"0"
+		"posy"		"140"
+	}
+	"item"
+	{
+		"page"		"2"
+		"text"		"#intro_aim_mov_3"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"90"
+		"posx"		"0"
+		"posy"		"210"
+	}
+//3
+	"item"
+	{
+		"page"		"3"
+		"text"		"#intro_aim_rev_title"	
+		"color"		"1"
+		"font_size"	"2"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"30"
+	}
+	"item"
+	{
+		"page"		"3"
+		"text"		"#intro_aim_rev_1"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"120"
+		"posx"		"0"
+		"posy"		"75"
+	}
+	"item"
+	{
+		"page"		"3"
+		"text"		"#intro_aim_rev_2"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"120"
+		"posx"		"0"
+		"posy"		"170"
+	}	
+//5	
+	"item"
+	{
+		"page"		"4"
+		"text"		"#intro_aim_rifle_title"	
+		"color"		"1"
+		"font_size"	"2"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"30"
+	}
+	"item"
+	{
+		"page"		"4"
+		"text"		"#intro_aim_rifle_1"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"80"
+		"posx"		"0"
+		"posy"		"95"
+	}
+	"item"
+	{
+		"page"		"4"
+		"text"		"#intro_aim_rifle_2"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"100"
+		"posx"		"0"
+		"posy"		"155"
+	}
+}

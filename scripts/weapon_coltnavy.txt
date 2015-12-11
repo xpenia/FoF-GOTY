@@ -1,0 +1,86 @@
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"Navy"
+	"viewmodel"			"models/weapons/v_coltnavy.mdl"
+	"playermodel"		"models/weapons/w_coltnavy.mdl"
+	"anim_prefix"		"python"
+	"bucket"			"2"
+	"bucket_position"	"5"
+
+	"clip_size"			"6"
+	"default_clip"		"6"
+	"primary_ammo"		"357"
+	"secondary_ammo"	"None"
+
+	"weight"		"3"
+	"item_flags"		"0"
+
+	"damage"		"37"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"		"Weapon_Pistol.Empty"
+		"single_shot"	"Weapon_ColtNavy.Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"c"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"c"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"q"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+ 	
+	
+	ExpOffset // Ironsight
+  	{
+	     "x"   "-1"
+ 	     "y"   "-1.0"
+	     "z"   "0.35"
+	     "xf"   "-2"
+ 	     "yf"   "-3.66"
+	     "zf"   "-0.5"
+      	}
+
+	Spread // 
+  	{
+	     "crouch"	"0.028"
+ 	     "idle"	"0.03"
+	     "walk"	"0.05"
+	     "run"	"0.18"
+	     "jump"	"0.35"
+	     "speed"	"0.51"		
+      	}
+
+
+	"break_limit"		"8"
+	"break_drop_penalty"	"5"
+	"GunSmokeMult"		"0.6"
+}

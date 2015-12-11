@@ -1,0 +1,16 @@
+particles_manifest
+{
+	"file"		"!particles/error.pcf"
+	"file"		"!particles/blood_impact.pcf"
+	"file"		"!particles/water_impact.pcf"
+	"file"		"!particles/fire_01.pcf"
+	"file"		"!particles/impact_fx.pcf"
+	"file"		"!particles/burning_fx.pcf"
+	"file"		"!particles/train_steam.pcf"
+	"file"		"!particles/rain.pcf"
+	"file"		"!particles/waterfall.pcf"
+	"file"		"!particles/fof_particles.pcf"
+	"file"		"!particles/fof_particles2.pcf"
+	"file"		"!particles/weapon_fx.pcf"
+	"file"		"!particles/muzzle_flash.pcf"
+}

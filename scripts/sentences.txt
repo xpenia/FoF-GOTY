@@ -1,0 +1,91 @@
+// HALF-LIFE 2 SPEECH SYSTEM SENTENCES.
+// Do not use TABS.  Separate sentence-names from wave definitions with single spaces only.
+// Sounds prefixed by "Q_" will be queued up for a while and played as soon as the NPC is allowed to speak
+
+
+//DESPERADO GENERIC
+
+DESPERADO_ASSAULT0 player/voice/(v100) attack_killemall {Len 1.2}
+DESPERADO_ASSAULT1 player/voice/(v100) attack_shootdogs {Len 1.2}
+
+DESPERADO_PLAYER_DEAD0 player/voice/(v100) laugh_laugh {Len 1.5}
+DESPERADO_PLAYER_DEAD1 player/voice/(v100) laugh_laugh1 {Len 1.65}
+DESPERADO_PLAYER_DEAD2 player/voice/(v100) laugh_laugh2 {Len 1.65}
+DESPERADO_PLAYER_DEAD3 player/voice/(v100) brag_nochanceson {Len 1.3}
+
+DESPERADO_GO_ALERT0 player/voice/(v100) enemyspotted_iseethem1 {Len 0.65}
+DESPERADO_GO_ALERT1 player/voice/(v100) enemyspotted_iseethem2 {Len 0.65}
+DESPERADO_GO_ALERT2 player/voice/(v100) enemyspotted_theycome {Len 0.65}
+
+DESPERADO_ANNOUNCE0 player/voice/(v100) fightingtalk_comeonbitch {Len 1.60}
+DESPERADO_ANNOUNCE1 player/voice/(v100) fightingtalk_giveinandgo {Len 1.50}
+DESPERADO_ANNOUNCE2 player/voice/(v100) fightingtalk_pumpfulllead {Len 1.60}
+DESPERADO_ANNOUNCE3 player/voice/(v100) fightingtalk_windupdead {Len 1.70}
+DESPERADO_ANNOUNCE4 player/voice/(v100) fightingtalk_closemouth {Len 2.50}
+
+
+//MEXICAN GENERIC
+
+MEXICAN_ASSAULT0 npc/mexican/(v100) andale-01 {Len 1.2}
+MEXICAN_ASSAULT1 npc/mexican/(v100) andale-02 {Len 1.2}
+MEXICAN_ASSAULT2 npc/mexican/(v100) andale-03 {Len 1.2}
+MEXICAN_ASSAULT3 npc/mexican/(v100) andale-04 {Len 1.2}
+MEXICAN_ASSAULT4 npc/mexican/(v100) andale-05 {Len 1.2}
+MEXICAN_ASSAULT5 npc/mexican/(v100) andale-06 {Len 1.2}
+MEXICAN_ASSAULT6 npc/mexican/(v100) andale-07 {Len 1.2}
+
+MEXICAN_PLAYER_DEAD0 npc/mexican/(v100) ikilled-01 {Len 1.5}
+MEXICAN_PLAYER_DEAD1 npc/mexican/(v100) ikilled-02 {Len 1.65}
+MEXICAN_PLAYER_DEAD2 npc/mexican/(v100) ikilled-03 {Len 1.3}
+MEXICAN_PLAYER_DEAD3 npc/mexican/(v100) ikilled-04 {Len 1.3}
+MEXICAN_PLAYER_DEAD4 npc/mexican/(v100) ikilled-05 {Len 1.3}
+
+MEXICAN_GO_ALERT0 npc/mexican/(v100) consider-01 {Len 1.65}
+MEXICAN_GO_ALERT1 npc/mexican/(v100) consider-02 {Len 1.65}
+MEXICAN_GO_ALERT2 npc/mexican/(v100) youare-01 {Len 1.65}
+MEXICAN_GO_ALERT3 npc/mexican/(v100) youare-02 {Len 1.65}
+MEXICAN_GO_ALERT4 npc/mexican/(v100) youare-03 {Len 1.65}
+
+MEXICAN_ANNOUNCE0 npc/mexican/(v100) kill-01 {Len 1.60}
+MEXICAN_ANNOUNCE1 npc/mexican/(v100) kill-02 {Len 1.50}
+MEXICAN_ANNOUNCE2 npc/mexican/(v100) kill-03 {Len 1.60}
+MEXICAN_ANNOUNCE3 npc/mexican/(v100) kill-04 {Len 1.70}
+MEXICAN_ANNOUNCE4 npc/mexican/(v100) kill-05 {Len 2.50}
+
+MEXICAN_TAKINGCOVER0 npc/mexican/(v100) coverme-01 {Len 1.60}
+MEXICAN_TAKINGCOVER1 npc/mexican/(v100) coverme-02 {Len 1.60}
+MEXICAN_TAKINGCOVER2 npc/mexican/(v100) coverme-03 {Len 1.60}
+MEXICAN_TAKINGCOVER3 npc/mexican/(v100) coverme-04 {Len 1.60}
+MEXICAN_TAKINGCOVER4 npc/mexican/(v100) coverme-05 {Len 1.60}
+MEXICAN_TAKINGCOVER5 npc/mexican/(v100) coverme-06 {Len 1.60}
+MEXICAN_TAKINGCOVER6 npc/mexican/(v100) coverme-07 {Len 1.60}
+
+MEXICAN_DYNAMITER0 npc/mexican/(v100) seeyou-02 {Len 1.60}
+MEXICAN_DYNAMITER1 npc/mexican/(v100) seeyou-03 {Len 1.60}
+MEXICAN_DYNAMITER2 npc/mexican/(v100) duck-01 {Len 1.60}
+MEXICAN_DYNAMITER3 npc/mexican/(v100) duck-02 {Len 1.60}
+MEXICAN_DYNAMITER4 npc/mexican/(v100) duck-03 {Len 1.60}
+MEXICAN_DYNAMITER5 npc/mexican/(v100) ihave-01 {Len 1.60}
+MEXICAN_DYNAMITER6 npc/mexican/(v100) ihave-02 {Len 1.60}
+MEXICAN_DYNAMITER7 npc/mexican/(v100) ihave-03 {Len 1.60}
+MEXICAN_DYNAMITER8 npc/mexican/(v100) ihave-04 {Len 1.60}
+
+
+
+// BOSS
+
+BOSS_DEATH0 npc/boss/(v100) death_scream1 {Len 1.0}
+BOSS_DEATH1 npc/boss/(v100) death_scream2 {Len 2.50}
+BOSS_DEATH2 npc/boss/(v100) death_scream3 {Len 1.7}
+BOSS_DEATH3 npc/boss/(v100) death_scream4 {Len 1.8}
+BOSS_DEATH4 npc/boss/(v100) death_scream5 {Len 1.9}
+
+BOSS_PAIN0 npc/boss/(v100) pain_grunt1 {Len 0.4}
+BOSS_PAIN1 npc/boss/(v100) pain_grunt2 {Len 0.4}
+BOSS_PAIN2 npc/boss/(v100) pain_grunt3 {Len 0.5}
+BOSS_PAIN3 npc/boss/(v100) pain_grunt4 {Len 0.5}
+BOSS_PAIN4 npc/boss/(v100) pain_grunt5 {Len 0.55}
+BOSS_PAIN5 npc/boss/(v100) pain_grunt6 {Len 0.35}
+BOSS_PAIN6 npc/boss/(v100) pain_grunt7 {Len 0.6}
+
+//

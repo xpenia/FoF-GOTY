@@ -1,0 +1,159 @@
+"serverblacklist"
+{
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874226"
+		"addr"		"176.9.16.88:26045"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874227"
+		"addr"		"176.9.16.88:25035"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874230"
+		"addr"		"176.9.16.88:25075"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874238"
+		"addr"		"78.46.52.9:25015"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874240"
+		"addr"		"176.9.16.88:25025"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874243"
+		"addr"		"78.46.52.9:25105"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874245"
+		"addr"		"78.46.52.9:25055"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874247"
+		"addr"		"176.9.16.88:25105"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874249"
+		"addr"		"176.9.16.88:25055"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.cm | Fistful of Frags Server"
+		"date"		"1401874251"
+		"addr"		"78.46.52.9:26045"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.cm | Fistful of Frags Server"
+		"date"		"1401874253"
+		"addr"		"78.46.52.9:26015"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.cm | Fistful of Frags Server"
+		"date"		"1401874273"
+		"addr"		"78.46.52.9:26035"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874280"
+		"addr"		"176.9.16.88:26015"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874282"
+		"addr"		"78.46.52.9:25095"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874285"
+		"addr"		"78.46.52.9:25025"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874288"
+		"addr"		"176.9.16.88:26025"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874306"
+		"addr"		"78.46.52.9:25045"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874310"
+		"addr"		"176.9.16.88:25095"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.cm | Fistful of Frags Server"
+		"date"		"1401874312"
+		"addr"		"78.46.52.9:26025"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874316"
+		"addr"		"78.46.52.9:25085"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874344"
+		"addr"		"78.46.52.9:25035"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874346"
+		"addr"		"78.46.52.9:25065"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874361"
+		"addr"		"176.9.16.88:25045"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874363"
+		"addr"		"176.9.16.88:25085"
+	}
+	"server"
+	{
+		"name"		"NeoCoreGaming.com | Fistful of Frags Server"
+		"date"		"1401874367"
+		"addr"		"176.9.16.88:25015"
+	}
+	"server"
+	{
+		"name"		"paulll.cc"
+		"date"		"1411822490"
+		"addr"		"95.55.124.6:27015"
+	}
+}

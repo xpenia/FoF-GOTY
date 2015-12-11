@@ -1,0 +1,239 @@
+// dmg_blast
+// dmg_fall
+// dmg_burn
+// dmg_slash   axe-knife
+// dmg_bullet
+// dmg_club    fists
+// dmg_drown
+// dmg_kick
+// dmg_buckshot
+// dmg_headshot
+
+// enemy_posfront
+// enemy_posback
+
+// weapon_unloaded
+
+// enemy_ff
+
+// suicide
+
+// enemy_health_high
+// enemy_health_mid
+// enemy_health_low
+// enemy_health_verylow
+
+// hit_generic
+// hit_head
+// hit_chest
+// hit_stomach
+// hit_arm
+// hit_leg
+
+// hint_random
+
+// revolvers
+
+
+"HintList"
+{
+	"item"
+	{
+		"name"		"#fof_hint_headshot"
+		"keywords"	"hint_random,hit_head,dmg_bullet"
+		"weight"	"2"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_chestshot"
+		"keywords"	"hint_random,hit_chest,dmg_bullet"
+		"weight"	"2"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_worldkill"
+		"keywords"	"dmg_drown,dmg_burn,dmg_fall"
+		"weight"	"3"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_dynamite1"
+		"keywords"	"dynamite,dynamite_black,hint_random"
+		"weight"	"2"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_dynamite2"
+		"keywords"	"dynamite_black,"
+		"weight"	"2"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_dynamite3"
+		"keywords"	"dynamite_black,dynamite"
+		"weight"	"2"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_dynamite4"
+		"keywords"	"dynamite_black,dynamite"
+		"weight"	"2"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_dynamite5"
+		"keywords"	"dynamite_black,dynamite,hint_random"
+		"weight"	"2"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_dynamite6"
+		"keywords"	"dynamite_black,dynamite,dmg_blast"
+		"weight"	"3"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_peacemaker"
+		"keywords"	"weapon_peacemaker,history"
+		"weight"	"2"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_walker"
+		"keywords"	"weapon_walker,history"
+		"weight"	"2"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_henry"
+		"keywords"	"weapon_henryrifle,quote"
+		"weight"	"2"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_grab"
+		"keywords"	"hint_random,"
+		"weight"	"3"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_walk"
+		"keywords"	"hint_random,revolvers"
+		"weight"	"3"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_drop"
+		"keywords"	"hint_random,revolvers,weapon_unloaded"
+		"weight"	"4"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_reload"
+		"keywords"	"hint_random,revolvers,weapon_unloaded"
+		"weight"	"3"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_melee"
+		"keywords"	"hint_random,dmg_club,dmg_slash"
+		"weight"	"3"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_healing"
+		"keywords"	"hint_random,"
+		"weight"	"2"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_healing2"
+		"keywords"	"hint_random,"
+		"weight"	"2"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_fanning"
+		"keywords"	"hint_random,revolvers"
+		"weight"	"3"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_double"
+		"keywords"	"hint_random,dmg_buckshot"
+		"weight"	"2"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_fists"
+		"keywords"	"hint_random,dmg_club"
+		"weight"	"3"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_autobuy"
+		"keywords"	"gm_teamplay,gm_breakbad"
+		"weight"	"4"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_rebuy"
+		"keywords"	"gm_teamplay,gm_breakbad"
+		"weight"	"4"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_randomshooter"
+		"keywords"	"random_shooter"
+		"weight"	"8"
+	} 
+	"item"
+	{
+		"name"		"#fof_hint_hatshot"
+		"keywords"	"hint_random,hint_hatshot"
+		"weight"	"4"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_bb_unarmed"
+		"keywords"	"gm_breakbad, bb_jailed"
+		"weight"	"4"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_bb_loot"
+		"keywords"	"gm_breakbad"
+		"weight"	"4"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_bb_loot2"
+		"keywords"	"gm_breakbad"
+		"weight"	"4"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_bb_selfdisarm"
+		"keywords"	"gm_breakbad"
+		"weight"	"4"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_bb_selfdisarm2"
+		"keywords"	"gm_breakbad"
+		"weight"	"4"
+	}
+	"item"
+	{
+		"name"		"#fof_hint_bb_buy"
+		"keywords"	"gm_breakbad"
+		"weight"	"4"
+	}
+//	"item"
+//	{
+//		"name"		"#FoF_Votekick_Hint"
+//		"keywords"	"hint_random"
+//		"weight"	"4"
+//	}
+//
+}

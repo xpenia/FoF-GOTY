@@ -1,0 +1,50 @@
+//1 knife
+//19 axe
+//7 dynamite
+//27 black dynamite
+
+//3 deringer
+//28 volcanic 
+//2 navy
+//31 schofield
+//21 peacemaker
+//33 maresleg
+//32 walker
+
+//13 sawedoff_shotgun
+//6 coachgun
+//29 winchester shotgun
+
+//11 bow
+//12 sharps
+//4 henry
+//5 carbine
+
+//34 brass knuckles
+//20 boots
+
+// NOTE THAT ORDER MUST BE FROM MOST EXPENSIVE TO LESS EXPENSIVE LOADOUT!
+
+"List"
+{
+	"preset"
+	{
+		"name"		"cash_1"
+		"item_list"	"21,"
+	}
+	"preset"
+	{
+		"name"		"cash_2"
+		"item_list"	"31,"
+	}
+	"preset"
+	{
+		"name"		"cash_3"
+		"item_list"	"2,"
+	}
+	"preset"
+	{
+		"name"		"cash_4"
+		"item_list"	"3,"
+	}
+}

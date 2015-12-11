@@ -1,0 +1,8 @@
+tp_forest
+tp_snowy
+tp_yosemite
+tp_loothill
+tp_eliminator
+tp_assault
+tp_abandoned
+tp_coastal

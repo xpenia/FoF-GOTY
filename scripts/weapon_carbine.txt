@@ -1,0 +1,84 @@
+// Carbine
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"	"Carbine"
+	"viewmodel"			"models/weapons/v_carbine.mdl"
+	"playermodel"			"models/weapons/w_carbine.mdl"
+	"anim_prefix"			"shotgun"
+	"bucket"				"3"
+	"bucket_position"		"2"
+
+	"clip_size"				"1"
+	"primary_ammo"			"Rifle2"
+	"secondary_ammo"		"None"
+
+	"weight"				"2"
+	"item_flags"			"0"
+	"damage"			"75"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+
+		//"empty"		"Weapon_Carbine.Empty"
+		"reload"		"Weapon_Carbine.Open"
+		"single_shot"		"Weapon_Carbine.Single"
+
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"i"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"i"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"     "q"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+
+	ExpOffset // Ironsight
+  	{
+	     "xf"   "-15"
+ 	     "yf"   "-4.66"
+	     "zf"   "3.85"
+      	}
+
+	Spread // 
+  	{
+	     "crouch"	"0.06"
+ 	     "idle"	"0.08"
+	     "walk"	"0.22"
+	     "run"	"0.3"
+	     "jump"	"0.4"
+	     "speed"	"0.3"		
+      	}
+
+	"break_limit"		"12"
+	"break_drop_penalty"	"3"
+	"GunSmokeMult"		"0.85"
+}

@@ -1,0 +1,214 @@
+// screen size is 400x300
+
+"Intro"
+{
+	"item"
+	{
+		"page"		"0"
+		"text"		"#intro_howto"	
+		"font_size"	"2"
+		"color"		"1"
+		"align"		"0"
+		"sizex"		"400"
+		"sizey"		"60"
+		"posx"		"0"
+		"posy"		"80"
+	}
+	"item"
+	{
+		"page"		"0"
+		"text"		"#intro_ghost_town_gm"	
+		"font_size"	"2"
+		"align"		"0"
+		"sizex"		"450"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"140"
+	}
+	"item"
+	{
+		"page"		"0"
+		"text"		"intros/ghost"
+		"font_size"	"0"
+		"align"		"2"
+		"sizex"		"120"
+		"sizey"		"120"
+		"posx"		"280"
+		"posy"		"35"
+	}
+//1
+	"item"
+	{
+		"page"		"1"
+		"text"		"#intro_primary_obj"	
+		"font_size"	"2"
+		"color"		"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"20"
+	}
+	"item"
+	{
+		"page"		"1"
+		"text"		"#intro_gt_obj1"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"100"
+		"posx"		"0"
+		"posy"		"85"
+	}	
+	"item"
+	{
+		"page"		"1"
+		"text"		"#intro_gt_obj2"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"100"
+		"posx"		"0"
+		"posy"		"185"
+	}
+//2
+"item"
+	{
+		"page"		"2"
+		"text"		"#intro_gt_ggun_title"	
+		"color"		"1"
+		"font_size"	"2"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"85"
+		"posx"		"0"
+		"posy"		"0"
+	}
+	"item"
+	{
+		"page"		"2"
+		"text"		"#intro_gt_ggun_1"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"85"
+		"posx"		"0"
+		"posy"		"55"
+	}
+	"item"
+	{
+		"page"		"2"
+		"text"		"#intro_gt_ggun_3"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"85"
+		"posx"		"0"
+		"posy"		"160"
+	}
+//3
+	"item"
+	{
+		"page"		"3"
+		"text"		"#intro_gt_jump_title"	
+		"color"		"1"
+		"font_size"	"2"
+		"align"		"2"
+		"sizex"		"500"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"0"
+	}
+	"item"
+	{
+		"page"		"3"
+		"text"		"#intro_gt_ggun_2"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"120"
+		"posx"		"0"
+		"posy"		"35"
+	}
+	"item"
+	{
+		"page"		"3"
+		"text"		"media/boost.bik"	
+		"font_size"	"-1"
+		"align"		"2"
+		"sizex"		"300"
+		"sizey"		"170"
+		"posx"		"60"
+		"posy"		"130"
+	}
+//4
+	"item"
+	{
+		"page"		"4"
+		"text"		"#intro_gt_equipment_title"	
+		"color"		"1"
+		"font_size"	"2"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"30"
+	}	
+	"item"
+	{
+		"page"		"4"
+		"text"		"#intro_gt_equipment_1"
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"90"
+		"posx"		"0"
+		"posy"		"95"
+	}
+	"item"
+	{
+		"page"		"4"
+		"text"		"#intro_gt_equipment_2"
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"90"
+		"posx"		"0"
+		"posy"		"195"
+	}
+//5
+	"item"
+	{
+		"page"		"5"
+		"text"		"#intro_gt_ghost_title"	
+		"color"		"1"
+		"font_size"	"2"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"30"
+	}	
+	"item"
+	{
+		"page"		"5"
+		"text"		"#fof_hint_gt_ghost1"
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"90"
+		"posx"		"0"
+		"posy"		"95"
+	}
+	"item"
+	{
+		"page"		"5"
+		"text"		"#fof_hint_gt_ghost4"
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"90"
+		"posx"		"0"
+		"posy"		"165"
+	}
+}
