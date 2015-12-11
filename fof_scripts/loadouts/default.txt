@@ -120,9 +120,4 @@
 		"name"		"Black Dynamite"
 		"item_list"		",27,"
 	}
-	"preset"
-	{
-		"name"		"Machete"
-		"item_list"		",26,"
-	}
 }

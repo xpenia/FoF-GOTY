@@ -273,11 +273,6 @@
 				"font"		"HL2MPTypeDeath"
 				"character"	"5"
 		}
-		"death_machete"
-		{
-				"font"		"HL2MPTypeDeath"
-				"character"	"i"
-		}
 		"death_kick"
 		{
 				"font"		"HL2MPTypeDeath"
@@ -292,11 +287,6 @@
 		{
 				"font"		"HL2MPTypeDeath"
 				"character"	"K"
-		}
-		"death_thrown_machete"
-		{
-				"font"		"HL2MPTypeDeath"
-				"character"	"j"
 		}
 		"weapon_throw"
 		{

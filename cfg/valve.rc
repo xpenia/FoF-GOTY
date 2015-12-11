@@ -10,3 +10,7 @@ exec autoexec.cfg
 // stuff command line statements
 //
 stuffcmds
+
+hostname "Fistful of Frags"
+
+mp_forcerespawn 0

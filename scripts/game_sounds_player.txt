@@ -263,11 +263,13 @@
 	"volume"		"0.8"
 	"pitch"                 "80" 
 
+
 	 "soundlevel" "SNDLVL_65dB" 
 
 	"wave"	"items/knife_pickup.wav"
 
 }
+
 
 "FoFPlayer.WeaponPickUp"
 {
@@ -687,6 +689,146 @@
 	}
 }
 
+// MEXICAN TAUNTS
+
+"voicecomm.21m" // laugh
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.8,0.9"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"		"SNDLVL_95db"
+
+	"rndwave"
+	{
+		"wave" npc/mexican/laugh1.wav
+		"wave" npc/mexican/laugh2.wav
+	}
+}
+
+"voicecomm.22m" // draw
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.7,0.85"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"		"SNDLVL_95db"
+
+	"rndwave"
+	{
+		"wave" npc/mexican/seeyou-02.wav
+		"wave" npc/mexican/seeyou-03.wav
+	}
+}
+
+"voicecomm.22m" // draw
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.7,0.85"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95db"
+
+	"rndwave"
+	{
+		"wave" npc/mexican/seeyou-02.wav
+		"wave" npc/mexican/seeyou-03.wav
+	}
+}
+
+"voicecomm.23m" // fighting talk
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.9,1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_90db"
+
+	"rndwave"
+	{
+		"wave" npc/mexican/consider-01.wav 
+		"wave" npc/mexican/consider-02.wav 
+		"wave" npc/mexican/youare-01.wav 
+		"wave" npc/mexican/youare-02.wav 
+		"wave" npc/mexican/youare-03.wav
+		"wave" npc/mexican/ihave-01.wav
+		"wave" npc/mexican/ihave-02.wav
+		"wave" npc/mexican/ihave-03.wav
+		"wave" npc/mexican/ihave-04.wav
+	}
+}
+
+"voicecomm.24m" // brag
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.7,0.9"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95db"
+
+	"rndwave"
+	{
+	"wave" npc/mexican/ikilled-01.wav
+	"wave" npc/mexican/ikilled-02.wav
+	"wave" npc/mexican/ikilled-03.wav
+	}
+}
+
+"voicecomm.25m" // Howl
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.85,1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95db"
+
+	"rndwave"
+	{
+	"wave" npc/mexican/andale-01.wav
+	"wave" npc/mexican/andale-02.wav 
+	"wave" npc/mexican/andale-03.wav 
+	"wave" npc/mexican/andale-04.wav 
+	"wave" npc/mexican/andale-05.wav 
+	"wave" npc/mexican/andale-06.wav 
+	"wave" npc/mexican/andale-07.wav 
+	}
+}
+
+
+"voicecomm.26m" // coward
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.8,1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95db"
+
+	"rndwave"
+	{
+		"wave" npc/mexican/duck-01.wav
+		"wave" npc/mexican/duck-02.wav
+		"wave" npc/mexican/duck-03.wav
+	}
+}
+
+"voicecomm.27m" // fistfight
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.9,1.0"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95db"
+
+	"rndwave"
+	{
+		"wave" "npc/mexican/illpunch-01.wav"
+		"wave" "npc/mexican/illpunch-02.wav"
+		"wave" "npc/mexican/illpunch-03.wav"
+		"wave" "npc/mexican/illpunch-04.wav"
+	}
+}
+
+
 // TAUNTS
 
 "voicecomm.21" // laugh
@@ -838,168 +980,6 @@
 		"wave"	"player/voice/fightingtalk_quitshootin.wav"
 	}
 }
-
-// BANDIDO
-
-
-"voicecomm.21_bandido" // laugh
-{
-	"channel"		"CHAN_VOICE"
-	"volume"		"0.8,0.9"
-	"pitch"			"PITCH_NORM"
-
-	"soundlevel"		"SNDLVL_95db"
-
-	"rndwave"
-	{
-		"wave" npc/mexican/laugh1.wav
-		"wave" npc/mexican/laugh2.wav
-	}
-}
-
-"voicecomm.22_bandido" // draw
-{
-	"channel"		"CHAN_VOICE"
-	"volume"		"0.7,0.85"
-	"pitch"			"PITCH_NORM"
-
-	"soundlevel"		"SNDLVL_95db"
-
-	"rndwave"
-	{
-		"wave"	"npc/mexican/kill-01.wav"
-		"wave"	"npc/mexican/kill-02.wav"
-		"wave"	"npc/mexican/kill-03.wav"
-		"wave"	"npc/mexican/kill-04.wav"
-		"wave"	"npc/mexican/kill-05.wav"
-	}
-}
-
-"voicecomm.23_bandido" // fighting talk
-{
-	"channel"		"CHAN_VOICE"
-	"volume"		"0.9,1.0"
-	"pitch"			"PITCH_NORM"
-
-	"soundlevel"	"SNDLVL_90db"
-
-	"rndwave"
-	{
-		"wave" npc/mexican/consider-01.wav 
-		"wave" npc/mexican/consider-02.wav 
-		"wave" npc/mexican/youare-01.wav 
-		"wave" npc/mexican/youare-02.wav 
-		"wave" npc/mexican/youare-03.wav
-		"wave" npc/mexican/seeyou-02.wav
-		"wave" npc/mexican/seeyou-03.wav
-	}
-}
-
-"voicecomm.24_bandido" // brag
-{
-	"channel"		"CHAN_VOICE"
-	"volume"		"0.7,0.9"
-	"pitch"			"PITCH_NORM"
-
-	"soundlevel"	"SNDLVL_95db"
-
-	"rndwave"
-	{
-	"wave" npc/mexican/ikilled-01.wav
-	"wave" npc/mexican/ikilled-02.wav
-	"wave" npc/mexican/ikilled-03.wav
-	}
-}
-
-"voicecomm.25_bandido" // Howl
-{
-	"channel"		"CHAN_VOICE"
-	"volume"		"0.85,1.0"
-	"pitch"			"PITCH_NORM"
-
-	"soundlevel"	"SNDLVL_95db"
-
-	"rndwave"
-	{
-	"wave" npc/mexican/andale-01.wav
-	"wave" npc/mexican/andale-02.wav 
-	"wave" npc/mexican/andale-03.wav 
-	"wave" npc/mexican/andale-04.wav 
-	"wave" npc/mexican/andale-05.wav 
-	"wave" npc/mexican/andale-06.wav 
-	"wave" npc/mexican/andale-07.wav 
-	}
-}
-
-
-"voicecomm.26_bandido" // coward
-{
-	"channel"		"CHAN_VOICE"
-	"volume"		"0.8,1.0"
-	"pitch"			"PITCH_NORM"
-
-	"soundlevel"	"SNDLVL_95db"
-
-	"rndwave"
-	{
-		"wave" npc/mexican/duck-01.wav
-		"wave" npc/mexican/duck-02.wav
-		"wave" npc/mexican/duck-03.wav
-	}
-}
-
-"voicecomm.27_bandido" // fistfight
-{
-	"channel"		"CHAN_VOICE"
-	"volume"		"0.9,1.0"
-	"pitch"			"PITCH_NORM"
-
-	"soundlevel"	"SNDLVL_95db"
-
-	"rndwave"
-	{
-		"wave" "npc/mexican/illpunch-01.wav"
-		"wave" "npc/mexican/illpunch-02.wav"
-		"wave" "npc/mexican/illpunch-03.wav"
-		"wave" "npc/mexican/illpunch-04.wav"
-	}
-}
-
-"voicecomm.28_bandido" // my gold
-{
-	"channel"		"CHAN_VOICE"
-	"volume"		"0.8"
-	"pitch"			"PITCH_NORM"
-
-	"soundlevel"	"SNDLVL_95db"
-
-	"rndwave"
-	{
-		"wave"	"npc/mexican/ahmisombrero-04.wav"
-		"wave"	"npc/mexican/ahmisombrero-05.wav"
-	}
-}
-
-
-"voicecomm.29_bandido" // shut up
-{
-	"channel"		"CHAN_VOICE"
-	"volume"		"0.9"
-	"pitch"			"PITCH_NORM"
-
-	"soundlevel"	"SNDLVL_90db"
-
-	"rndwave"
-	{
-		"wave" npc/mexican/ihave-01.wav
-		"wave" npc/mexican/ihave-02.wav
-		"wave" npc/mexican/ihave-03.wav
-		"wave" npc/mexican/ihave-04.wav
-	}
-}
-
-
-//
 
 
 

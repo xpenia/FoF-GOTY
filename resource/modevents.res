@@ -36,7 +36,6 @@
 		"assist"	"short"	 	// user ID who assisted
 		"damagebits"	"short"
 		"penetration"  "bool"
-		"weapon_index" "byte"
 	}
 	"entity_killed"
 	{

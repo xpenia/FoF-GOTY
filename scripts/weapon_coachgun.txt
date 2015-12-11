@@ -69,13 +69,6 @@ WeaponData
 		}
 	}
 
-	ExpOffset // Ironsight
-  	{
-	     "xf"   "-5"
- 	     "yf"   "-2.66"
-	     "zf"   "1.85"
-      	}
-
 	Spread // 
   	{
 	     "crouch"	"0.05"
@@ -83,7 +76,7 @@ WeaponData
 	     "walk"	"0.08"
 	     "run"	"0.20"
 	     "jump"	"0.25"
-	     "speed"	"0.33"		
+	     "speed"	"0.3"		
       	}
 
 	"break_limit"		"20"

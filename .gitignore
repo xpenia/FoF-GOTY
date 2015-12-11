@@ -12,6 +12,7 @@ mapsrc/*
 materialsrc/*
 screenshots/*
 user_custom/*
+*.bak
 *.cache
 *.dem
 *.pdb

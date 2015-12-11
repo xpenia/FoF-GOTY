@@ -2,14 +2,13 @@
 {
 	game	"Fistful of Frags - Game of the Year Edition"
 	title	""
-	title2	""
+	title2	"11.12.15"
 	GameData	"fof.fgd"
 	InstancePath "maps/instances/"
 	type multiplayer_only
 	nomodels 0
 	nohimodel 1
 	nocrosshair 1	
-	supportsvr 1
 
 	FileSystem
 	{
@@ -40,29 +39,30 @@
 			// pack up the custom content into a VPK.  To "install" a mod, just drop it in this
 			// folder.
 			//
-			game+mod |gameinfo_path|custom/*
+			// Note that this folder is scanned only when the game is booted.
 
 			// Now search loose files.  We'll set the directory containing the gameinfo.txt file
 			// as the first "mod" search path (after any user customizations).  This is also the one
 			// that's used when writing to the "mod" path.
-			game+mod					|gameinfo_path|fof_dir.vpk
 			game+mod+mod_write+default_write_path		|gameinfo_path|.
-			gamebin						|gameinfo_path|bin
+			gamebin				|gameinfo_path|bin
 
 			// We search VPK files before ordinary folders, because most files will be found in
 			// VPK and we can avoid making thousands of file system calls to attempt to open files
 			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
-			// system call.)			
-			game				|all_source_engine_paths|hl2/hl2_misc.vpk
+			// system call.)
+			game				|all_source_engine_paths|hl2/hl2_english.vpk
+			game				|all_source_engine_paths|hl2/hl2_pak.vpk
 			game				|all_source_engine_paths|hl2/hl2_textures.vpk
+			game				|all_source_engine_paths|hl2/hl2_misc.vpk
 			platform			|all_source_engine_paths|platform/platform_misc.vpk
 
 			// Add the HL2 directory as a game search path.  This is also where where writes
 			// to the "game" path go.
-			game+game_write		fof
+			game+game_write		fof_goty
 
 			// Where the game's binaries are
-			//gamebin				fof_goty/bin
+			gamebin				fof_goty/bin
 
 			// Last, mount in shared HL2 loose files
 			game				|all_source_engine_paths|hl2

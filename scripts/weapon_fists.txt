@@ -6,7 +6,7 @@ WeaponData
 	"playermodel"			""
 	"anim_prefix"			"crowbar"
 	"bucket"				"0"
-	"bucket_position"		"3"
+	"bucket_position"		"2"
 
 	"clip_size"				"-1"
 	"primary_ammo"			"None"

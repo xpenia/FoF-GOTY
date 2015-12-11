@@ -94,6 +94,18 @@
 	"wave" "npc/ghost/death.wav"
 }
 
+
+"StrongWind"
+{
+	"soundlevel" "SNDLVL_100db"
+	"pitch" "90,105"
+	"volume" "1"
+
+	"wave" "ambient/wind/stormgust4.wav"
+
+}
+
+
 "NPC_Horse.Kicked"
 {
 	"soundlevel" "SNDLVL_70db"
