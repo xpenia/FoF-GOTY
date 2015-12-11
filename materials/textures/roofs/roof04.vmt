@@ -1,0 +1,5 @@
+"lightmappedgeneric" {
+    "$basetexture" "textures/roofs/roof04"
+    "$bumpmap" "textures/roofs/roof04_normal"
+    "$surfaceprop" "wood"
+}

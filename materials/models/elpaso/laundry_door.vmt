@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/laundry_door"
+"$surfaceprop" "glass"
+	
+	"$envmap" "env_cubemap"
+"$envmapmask" "models\elpaso/laundry_door_mask"
+
+	"$envmapcontrast" .2
+	"$envmapsaturation" .2
+	"$envmaptint" "[.46 .46 .46]"
+"$model" 1
+}

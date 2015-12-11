@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "Models/Props/Halloween/gravestones_text"
+	"$translucent" 1
+}

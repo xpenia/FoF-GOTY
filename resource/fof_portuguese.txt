@@ -1,0 +1,357 @@
+﻿// Radio and chat strings can have control characters embedded to set colors.  For the control characters to be used, one must be at the start of the string.
+// The control characters can be copied and pasted in notepad.
+//  = 0x02 (STX) - Use team color up to the end of the player name.  This only works at the start of the string, and precludes using the other control characters.
+//  = 0x03 (ETX) - Use team color from this point forward
+//  = 0x04 (EOT) - Use location color from this point forward
+//  = 0x05 (ENQ) - Use achievement color from this point forward
+//  = 0x01 (SOH) - Use normal color from this point forward
+
+"lang" 
+{ 
+"Language" "Português" 
+"Tokens" 
+{ 
+
+// ****** CHAT
+
+"HL2MP_Chat_AllSpec"			"*ESPECTADOR* %s1 : %s2"
+"HL2MP_Chat_All"			"%s1: %s2"
+"HL2MP_Chat_Team"			"(EQUIPA)- %s1: %s2"
+"HL2MP_Chat_Spec"			"(Espectador)- %s1:  %s2"
+
+"Vote_NotPossible" 	"Não se passou tempo suficiente para votar\n"
+"Vote_DM"		"%s1 quer modar o modo de jogo. %s2 votos são necessários"
+"Vote_Suggest"		"Escreve 'changemode' no chat para mudar o modo de jogo"
+
+"FoFSkillStreakTotal"	"Kill streak: %s1"
+"FoFKillScore"		"ASSASSINATO: +%s1 pontos de notoriedade"
+"FoFKillScore_Bonus"	"ASSASSINATO: +%s1 pontos de notoriedade (+%s2 KS)"
+"FoFGentleman_Bonus"	"BÓNUS DE CAVALHEIRO: +%s1 pontos de notoriedade"
+"FoFGentleman_Malus"	"Isso não foi muito cavalheiresco: %s1 pontos de notoriedade"
+"FoFPenaltyScore"	"Morte deselegante! %s1 pontos de notoriedade"
+"FoFAssistScore"	"ASSISTÊNCIA: +%s1 notoriedade"
+"FoF_Overweight"	"AVISO: %s1% sobrecarregado"
+
+"Achievement_Earned"		"%s1 ganhou a conquista %s2"
+
+// MISC
+
+"Playerid_sameteam"		"Amigo: %s1 Saúde: %s2"
+"Playerid_diffteam"		"Inimigo: %s1"
+"Playerid_noteam"		"%s1 Saúde:%s2"
+
+"Game_connected"		"%s1 conectou-se"
+"Game_disconnected"		"%s1 deixou o jogo"
+
+"MuteList_Title"		"Clica num jogador para o(a) silenciares"
+
+// ***** HINTS / STATS
+
+"FoF_Hint_Key"		"Pressiona <%s1> para continuar"
+"FoF_Stat_Key"		"Pressiona qualquer tecla para continuar"
+
+"FoF_Stat_Killstreak"	"Definiste um novo recorde de assassinatos em série: %s1 assassinatos. Anteriormente, o teu record era de %s2!"
+"FoF_Stat_SurvivalTime"	"Definiste um novo recorde de tempo de sobrevivência: %s1 segundos. Anteriormente, o teu record era %s2!"
+"FoF_Stat_MaxDmg"	"Definiste um novo recorde de dano levado: %s1. Anteriormente, o teu record era %s2!"
+"FoF_Stat_MaxWhiskey"	"Defniste um novo recorde de tempo bêbado: %s1. Anteriormente, o teu record era %s2!"
+"FoF_Stat_MaxWeapons"	"Defniste um record the novas armas utilizadas: %s1. Anteriormente, o teu record era %s2!"
+
+"fof_hint_headshot" 	"Um tiro na cabeça multiplica o dano x2"
+"fof_hint_chestshot"	"Um tiro no peito multiplica o dano x1.3"
+"fof_hint_worldkill" 	"Obtens uma recompensa se pontapeares alguém para fogo, água, ou se os fizeres cair de uma grande altitude"
+"fof_hint_dynamite1" 	"Um pau de dinamite aceso pode ser detonado instantaneamente ao disparar-lhe"
+"fof_hint_dynamite2"	"A dinamite negra é quase x2 mais poderosa que dinamite normal"
+"fof_hint_dynamite3"	"Um pau de dinamite aceso pode ser defusado ao selecionar os punhos e pressionar %+use% nele" 
+"fof_hint_dynamite4"	"O modo secundário da dinamite (arremessar) permite atirar a dinamite num período de tempo mais curto mas com menor distância. Pressiona %+attack2% para usá-lo"
+"fof_hint_dynamite5"	"Quanto maior tempo um pau de dinamite aceso estiver na tua mão, mais rapidamente irá detonar quando o atirares"
+"fof_hint_dynamite6"	"A dinamite explode em contacto com danos explosivos, mesmo que a mesma não esteja nas tuas mãos"
+"fof_hint_grab"		"Seleciona os punhos e pressiona %+use% para agarrar objetos físicos. Use %+attack% or %+speed% to throw them"
+"fof_hint_walk"		"Pressiona %+walk% para andar, isto é útil para mover e disparar a curtas distâncias com uma precisão decente"
+"fof_hint_drop"		"Quantas mais armas carregares, menor a tua velocidade. Pressiona %+zoom% + %+attack% ou %+attack2% para deixar cair uma arma"
+"fof_hint_reload"	"As armas antigas demoravam muito para serem recarregadas. Tenta apanhar armas carregadas do chão (com cor verde/amarela) em vez de as recarregar"
+"fof_hint_melee"	"As armas corpo-a-corpo recebem um bónus de dano quando acertas na cabeça de um inimigo"
+"fof_hint_healing"	"Usa frascos de whiskey para recuperares sáude. Pressiona %+use% para os apanhares"
+"fof_hint_healing2"	"A caixa de armas dourada também te faz recuperar a saúde completamente"
+"fof_hint_fanning"	"Fazer 'fanning' com o revolver troca precisão por uma maior velocidade de ataque. Mantém %+attack2% premido e depois prime %+attack% para fazer 'fanning'"
+"fof_hint_double"	"A 'coach gun' permite-te efetuar um disparo duplo: pressiona %+attack2% para disparar os dois canos simultaneamente"
+"fof_hint_fists"	"Um soco com soqueiras inglesas pode desarmar o inimigo se ele estiver a olhar para ti"
+
+"fof_hint_walker"	"A 1847 Colt Walker foi a maior e a mais poderosa pistola que utilizava pólvora negra já feita"
+"fof_hint_henry"	"Quando um homem com uma .45 fica frente a frente com um homem com uma rifle, o homem com uma pistola será um homem morto' de 'Por Um Punhado de Dólares'"
+"fof_hint_peacemaker" 	"A Colt SAA 'Peacemaker', ou apenas Colt .45, é conhecida como 'A Arma Que Ganhou O Oeste'"
+
+
+"ACHIEVEMENT_TRAITOR_NAME" 		"Melhores Amigos"
+"ACHIEVEMENT_FRAG_ROBBER_NAME" 		"Ladrão de Assassinatos"
+"ACHIEVEMENT_ROBIN_HOOD_NAME"		"Robin Hood"
+"ACHIEVEMENT_HURT_PRIDE_NAME" 		"Pontapeia os rabos deles"
+"ACHIEVEMENT_DUTCH_COURAGE_NAME" 	"Coragem Holandesa"
+"ACHIEVEMENT_DEFUSER_NAME" 		"Defuser"
+"ACHIEVEMENT_CHAIN_REACTION_NAME" 	"Punhado de Dinamite"
+"ACHIEVEMENT_UNFORGIVEN_NAME" 		"O Que Não Foi Perdoado"
+"ACHIEVEMENT_DEAD_THAN_ALIVE_NAME" 	"Mais Morto Que Vivo"
+"ACHIEVEMENT_DETONATOR_NAME" 		"Detonador"
+"ACHIEVEMENT_OVERWEIGHTED_NAME" 	"Sobrecarregado"
+"ACHIEVEMENT_OVERPOWERED_NAME" 		"Demasiado Poderoso"
+"ACHIEVEMENT_NOBODY_NAME" 		"O Meu Nome É Ninguém"
+"ACHIEVEMENT_RANCHER_NAME" 		"Nível: Rancheiro"
+"ACHIEVEMENT_GUNFIGHTER_NAME" 		"Nível: Pistoleiro"
+"ACHIEVEMENT_LEGEND_NAME" 		"Nível: Lenda"
+
+"ACHIEVEMENT_TRAITOR_DESC" 		"Mada alguns amigos da Steam com os teus punhos"
+"ACHIEVEMENT_FRAG_ROBBER_DESC" 		"Mata inimigos feridos por outro jogador, enquanto esse jogador ainda estiver perto da vítima"
+"ACHIEVEMENT_ROBIN_HOOD_DESC"		"Faz um headshot com um arco e flecha a uma longa distância"
+"ACHIEVEMENT_HURT_PRIDE_DESC" 		"Mata inimigos ao pontapeá-los para água, fogo, ou de uma grande altitude"
+"ACHIEVEMENT_DUTCH_COURAGE_DESC" 	"Mata alguns inimigos durante o efeito de Whiskey "
+"ACHIEVEMENT_DEFUSER_DESC" 		"Apanha paus de dinamite acesos atirados por outros jogadores"
+"ACHIEVEMENT_CHAIN_REACTION_DESC" 	"Mata inimigos com explosões em cadeia"
+"ACHIEVEMENT_UNFORGIVEN_DESC" 		"Mata inimigos, acabando com os assassinatos em série deles"
+"ACHIEVEMENT_DEAD_THAN_ALIVE_DESC" 	"Mata alguns inimigos enquanto a tua saúde está abaixo de 15"
+"ACHIEVEMENT_DETONATOR_DESC" 		"Mata alguns inimigos ao disparar dinamite acesa"
+"ACHIEVEMENT_OVERWEIGHTED_DESC" 	"Mata inimigos enquanto estás com 100% de sobrecarga devido à acomulação de armas"
+"ACHIEVEMENT_OVERPOWERED_DESC" 		"Mata inimigos com duas Colt Walkers, uma em cada mão"
+"ACHIEVEMENT_NOBODY_DESC" 		"Assassina o teu primeiro humano"
+"ACHIEVEMENT_RANCHER_DESC" 		"Completa 25 jogos"
+"ACHIEVEMENT_GUNFIGHTER_DESC" 		"Completa 100 jogos"
+"ACHIEVEMENT_LEGEND_DESC" 		"Completa 500 jogos"
+
+// ***** GAME CREATE PANEL
+
+"FoF_Mode"			"Filtrar"
+
+"Bot_Allowed"			"Permitir Bots"
+"Bot_Amount_0"			"Sem Bots"
+"Bot_Amount_1"			"Quantidade Dinâmica"
+"Bot_Skill"			"Habilidade dos bots"
+"Bot_Skill_0"			"Baixa" 
+"Bot_Skill_1"			"Normal" 
+"Bot_Skill_2"			"Boa" 
+"Bot_Skill_3"			"Muito boa"
+"Bot_Skill_4"			"Excelente" 
+"Bot_Skill_5"			"Misturada" 
+"Bot_Skill_6"			"Do Script"
+"Bot_Skill_Dyn"			"Dinâmica"
+"Bot_CustScript"		"Script Costumizado"
+
+"GCMenu_FullList"		"Lista Completa de Mapas"
+"GCMenu_Duration"		"Tempo de jogo (minutos)"
+"GCMenu_Teamplay"		Jogo em Equipa Ativado"
+"GCMenu_Obj"			"Com Objectivos"
+
+
+// MOD OPTIONS
+
+"SliderMax"	"Máx"
+"SliderMin"	"Mín"
+"CHAlpha"	"Alpha"
+"CHBlue"	"Azul"
+"CHGreen"	"Verde"
+"CHRed"		"Vermelho"
+
+"Options_Fire"  		"Qualidade do Fogo"
+"Options_Color"			"Cor do Crosshair"
+"Options_Smoke" 		"Fumo das Armas"
+
+"Options_FOV"			"Campo de Visão"
+"ViewmodelFOV"			"Campo de Visão das Armas"
+"Options_BodyAwareness"		"Consciência corporal de si mesmo"
+
+
+// KEY BIND PANEL
+
+"Switch_Revolver_Hand"		"Mudar o revólver para a mão contrária"
+"TeamSelection"			"Seleção de Equipas"
+"EquipmentSelection"		"Seleção de Equipamento"
+"ObjectivesScreen"		"Tela dos Objetivos"
+"Voicecommands"			"Menu dos Comandos de Voz"
+"Voicealerts"			"Menu dos Alertas de Voz"
+"Voicetaunts"			"Menu dos Insultos Vocais"
+"DropActiveWeapon"		"Deixar cair a arma ativa"
+"Valve_Use_Items"		"Usar (abrir caixa, apanhar arma, beber whiskey)"
+
+"FoF_KickKey"			"Pontapear"
+"FoF_MuteMenu"			"Menu de Silenciamento"
+
+// NON GAMEPLAY FEATURES
+
+"SCRAMBLE_POLL"			"VOTAÇÃO PARA MISTURAR EQUIPAS COMEÇOU"	
+"Scramble_Poll_Title"		"Misturar as equipas?"
+"FoF_Yes"			"YAY!"
+"FoF_No"			"NAY!"
+
+"FoF_NextMapVote"		"Votar pelo próximo mapa:"
+"FoF_MapVote"			"Mapa - votos totais"
+
+"AutomaticBalancing"		"BALANCEAMENTO AUTOMÁTICO: UM JOGADOR MUDOU DE QUIPA!"
+"TeamBalancing"			"BALANCEAMENTO DE EQUIPAS: MUDASTE DE EQUIPA!"
+"FullTeam"			"A EQUIPA SELECIONADA ESTÁ CHEIA!"
+
+
+// ***** SCOREBOARD
+
+"Scoreboard_Server"		"%s1"
+"ScoreBoard_SpectatorFoF"	"Espectadores: %s1 - %s2"
+"ScoreBoard_Players_FoF"	"Jogadores: %s1"
+	
+"ScoreBoard_Players"		"%s1 - Jogadores: %s2 Pontuação: %s3"
+"ScoreBoard_Spectator"		"%s1"
+"ScoreBoard_Deathmatch"		"DEATHMATCH"
+"ScoreBoard_Players_DM"		"%s1 - Jogadores: %s2"
+
+"ScoreBoard_Timer"		"TEMPO RESTANTE %s1:%s2"
+
+"PlayerNot"			"Notoriety"
+"PlayerFrags"			"Assassinatos"
+
+"MutePlayerHint"		"Press <%s1> to mute players"
+
+
+// ***** GAMEPLAY RELATED
+
+"VigWin"		"OS VIGILANTES GANHAM A RONDA"
+"DespWin"		"OS DESPERADOS GANHAM A RONDA"
+"VigRound"		"Os Vigilantes ganham a ronda"
+"DespRound"		"Os Desperados ganham a ronda"
+
+"NoTeamWins"		"NINGUÉM GANHA!"
+
+
+"Duel_GameTied"			"=== JOGO EMPATADO! O VENCEDOR SERÁ DECIDIDO NO DUELO ==="
+"Duel_Starting"			"=== A COMEÇAR O DUELO ==="
+"Duel_NoOneWins"		"NINGUÉM GANHA O DUELO!"
+"Duel_GetReady"			"PREPARA-TE, AINDA NÃO MIRES"
+"Duel_Draw"			"EMPATE!!!"
+"Duel_TooSoon"			"%s1 MIROU DEMASIADO CEDO"
+"Duel_Winner"			"%s1 GANHOU"
+"Duel_Tie"			"Porque é que não podemos ser amigos?"
+
+
+// ***** VOICE COMMANDS PANEL
+
+"Command1"	"1. Ataca"	
+"Command2"	"2. Vai"	
+"Command3"	"3. Retrocede"	
+"Command4"	"4. Objetivos"
+"Command5"	"5. Cobre"	
+"Command6"	"6. Espera"
+"Command7"	"7. Passa o saque"
+"Command8"	""
+"Command9"	""
+"Command10"	""
+
+"Alert1"	"1. Sim"
+"Alert2"	"2. Não"
+"Alert3"	"3. Inimigo Descoberto"
+"Alert4"	"4. Quer Whiskey" 
+"Alert5"	"5. A Recarregar"
+"Alert6"	"6. Não há inimigo aqui"
+"Alert7"	"7. Preciso de uma arma"
+"Alert8"	""
+"Alert9"	""
+"Alert10"	""
+
+"Taunt1"	"1. Riso"
+"Taunt2"	"2. Empate!"
+"Taunt3"	"3. Conversa de luta"
+"Taunt4"	"4. Gabar-se"
+"Taunt5"	"5. Uivar"
+"Taunt6"	"6. Covarde"
+"Taunt7"	"7. Luta com os punhos"
+"Taunt8"	"8. O meu ouro!"
+"Taunt9"	""
+"Taunt10"	""
+
+
+// ***** NEW DM EQUIPMENT
+
+"Help_Gentleman"		"Maior recompensa de notoriedade se jogares seguindo estas regras:\n-Lv 1 'cara a cara' mata un inimigo que esteja a olhar para ti \n-Lv 2 'legítima defesa' inimigo ataca primeiro sem causar dano (destaque roxo) \n-Lv 3 'vingança' um inimigo atacou anteriormente, causando dano (destaque vermelho) \n*Nota que: apenas armas de 'cavalheiro' podem ser usadas (pistolas / punhos), e recompensas de lv2/lv3 não estão disponíveis quando inimigos sofrem dano causado por ti antes de eles te acertarem"
+
+"Help_Knuckles"			"Aumenta o dano dos punhos significamente, isto dá origem a uma maior pena de velocidade e confusão nos oponentes.\nA um soco com soqueiras inglesas pode também desarmar um inimigo que esteja a olhar para ti"
+
+"Help_Boots"			"O dano dos pontapés é aumentado significamente, os inimigos são atiradas para mais longe."
+
+"Help_Knife"			Dano mais alto e alcance mais alto que os punhos. Pressiona %+attack2% para atirá-lo de forma a inflingir dano extra"
+
+"Help_WThrow"			"Atira as tuas armas de forma a usá-las como projéteis. O dano muda de acordo com o peso da arma. \nPressiona %+zoom% + PRIMARY/SECONDARY para atirá-las."
+
+"Help_Dynamite"			"Dano explosivo médio, mantém "ataque" pressionado para encurtar o atraso de detonação.\nPressiona %+attack% para atirá-la a uma grande distância, %+attack2% para aremessá-la (mais rápido). %+attack2% + %+duck% permite-te fazê-la rolar no chão.\n*Tip: dispara em paus de dinamite acesos para fazê-los explodir instantaneamente.\n*Aviso: podes explodir em contacto com dano explosivo mesmo que a dinamite esteja selecionada, só por carregá-la."
+
+"Item3b" 			"Duas Deringers"
+"Item1b"			"Três Facas"
+"Item0b"			"Dinamite Negra"
+"Item41"			"Destro"
+"Item42"			"Canhoto"
+"Item43"			"Ambidestro"
+"Item16b"			"Cavalheiro"
+"Item14"			"Atirar pistola"
+"Item34"			"Botas"
+"Item13b"			"Espingarda de Canos Serrados"
+"Item34b"			"Soqueiras Inglesas"
+	
+"Equipment_Aim_Skill"		"Habilidade de Armas"
+"Equipment_Primary"		"Primária"
+"Equipment_Secondary"		"Secundária"
+
+"AccSkillLabel_0"		"Mira balançada ao ter uma arma em cada mão, ter apenas uma e ao fazer "fanning."\n"
+"AccSkillLabel_1"		"Maior precisão ao segurar a arma na mão direita\nPrecisão moderada ao usar uma arma em cada mão e ao fazer "fanning."
+"AccSkillLabel_2"		"Garante uma maior precisão ao segurar a arma na mão esquerda.\nPrecisão moderada ao usar uma arma em cada mão e ao fazer "fanning."
+
+
+// ***** EQUIPAMENTO
+
+"ItemVolcanic"	"Pistola Vulcânica"
+"Item0"		"Dois paus de dinamite"
+"Item2"		"Colt Navy 1851"
+"Item4"		"Espingarda Henry"
+"Item5"		"Carabina Smith"
+"Item6"		"Coachgun"
+"Item11"	"Arco"
+"Item12"	"Espingarda Sharps"
+"Item19"	"Machado"
+"Item21"	"Colt Peacemaker"
+"Item30"	"Espingarda W1893"
+
+"Item31a"	"S&W Schofield"
+"Item32"	"Colt Walker"
+"MaresLeg" 	"A Perna de Mare"
+
+
+"Equipment_Ammo"		"MUNIÇÃO"
+"Presets1"			"PRECONFIGURAÇÕES"
+
+"Equipment_Title"	"SELEÇÃO DE EQUIPAMENTO"
+"Equipment_hint"	"As mudanças vão entrar em efeito quando reapareceres em jogo."
+"Equipment_cat1"	"ALCANCE CURTO"
+"Equipment_cat2"	"ALCANCE MÉDIO"
+"Equipment_cat3"	"ALCANCE LONGO"
+"Equipment_cat4"	"MUNIÇÃO"
+"Equipment_cat5"	"MISC."
+"Equipment_cat6"	"SELECIONADA:"
+"Equipment_cat7"	"CHAPÉUS"
+
+
+"Equipment_Hint1"	"Multiplicador de Notoriedade"
+"Equipment_Hint2"	"Dano"
+"Equipment_Hint3"	"Precisão"
+
+
+"FoF_Save"			"Salvar"
+"FoF_Delete"			"Apagar"
+"FoF_EnterName"			"<inserir nome da preconfiguração>"
+"Presets"			"PRECONFIGURAÇÕES (edita-as em equipment_presets.txt)"
+
+
+// ***** PRESET MENU
+
+"PresetsSelection"		"Menu de seleção de preconfigurações"
+"PresetMenu_Title"		"SELEÇÃO DE PRECONFIGURAÇÕES"
+"PresetMenu_Edit"		"EDITAR PRECONFIGURAÇÕES %+equipmenu%"
+"PresetMenu_Filter"		"FILTRAR"
+"PresetMenu_Filter_No"		"Não"
+"PresetMenu_Filter_Short"	"Curto Alcance"
+"PresetMenu_Filter_Medium"	"Médio Alcance"
+"PresetMenu_Filter_Long"	"Longo Alcance"
+"PresetMenu_Warning"		"AS MUDANÇAS VÃO SER EFETUADAS DEPOIS DE REAPARECERES"
+
+}
+}

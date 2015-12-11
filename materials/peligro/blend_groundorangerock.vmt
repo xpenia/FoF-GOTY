@@ -1,0 +1,25 @@
+"WorldVertexTransition"
+{
+
+"$basetexture" "peligro/rock1"
+//"$basetexture" "forest/rock"
+"$bumpmap" "peligro/rockwall1_ssbump"
+//"$bumpmap" "models/monastery/rockgen_normal"
+
+"$surfaceprop" "boulder"   
+
+"$ssbump" "1"
+//$SSBumpMathFix	1
+
+//"$blendmodulatetexture" "mv/blendtexture01"
+
+"$seamless_scale" .0015
+
+"$basetexture2" "mv/redground3b"
+//"$basetexture2" "eliminator/dirt_wall"
+//"$bumpmap2" "monastery/blank_normal"
+"$bumpmap2" "eliminator/dirt_wall_ssbump"
+
+"%tooltexture" "peligro/rockwall"
+
+} 

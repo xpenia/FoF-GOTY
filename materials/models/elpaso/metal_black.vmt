@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/metal_black"
+	"$surfaceprop" "metal"
+	
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\elpaso/metal_black_mask"
+	"$envmapcontrast" .9
+	"$envmapsaturation" .5
+	"$envmaptint" "[.36 .36 .36]"
+	"$model" 1
+
+}

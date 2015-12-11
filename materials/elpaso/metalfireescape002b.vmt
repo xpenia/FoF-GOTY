@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmapAlphaBlend
+	"$translucent" 1
+	"$basetexture" "metal/metalfireescape002a"
+	"%compilepassbullets" 1
+	"$surfaceprop" "metal"
+	"$nodecal" 1
+}

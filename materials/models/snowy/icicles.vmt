@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+   "$basetexture" "models/snowy/icicles"
+
+  "$surfaceprop" "glass"
+ "$additive" "1"
+ "$color" "[0.12 0.12 0.12]"
+
+
+
+"$envmap" "env_cubemap"
+
+"$envmapsaturation" "0.8"
+"$envmapcontrast" "0.9"
+"$envmaptint" "[0 0.5 0.6]"
+
+
+
+
+
+} 

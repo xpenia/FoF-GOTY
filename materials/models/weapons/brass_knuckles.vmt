@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/Weapons/brass_knuckles"	
+		"$envmap" env_cubemap
+	$envmapsaturation 0.5
+	$BasemapAlphaPhongMask 1
+	$normalmapalphaenvmapmask 1
+	"$phong" "1"
+	$phongboost .3
+	$phongexponent 10
+	$phongfresnelranges "[10 10 30]"
+
+
+	$envmaptint "[.1 .1 .1]"
+	$phongalbedotint 1
+	"$halflambert" "1"
+		//textures by Paul68Rageous
+}

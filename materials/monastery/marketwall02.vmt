@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "monastery/marketwall02"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "monastery/marketwall02_normal"
+	
+}

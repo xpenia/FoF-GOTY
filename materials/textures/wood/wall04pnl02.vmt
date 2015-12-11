@@ -1,0 +1,9 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "textures/wood/wall04pnl02"
+	"$surfaceprop" "wood"
+ 	"$envmap" "env_cubemap"
+	"$envmapcontrast" "1"
+	"$envmapmask" "textures/wood/wall04pnl02_spec"
+	"%keywords" "wood"
+}

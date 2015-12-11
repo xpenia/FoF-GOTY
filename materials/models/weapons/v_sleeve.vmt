@@ -1,0 +1,39 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons/v_sleeve"
+	"$bumpmap" "models\weapons/v_sleeve_normal"
+
+	"$halflambert" 1
+	"$nodecal" "1"
+	"$model" "1"
+
+	"$phong" "1"
+	"$phongboost" ".25"
+
+	"$phongexponent" 2
+	"$phongfresnelranges"	"[.1 1 3]"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "1"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" ".5"
+	
+	"$bumpframe" "0"
+
+	"Proxies" 
+       	 { 
+        		 "SleeveProxy" 
+       		  { 
+        		    "animatedTextureVar" "$basetexture" 
+         		    "animatedTextureFrameNumVar" "$frame" 
+         		    "animatedTextureFrameRate" "0" 
+       		  }
+        		 "SleeveProxy" 
+       		  { 
+        		    "animatedTextureVar" "$bumpmap" 
+		    "animatedtextureframenumvar" "$bumpframe"
+         		    "animatedTextureFrameRate" "0" 
+       		  }
+	} 
+
+}

@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	$basetexture models/weapons/w_coachgun
+	$bumpmap models/weapons/w_coachgun_n
+
+	"$phong"     "1"
+	"$phongexponent"  "8"
+	//$phongexponenttexture models/weapons/coltnavy_s
+	"$phongboost"   1
+	"$phongfresnelranges"   "[.75 .5 1]"
+	"$phongalbedotint" "1"
+
+	"$halflambert" "1"	
+}

@@ -1,0 +1,25 @@
+"Refract"
+//"vertexlitgeneric"
+{
+	//"$basetexture" "forest/wood_sheet_01"
+	"$translucent" 1
+	"$model" 1 
+ 	"$refractamount" ".03"
+	"$bluramount" "0.3"
+	"$normalmap" "forest/river"
+	"%tooltexture" "forest/river"
+	"$envmap" "env_cubemap"
+	"$envmapsaturation" ".3"
+	"$envmaptint" "[.5 .5 .5]"
+	"$refracttint" "[.76 .70 .70]"
+	"$nocull" "1"
+	Proxies
+	{
+		TextureScroll
+		{
+			texturescrollvar $bumpTransform
+			texturescrollrate .45
+			texturescrollangle 0.00
+		}
+	}
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/gatling"
+	"$bumpmap" "models/weapons/gatling_normal"
+}

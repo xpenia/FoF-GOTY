@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"monastery\infwlle"
+	"$surfaceprop" "brick"
+"$bumpmap" "monastery/infwlle_normal"
+
+}

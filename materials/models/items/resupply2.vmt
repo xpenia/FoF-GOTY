@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/items/resupply2"
+
+	"$halflambert" "1"
+	
+
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" ".5"
+	"$phongfresnelranges"	"[.1 .3 .5]"
+
+}

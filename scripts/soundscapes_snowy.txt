@@ -1,0 +1,107 @@
+
+
+"snowy_river"
+{
+
+	"dsp"	"20"
+
+	
+	"playlooping"
+	{
+		"volume"	"0.25"
+		"wave"		"ambient/outdoor/ambient_river_loop.wav"
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.80"
+		"wave"		"ambient/outdoor/desert_daytime.wav"
+		"pitch"		"80"
+		"attenuation"	"0"
+	}
+
+		"playrandom"
+	{
+		"volume"	"0.5,0.7"
+		"pitch"		"100"
+		"time"		"4, 10"
+		"pitch"		"50,100"
+		"soundlevel"	"SNDLVL_100dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"		 "ambient/wind/wind_desert_gust1.wav"
+			"wave"		 "ambient/wind/wind_desert_gust2.wav"
+			"wave"		 "ambient/wind/wind_desert_gust3.wav"
+			"wave"		 "ambient/wind/wind_desert_gust4.wav"
+
+		}
+	}
+
+}
+
+"snowy_icetunnel"
+{
+
+	"dsp"	"6"
+
+	
+	"playlooping"
+	{
+		"volume"	"0.50"
+		"wave"		"ambient/outdoor/ambient_river_loop.wav"
+		"pitch"		"50"
+		"attenuation"	"0"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.85"
+		"wave"		"ambient/outdoor/ambient_dripstones_loop.wav"
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+}
+
+"snowy_lake"
+{
+
+	"dsp"	"6"
+
+	
+	"playlooping"
+	{
+		"volume"	"0.15"
+		"wave"		"ambient/outdoor/ambient_lake_loop.wav"
+		"pitch"		"50"
+		"attenuation"	"0"
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"		"ambient/outdoor/desert_daytime.wav"
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+		"playrandom"
+	{
+		"volume"	"0.5,0.7"
+		"pitch"		"100"
+		"time"		"4, 10"
+		"pitch"		"50,100"
+		"soundlevel"	"SNDLVL_100dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"		 "ambient/wind/wind_desert_gust1.wav"
+			"wave"		 "ambient/wind/wind_desert_gust2.wav"
+			"wave"		 "ambient/wind/wind_desert_gust3.wav"
+			"wave"		 "ambient/wind/wind_desert_gust4.wav"
+
+		}
+	}
+}

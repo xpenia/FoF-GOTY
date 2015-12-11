@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "peligro/rockwall_tramonto1"
+	"$bumpmap" "peligro/rockwall_tramonto1_normal"
+}

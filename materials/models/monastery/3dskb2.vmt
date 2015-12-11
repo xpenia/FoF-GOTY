@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+"$baseTexture" "models\monastery/3dskb"
+"$bumpmap" "models/monastery/3dskb2_normal"
+"$model" 1
+"$surfaceprop" "rock"
+}

@@ -1,0 +1,15 @@
+"VertexLitgeneric"
+{
+	"$baseTexture" "textures\wood/orangewood2"
+"$envmap" "env_cubemap"
+	"$surfaceprop" "wood"
+	"%keywords" "elpaso"
+	"$envmapmask" "textures/wood/orangewood2_mask"
+
+
+"$envmapcontrast" .9
+	"$envmapsaturation" .3
+	"$envmaptint" "[.36 .36 .36]"
+
+"$model" 1
+}

@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/wheel_lamp"
+
+"$surfaceprop" "wood"
+	
+"$envmap" "env_cubemap"
+"$envmapmask" "models\elpaso/wheel_lamp_mask"
+
+"$envmapcontrast" .2
+"$envmapsaturation" 4
+"$envmaptint" "[.46 .46 .46]"
+"$model" 1
+"$selfillum" 1
+//"$translucent" "1"
+
+	
+}

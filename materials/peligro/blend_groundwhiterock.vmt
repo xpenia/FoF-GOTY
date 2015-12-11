@@ -1,0 +1,19 @@
+"WorldVertexTransition"
+{
+
+"$basetexture" "peligro/rock_b2"
+"$bumpmap" "eliminator/cliff_normal"
+
+"$surfaceprop" "boulder"   
+"$surfaceprop2" "sand" 
+
+"$basetexture2" "tramonto/ground1"
+"$bumpmap2" "monastery/blank_normal"
+
+"$seamless_scale" .0013
+
+"%detailtype" "blacktower_sway" 
+
+"%tooltexture" "models/monastery/rock_b"
+
+} 

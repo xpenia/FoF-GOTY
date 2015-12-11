@@ -1,0 +1,44 @@
+"VertexLitGeneric"
+{
+	$basetexture models/weapons/coltnavy
+	$bumpmap models/weapons/coltnavy_n
+
+	"$normalmapalphaenvmapmask" 1
+	"$surfaceprop" "metal"
+
+	"$envmapconstrast" ".5"
+	$envmapsaturation .1
+
+	"$phong"     "1"
+	"$phongexponent"  "5"
+	"$phongboost"   1
+	"$phongfresnelranges"   "[.75 .5 1]"
+	"$phongalbedotint" "1"
+
+	"$halflambert" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "512"	
+	"$rimexponent" "512"
+	"$rimlightboost" ".1"
+
+	"$detail" "models/weapons/coltnavy_detail"	
+	"$detailscale" "1"
+	"$detailblendfactor" 0
+	"$detailblendmode" 1	
+
+	"$envmap" "cubemaps/cubemap_gold001"		
+	"$envmaptint" "[0 0 0]"
+	
+	"Proxies"
+	{		
+		"Booster"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"BoosterEnv"
+		{
+			"resultVar" "$envmaptint"
+		}
+	}	
+}

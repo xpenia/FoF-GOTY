@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "elpaso/door010"
+	"$surfaceprop" "wood"
+	"$bumpmap" "elpaso/door010_normal"
+
+}

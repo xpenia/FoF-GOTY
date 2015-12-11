@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/saloon_window1"
+"$surfaceprop" "wood"
+
+
+
+//"$envmapcontrast" .6
+//"$envmapsaturation" .8
+//"$envmaptint" "[.46 .46 .46]"
+"$model" 1
+"$alphatest" "1"
+//"$translucent" "1"
+}

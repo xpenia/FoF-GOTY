@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\snowy/snowyfoliages01"
+
+	"$alphatest" 1
+	"$model" 1
+	"$nocull" 1
+	"$nodecal" "1"
+}

@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	$basetexture models/weapons/henry
+	$bumpmap models/weapons/henry_n
+
+
+	"$normalmapalphaenvmapmask" 1
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+
+	$envmaptint "[0.1 .07 0]"
+	"$envmapconstrast" "1"
+	$envmapsaturation 1
+
+	"$phong"     "1"
+	"$phongexponent"  "6"
+	"$phongboost"   0.5
+	"$phongfresnelranges"	"[.2 1 8]"
+
+	"$halflambert" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "11"	
+	"$rimexponent" "11"
+	"$rimlightboost" ".1"	
+}

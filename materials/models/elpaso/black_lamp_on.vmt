@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/black_lamp_on"
+	"$envmap" "env_cubemap"
+"$envmapmask" "models\elpaso/black_lamp_mask"
+
+	//"$envmapcontrast" 1
+	//"$envmapsaturation" 1
+	"$envmaptint" "[.76 .76 .76]"
+"$model" 1
+"$selfillum" 1
+}

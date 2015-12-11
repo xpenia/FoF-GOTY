@@ -1,0 +1,16 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "mv/redground4"
+	"$basetexture2" "tijuana/ground_tijuana"
+
+	
+	//"%detailtype" "elpasograss_sway_low"
+  
+	"$detail" "mv/macro01a"
+	"$detailscale" .35
+	"$detailblendfactor" 1.0 
+ 
+ 	"$surfaceprop" "dirt"
+
+	"%tooltexture" "mv/redground4"  
+} 

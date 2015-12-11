@@ -1,0 +1,34 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\derringer"
+	"$bumpmap" "models/weapons/derringer_ref"
+
+	"$normalmapalphaenvmapmask" 1
+	$envmapFresnelMinMaxExp "[0 5 .4]"
+	"$phong" "1"
+	$phongfresnelranges "[10 10 30]"
+	"$phongboost" "1"
+	$phongalbedotint 1
+	"$halflambert" "1"
+
+	"$detail" "models/weapons/derringer_detail"	
+	"$detailscale" "1"
+	"$detailblendfactor" 0
+	"$detailblendmode" 1
+	
+	"$envmap" "cubemaps/cubemap_gold001"
+	
+	"$envmaptint" "[0 0 0]"
+	
+	"Proxies"
+	{		
+		"Booster"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"BoosterEnv"
+		{
+			"resultVar" "$envmaptint"
+		}
+	}
+}

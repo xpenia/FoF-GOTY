@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/wagontop"
+	"$alphatest" "1"
+	"$nocull" "1"
+}

@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+"$baseTexture" "models\monastery/web"
+"$nocull" 1
+"$vertexcolor" 1
+//"$alphatest" 1
+"$translucent" "1"
+
+
+}

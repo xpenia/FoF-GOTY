@@ -1,0 +1,357 @@
+﻿// Radio and chat strings can have control characters embedded to set colors.  For the control characters to be used, one must be at the start of the string.
+// The control characters can be copied and pasted in notepad.
+//  = 0x02 (STX) - Use team color up to the end of the player name.  This only works at the start of the string, and precludes using the other control characters.
+//  = 0x03 (ETX) - Use team color from this point forward
+//  = 0x04 (EOT) - Use location color from this point forward
+//  = 0x05 (ENQ) - Use achievement color from this point forward
+//  = 0x01 (SOH) - Use normal color from this point forward
+
+"lang" 
+{ 
+"Language" "Hungarian" 
+"Tokens" 
+{ 
+
+// ****** CHAT
+
+"HL2MP_Chat_AllSpec"			"*Néző* %s1 : %s2"
+"HL2MP_Chat_All"			"%s1: %s2"
+"HL2MP_Chat_Team"			"(CSAPAT)- %s1: %s2"
+"HL2MP_Chat_Spec"			"(NÉZŐ)- %s1:  %s2"
+
+"Vote_NotPossible" 	"Még nem telt el elég idő a szavazáshoz\n"
+"Vote_DM"		"%s1 játék módot akar váltani. %s2 szavazat szükséges"
+"Vote_Suggest"		"Írj 'changemode' a chatbe a játék mód váltáshoz"
+
+"FoFSkillStreakTotal"	"Ölés sorozat: %s1"
+"FoFKillScore"		"FRAG: +%s1 hírhedtség pont"
+"FoFKillScore_Bonus"	"FRAG: +%s1 hírhedtség pont (+%s2 Ölés Sorozat)"
+"FoFGentleman_Bonus"	"GENTLEMAN BONUS: +%s1 hírhedtség pont"
+"FoFGentleman_Malus"	"Ez nem volt túl úriemberhez méltó: %s1 hírhedtés pont"
+"FoFPenaltyScore"	"Becstelen halál! %s1 hírhedtség pont"
+"FoFAssistScore"	"Aszisztálás: +%s1 hírhedtés"
+"FoF_Overweight"	"Figyelem: %s1% túlsúly"
+
+"Achievement_Earned"		"%s1 elérte a(z) %s2 eredményt"
+
+// MISC
+
+"Playerid_sameteam"		"Barát: %s1 Élet erő: %s2"
+"Playerid_diffteam"		"Ellenség: %s1"
+"Playerid_noteam"		"%s1 Élet erő:%s2"
+
+"Game_connected"		"%s1 csatlakozott"
+"Game_disconnected"		"%s1 elhagyta a játékot"
+
+"MuteList_Title"		"Kattints a játékosra a némításhoz"
+
+// ***** HINTS / STATS
+
+"FoF_Hint_Key"		"Nyomj <%s1> a folytatáshoz"
+"FoF_Stat_Key"		"Nyomj bármit a folytatáshoz"
+
+"FoF_Stat_Killstreak"	"Új ölés sorozat rekord: %s1 frag. Eddig %s2 frag volt!"
+"FoF_Stat_SurvivalTime"	"Új túlélési rekord: %s1 másodperc. Eddig %s2 másodperc volt!"
+"FoF_Stat_MaxDmg"	"Új sebzés rekord: %s1. Eddig %s2 sebzés volt!"
+"FoF_Stat_MaxWhiskey"	"Új whiskey vedelés rekord: %s1. Eddig %s2 volt!"
+"FoF_Stat_MaxWeapons"	"Új fegyver használat rekord: %s1. Eddig %s2 volt!"
+
+"fof_hint_headshot" 	"Egy fejlövés 2x több sebzést okoz"
+"fof_hint_chestshot"	"Egy lövés a melkasra 1.3x több sebzést okoz"
+"fof_hint_worldkill" 	"Jutalmat kapsz ha valakit belöksz a vízbe, tűzbe vagy lelököd egy magaslatról és meghal."
+"fof_hint_dynamite1" 	"Egy égő dinamit azonnal felrobban ha bele lősz."
+"fof_hint_dynamite2"	"Fekete dinamit majdnem kétszer olyan erős mint egy normál dinamit."
+"fof_hint_dynamite3"	"Egy égő dinamitot el lehet oltani ha %+use% -t nyomsz" 
+"fof_hint_dynamite4"	"A dinamit másodlagos módjával gyorsabban de rövidebb távra tudod dobni a dinamitot. Nyomj %+attack2% hogy használd."
+"fof_hint_dynamite5"	"Minnél hosszabb ideig tartod a dinamitot a kezedben annál kevesebb időbe tellik mire felrobban miután eldobtab."
+"fof_hint_dynamite6"	"Dynamite explodes on contact with blast damage, even just by carrying it holstered"
+"fof_hint_grab"		"Használd a kezeid majd nyomj %+use%-t hogy megfogj egy tárgyat. Nyomj %+attack% vagy %+speed% -t hogy eldobd őket."
+"fof_hint_walk"		"Nyomj %+walk%-t a sétáláshoz, ez hasznos hogy pontosabban tudj lőni miközben mozogsz rövid távolságon."
+"fof_hint_drop"		"Minnél több fegyvert veszel fel annál lassabban mozogsz. Nyomj %+zoom% + %+attack%-t vagy %+attack2%-t hogy eldobj egy fegyvert."
+"fof_hint_reload"	"A régi fegyvereket lassú volt tölteni. Próbálj meg felszedni töltött fegyvereket a földről (zöld/sárga) színnel. A piros fegyverek mindig üresek."
+"fof_hint_melee"	"A közelharci fegyverek bónusz sebzést kapnak ha az ellenség fejét ütöd velük."
+"fof_hint_healing"	"Igyál whiskey-t hogy újra töltsd az életed erőd.Nyomj %+use%-t hogy használd őket"
+"fof_hint_healing2"	"Az aranyozott fegyver doboz újra tölti az életed teljessen"
+"fof_hint_fanning"	"A Revolver hűtése elcseréli a pontosságot gyorsabb lövésre. Tarsd a %+attack2% gombot nyomva majd nyomj %+attack% hogy hűtsd a fegyvert."
+"fof_hint_double"	"A sörétessel tudsz 2x lőni: Nyomj %+attack2%-t hogy lőj mindkét csőből egyszerre."
+"fof_hint_fists"	"Egy ütés a réz bokszerrel lefegyverezheti az ellenfelet ha rád néznek."
+
+"fof_hint_walker"	"Az 1847 Colt Walker volt a legnagyobb és legerősebb lő port használó kézi fegyver amit valaha csináltak."
+"fof_hint_henry"	"'Amikor egy .45-ös ember találkozik egy puskás emberrel, a pisztolyos ember halott lesz 'Egy maréknyi dollár'-ért."
+"fof_hint_peacemaker" 	"Colt SAA 'Béketeremtő', vagy csak Colt .45, úgy ismerik mint 'A fegyver ami megnyerte nyugatot'"
+
+
+"ACHIEVEMENT_TRAITOR_NAME" 		"Legjobb Barátok"
+"ACHIEVEMENT_FRAG_ROBBER_NAME" 		"Frag Rabló"
+"ACHIEVEMENT_ROBIN_HOOD_NAME"		"Robin Hood"
+"ACHIEVEMENT_HURT_PRIDE_NAME" 		"Rugd szét a seggüket"
+"ACHIEVEMENT_DUTCH_COURAGE_NAME" 	"Italból merített bátorság"
+"ACHIEVEMENT_DEFUSER_NAME" 		"Hatástalanító"
+"ACHIEVEMENT_CHAIN_REACTION_NAME" 	"Maréknyi Dinamit"
+"ACHIEVEMENT_UNFORGIVEN_NAME" 		"A kitaszított"
+"ACHIEVEMENT_DEAD_THAN_ALIVE_NAME" 	"Több halott mint élő"
+"ACHIEVEMENT_DETONATOR_NAME" 		"Detonátor"
+"ACHIEVEMENT_OVERWEIGHTED_NAME" 	"Túlterhelve"
+"ACHIEVEMENT_OVERPOWERED_NAME" 		"Legyőzhetetlen"
+"ACHIEVEMENT_NOBODY_NAME" 		"A nevem senki"
+"ACHIEVEMENT_RANCHER_NAME" 		"Szint: Farmer"
+"ACHIEVEMENT_GUNFIGHTER_NAME" 		"Szint: Fegyveres"
+"ACHIEVEMENT_LEGEND_NAME" 		"Szint: Legenda"
+
+"ACHIEVEMENT_TRAITOR_DESC" 		"Ölj meg pár steam barátot puszta kézzel."
+"ACHIEVEMENT_FRAG_ROBBER_DESC" 		"Ölj meg sebesült ellenségeket, míg a támadója mellete van."
+"ACHIEVEMENT_ROBIN_HOOD_DESC"		"Fejlövés íjjal nagy távolságból."
+"ACHIEVEMENT_HURT_PRIDE_DESC" 		"Lökd az ellenséget vízbe, tűzbe vagy lökd leőket egy magaslatról."
+"ACHIEVEMENT_DUTCH_COURAGE_DESC" 	"Ölj ellenséget amíg whiskey effekt alatt vagy."
+"ACHIEVEMENT_DEFUSER_DESC" 		"Vegyél fel égő dinamitot amit más játékos dobott el."
+"ACHIEVEMENT_CHAIN_REACTION_DESC" 	"Ölj ellenséget felrobbanó tárgyak lánc reakciójával."
+"ACHIEVEMENT_UNFORGIVEN_DESC" 		"Ölj ellenséget úgy hogy 7 vagy nagyobb ölés sorozatban vannak."
+"ACHIEVEMENT_DEAD_THAN_ALIVE_DESC" 	"Ölj úgy hogy kevesebb mint 15 HP-d van."
+"ACHIEVEMENT_DETONATOR_DESC" 		"Ölj úgy hogy egy égő dinamitba bele lősz."
+"ACHIEVEMENT_OVERWEIGHTED_DESC" 	"Ölj ellenséget úgy hogy 100% túlterhelés alatt vagy a fegyverek súlyától."
+"ACHIEVEMENT_OVERPOWERED_DESC" 		"Ölj ellenséget dupla Col Walkers-el"
+"ACHIEVEMENT_NOBODY_DESC" 		"Az első ölésed aki ember volt"
+"ACHIEVEMENT_RANCHER_DESC" 		"Csinálj végig 25 játékot"
+"ACHIEVEMENT_GUNFIGHTER_DESC" 		"Csinálj végig 100 játékot"
+"ACHIEVEMENT_LEGEND_DESC" 		"Csinálj végig 500 játékot"
+
+// ***** GAME CREATE PANEL
+
+"FoF_Mode"			"Filter"
+
+"Bot_Allowed"			"Botok engedélyezése"
+"Bot_Amount_0"			"Nincsenek Botok"
+"Bot_Amount_1"			"Dinamikus érték"
+"Bot_Skill"			"Bot ügyesség"
+"Bot_Skill_0"			"Alacsony" 
+"Bot_Skill_1"			"Normál" 
+"Bot_Skill_2"			"Jó" 
+"Bot_Skill_3"			"Nagyon jó"
+"Bot_Skill_4"			"Kiválló" 
+"Bot_Skill_5"			"Kevert" 
+"Bot_Skill_6"			"Scriptelt"
+"Bot_Skill_Dyn"			"Dinamikus"
+"Bot_CustScript"		"Saját Script"
+
+"GCMenu_FullList"		"Teljes pálya lista"
+"GCMenu_Duration"		"Játék idő (percben)"
+"GCMenu_Teamplay"		"Csapatjáték bekapcsolva"
+"GCMenu_Obj"			"Küldetés alapú"
+
+
+// MOD OPTIONS
+
+"SliderMax"	"Max"
+"SliderMin"	"Min"
+"CHAlpha"	"Alfa"
+"CHBlue"	"Kék"
+"CHGreen"	"Zöld"
+"CHRed"		"Piros"
+
+"Options_Fire"  		"Tűz minőség"
+"Options_Color"			"Célkereszt színe"
+"Options_Smoke" 		"Fegyver füst"
+
+"Options_FOV"			"Látómező"
+"ViewmodelFOV"			"Fegyver látómező"
+"Options_BodyAwareness"		"Saját test láthatóság"
+
+
+// KEY BIND PANEL
+
+"Switch_Revolver_Hand"		"Revolver cserélése másik kézbe"
+"TeamSelection"			"Csapat választás"
+"EquipmentSelection"		"Felszerelés választás"
+"ObjectivesScreen"		"Kldetések képernyő"
+"Voicecommands"			"Hang parancsok"
+"Voicealerts"			"Hang figyelmeztetések"
+"Voicetaunts"			"Hang gúnyolódások"
+"DropActiveWeapon"		"Jelenlegi fegyver eldobása"
+"Valve_Use_Items"		"Használat"
+
+"FoF_KickKey"			"Kidobás"
+"FoF_MuteMenu"			"Némítás menü"
+
+// NON GAMEPLAY FEATURES
+
+"SCRAMBLE_POLL"			"JÁTÉKOS FELCSERÉLÉS SZAVAZÁS ELINDÍTVA"	
+"Scramble_Poll_Title"		"Játékosok össze keverése?"
+"FoF_Yes"			"YAY!"
+"FoF_No"			"NAY!"
+
+"FoF_NextMapVote"		"Szavazz a következő pályára:"
+"FoF_MapVote"			"Pálya - összes szavazat"
+
+"AutomaticBalancing"		"AUTÓMATIKUS KIEGYENLÍTÉS: Egy játékos át rakva!"
+"TeamBalancing"			"CSAPAT KIEGYENLÍTÉS: Át lettél rakva egy másik csapatba!"
+"FullTeam"			"A VÁLASZTOTT CSAPAT TELE VAN!"
+
+
+// ***** SCOREBOARD
+
+"Scoreboard_Server"		"%s1"
+"ScoreBoard_SpectatorFoF"	"Nézők: %s1 - %s2"
+"ScoreBoard_Players_FoF"	"Játékosok: %s1"
+	
+"ScoreBoard_Players"		"%s1 - Játékosok: %s2  Eredmény: %s3"
+"ScoreBoard_Spectator"		"%s1"
+"ScoreBoard_Deathmatch"		"DEATHMATCH"
+"ScoreBoard_Players_DM"		"%s1 - Játékosok: %s2"
+
+"ScoreBoard_Timer"		"HÁTRALÉVŐ IDŐ %s1:%s2"
+
+"PlayerNot"			"Hírhedtség"
+"PlayerFrags"			"Fragek"
+
+"MutePlayerHint"		"Nyomj <%s1> hogy lenémítsd a játékost"
+
+
+// ***** GAMEPLAY RELATED
+
+"VigWin"		"POLGÁR ŐRŐK NYERTÉK A MECCSET"
+"DespWin"		"DESZPERÁDÓK NYERTÉK A MECSSET"
+"VigRound"		"Polgár őrők nyerték a kört"
+"DespRound"		"Deszperádók nyerték a kört."
+
+"NoTeamWins"		"SENKI NEM NYERT!"
+
+
+"Duel_GameTied"			"=== JÁTÉK LEÁLLÍTVA! A GYŐZTeS PÁRBALYBAN LESZ ELDÖNTVE ==="
+"Duel_Starting"			"=== PÁRBALY KEZDÉSE ==="
+"Duel_NoOneWins"		"SENKI NEM NYERT A PÁRBALYBAN!"
+"Duel_GetReady"			"KÉSZÜLJ - NE CÉLOZZ MÉG"
+"Duel_Draw"			"DÖNTETLEN!!!"
+"Duel_TooSoon"			"%s1 TÚL KORÁN CÉLZOTT"
+"Duel_Winner"			"%s1 NYERT"
+"Duel_Tie"			"Mért ne lehetnénk barátok?"
+
+
+// ***** VOICE COMMANDS PANEL
+
+"Command1"	"1. Támadás"	
+"Command2"	"2. Mozgás"	
+"Command3"	"3. Visszavonulás"	
+"Command4"	"4. Küldetések"
+"Command5"	"5. Fedezék"	
+"Command6"	"6. Várj"
+"Command7"	"7. Zsákmány átadása"
+"Command8"	""
+"Command9"	""
+"Command10"	""
+
+"Alert1"	"1. Igen"
+"Alert2"	"2. Nem"
+"Alert3"	"3. Ellenség előttem"
+"Alert4"	"4. Kéne Whiskey" 
+"Alert5"	"5. Újra töltés"
+"Alert6"	"6. Itt nincs ellenség"
+"Alert7"	"7. Kell egy fegyver"
+"Alert8"	""
+"Alert9"	""
+"Alert10"	""
+
+"Taunt1"	"1. Nevetés"
+"Taunt2"	"2. Megadás!"
+"Taunt3"	"3. Csata beszéd"
+"Taunt4"	"4. Hencegés"
+"Taunt5"	"5. Kiáltás"
+"Taunt6"	"6. Gyáva"
+"Taunt7"	"7. Ökölharc"
+"Taunt8"	"8. Az Aranyam!"
+"Taunt9"	""
+"Taunt10"	""
+
+
+// ***** NEW DM EQUIPMENT
+
+"Help_Gentleman"		"Nagyobb hírhedtségért jutalom jár ha betartasz pár szabályt:\n- Szint 1 'Egy egy ellen' öld az ellenséget úgy hogy rád néznek.\n- Szint 2 'Ön-védelem' az ellenség támad először úgy hogy nem sebez meg (Lila jelölés).\n- Szint 3 'bosszú' az ellenség támadott előzőleg és megsebzett (piros jelölés)\n*Csak 'úriember' fegyvereket lehet használni (kézi fegyverek / ököl), és szint2/szint3-mas jutalmak nem elérhetők ha előbb sebzed meg az ellenséget."
+
+"Help_Knuckles"			"Jelentősen javítja az ütés sebzést, valamint lassítja az ellenfeleket és jobban meg dobja őket.\nEgy ütés puszta kézzel lefegyverezheti az ellenségeket ha rád néznek."
+
+"Help_Boots"			"Jelentősen javítja a rugás sebzést és messzebre dobja az ellenfeleket."
+
+"Help_Knife"			"Nagyobb sebzés és távolság mint puszta kézzel. Nyomj %+attack2% hogy eldobd cserébe nagyobb sebzés ha eltalálod az ellenfelet."
+
+"Help_WThrow"			"Dobd el a fegyvered. Sebzés a fegyver súlyán alapul. \n Nyomj %+zoom% + ELSŐDLEGES/MÁSODLAGOS támadást hogy eldobd a fegyvered."
+
+"Help_Dynamite"			"Közepes robbanó sebzés, minnél hosszabb ideig tartod a dinamitot a kezedben annál rövidebb idő alatt robban fel ha eldobod.\nNyomj %+attack% ha nagy távolságra szeretnéd eldobni, %+attack2% -t pedig ha rövid távolságra.%+attack2% + %+duck% lehetővé teszi hogy alacsonyan dobd..\n*Tipp: Lőj bele egy égő dinamitba hogy az azonnal felrobbanjon.\n*Vigyázat: Egy dinamit felrobbanhat ha megsebződsz csak mert nállad van egy."
+
+"Item3b" 			"Deringer x2"
+"Item1b"			"Kés x3"
+"Item0b"			"Fekete dinamit"
+"Item41"			"Jobbkezes"
+"Item42"			"Balkezes"
+"Item43"			"Kétkezes"
+"Item16b"			"Úri ember"
+"Item14"			"Kézifegyver eldobása"
+"Item34"			"Csizmák"
+"Item13b"			"Fűrészelt Sörétes puska"
+"Item34b"			"Réz bokszer"
+	
+"Equipment_Aim_Skill"		"Kézifegyver ügyesség"
+"Equipment_Primary"		"Elsődleges"
+"Equipment_Secondary"		"Másodlagos"
+
+"AccSkillLabel_0"		"Kiegyensúlyozott pontosság amíg a párbaly zajlik egyszerű és hűtött módok.\n"
+"AccSkillLabel_1"		"Jobb pontosság egyszerű jobbkezes módban\nKözepes pontosság kétkezes illetve hűtött módban."
+"AccSkillLabel_2"		"Legjobb pontosságot a balkezes mód nyújtja.\nKözepes pontosság kétkezes illetve hűtött módban."
+
+
+// ***** EQUIPMENT
+
+"ItemVolcanic"	"Vulkanikus Pisztoly"
+"Item0"		"Dinamit x2"
+"Item2"		"Colt Navy 1851"
+"Item4"		"Henry Puska"
+"Item5"		"Smith Karabély"
+"Item6"		"Edző pisztoly"
+"Item11"	"Íj"
+"Item12"	"Sörétes Puska"
+"Item19"	"Bárd"
+"Item21"	"Colt Peacemaker"
+"Item30"	"Pump Shotgun W1893"
+
+"Item31a"	"S&W Schofield"
+"Item32"	"Colt Walker"
+"MaresLeg" 	"Mare Lába"
+
+
+"Equipment_Ammo"		"LŐSZER"
+"Presets1"			"ALAP BEÁLLÍTÁSOK"
+
+"Equipment_Title"	"FELSZERELÉS VÁLASZTÁS"
+"Equipment_hint"	"Változások akkor lépnek életbe ha a játékos feléled."
+"Equipment_cat1"	"RÖVID TÁVOLSÁG"
+"Equipment_cat2"	"KÖZEPES TÁVOLSÁG"
+"Equipment_cat3"	"NAGY TÁVOLSÁG"
+"Equipment_cat4"	"LŐSZER"
+"Equipment_cat5"	"KELLÉKEK."
+"Equipment_cat6"	"VÁLASZTOTT:"
+"Equipment_cat7"	"SAPKÁK"
+
+
+"Equipment_Hint1"	"Hírhedtség Szorzó"
+"Equipment_Hint2"	"Sebzés"
+"Equipment_Hint3"	"Pontosság"
+
+
+"FoF_Save"			"Mentés"
+"FoF_Delete"			"törlés"
+"FoF_EnterName"			"<írj be egy beállítás nevet>"
+"Presets"			"ALAP BEÁLLÍTÁSOK(szerkesztheted őket az equipment_presets.txt fájlban.)"
+
+}
+
+// ***** PRESET MENU
+
+"PresetsSelection"		"Alap beállítás választás"
+"PresetMenu_Title"		"ALAP BEÁLLÍTÁSOK VÁLASZTÁS"
+"PresetMenu_Edit"		"ALAP BEÁLLÍTÁSOK SZERKESZTÉSE %+equipmenu%"
+"PresetMenu_Filter"		"SZŰRŐ"
+"PresetMenu_Filter_No"		"Nem"
+"PresetMenu_Filter_Short"	"Rövid Távolság"
+"PresetMenu_Filter_Medium"	"Közepes Távolság"
+"PresetMenu_Filter_Long"	"Nagy Távolság"
+"PresetMenu_Warning"		"A VÁLTOZÁSOK ÉLETBE LÉPNEK AMINT ÚJRA ÉLEDSZ"
+
+}

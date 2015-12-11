@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "props/milkcan/Milkbarrel"
+                 $envmap env_cubemap 
+               "$envmaptint" "[.3 .3 .3]"
+                "$envmapmask" "props/milkcan/Milkbarrel_mask"
+}

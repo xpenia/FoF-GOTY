@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "monastery/siteBwall01"
+
+	"$surfaceprop" "brick"
+}

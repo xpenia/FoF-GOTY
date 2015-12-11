@@ -1,0 +1,85 @@
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"Volcanic"
+	"viewmodel"			"models/weapons/v_volcanic.mdl"
+	"playermodel"		"models/weapons/w_volcanic.mdl"
+	"anim_prefix"		""
+	"bucket"			"2"
+	"bucket_position"	"6"
+
+	"clip_size"			"9"
+	"default_clip"		"9"
+	"primary_ammo"		"357"
+	"secondary_ammo"	"None"
+
+	"weight"		"4"
+	"item_flags"		"0"
+
+	"damage"		"33"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"			"Weapon_winchster.Empty"
+		"single_shot"	"Weapon_Volcanic.Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"y"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"y"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"q"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+ 	
+	ExpOffset // Ironsight
+  	{
+	     "x"   "-1"
+ 	     "y"   "-2"
+	     "z"   "0.3"
+	     "xf"   "-3"
+ 	     "yf"   "-4"
+	     "zf"   "-0.7"
+      	}
+
+	Spread // 
+  	{
+	     "crouch"	"0.03"
+ 	     "idle"	"0.033"
+	     "walk"	"0.045"
+	     "run"	"0.2"
+	     "jump"	"0.35"
+	     "speed"	"0.48"		
+      	}
+
+
+	"break_limit"		"10"
+	"break_drop_penalty"	"5"
+	"GunSmokeMult"		"0.65"
+}

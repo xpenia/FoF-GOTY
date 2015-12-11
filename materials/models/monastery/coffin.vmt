@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\monastery/coffin"
+	 "$surfaceprop" "wood"
+
+}

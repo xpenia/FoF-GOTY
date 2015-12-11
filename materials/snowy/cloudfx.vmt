@@ -1,0 +1,79 @@
+"UnlitGeneric"
+{
+   "$basetexture" "snowy/cloudfx"
+
+
+	$basetexturetransform "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+
+	"$nolod" "1"
+	"$nomip" "1"
+	"$additive" "1"
+"$color" "[0.5 0.6 0.8]"
+
+"$peter" "10"
+"$scrollangle" "0"
+"$scrollspeed" "1"
+
+	"Proxies"
+	{
+
+	"Sine"
+	{
+	"sineperiod" "20"
+	"sinemin""0.5"
+	"sinemax""0.85"
+	"resultVar" "$color[0]"
+	}
+
+	"Sine"
+	{
+	"sineperiod" "20"
+	"sinemin""0.5"
+	"sinemax""0.85"
+	"resultVar" "$color[1]"
+	}
+
+	"Sine"
+	{
+	"sineperiod" "20"
+	"sinemin""0.5"
+	"sinemax""0.85"
+	"resultVar" "$color[2]"
+	}
+
+	"Sine"
+	{
+	"sineperiod" "30"
+	"sinemin""12"
+	"sinemax""120"
+	"resultVar" "$scrollangle"
+	}
+
+	"Sine"
+	{
+	"sineperiod" "20"
+	"sinemin" "-2"
+	"sinemax" "2"
+	"resultVar" "$peter"
+	}
+
+	"Sine"
+	{
+	"sineperiod" "20"
+	"sinemin""0.0015"
+	"sinemax""0.015"
+	"resultVar" "$scrollspeed"
+	}
+
+		"TextureTransform"
+		{
+			"rotateVar" "$peter"
+			"resultVar" "$basetexturetransform"		
+		}	
+
+}
+
+
+
+
+} 

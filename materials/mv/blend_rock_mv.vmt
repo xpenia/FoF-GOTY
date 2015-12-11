@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+
+"$ssbump" "1"
+
+"$surfaceprop" "boulder" 
+  
+"$basetexture2" "models/mv/butt3"
+"$bumpmap2" "models/mv/butt3_ssbump"
+ 
+"$basetexture" "peligro/rock1b"
+"$bumpmap" "peligro/rockwall1_ssbump"
+
+
+"%tooltexture" "peligro/rock1"
+
+} 

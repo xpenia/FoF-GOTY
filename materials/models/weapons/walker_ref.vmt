@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/walker_ref"
+	"$bumpmap" "models/weapons/walker_phong"
+	
+	"$normalmapalphaenvmapmask" 1
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+
+	"$envmapconstrast" ".5"
+	$envmapsaturation .1
+
+	"$phong"     "1"
+	"$phongexponent"  "5"
+	"$phongboost"   1
+	"$phongfresnelranges"   "[.75 .5 1]"
+	"$phongalbedotint" "1"
+
+	"$halflambert" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "512"	
+	"$rimexponent" "512"
+	"$rimlightboost" ".1"
+	
+	"$envmaptint" "[ .1 .1 .1 ]"
+}

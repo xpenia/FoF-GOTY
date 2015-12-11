@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+      "$basetexture" "elpaso/ground1"
+
+"$surfaceprop" "dirt"   
+"%detailtype" "tijuana_drygrass" 
+"$basetexture2" "elpaso/sandground1"
+
+
+"$detail" "elpaso/macro01a"
+"$detailscale" .1
+   "%tooltexture" "elpaso/sandground1"
+
+} 

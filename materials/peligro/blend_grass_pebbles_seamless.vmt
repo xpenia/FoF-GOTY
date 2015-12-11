@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+	"$basetexture2" "nature/dirtfloor006a"
+	"$basetexture" "forest/riverfloor"
+	
+	"%tooltexture" "nature/blenddirtgrass008a_tooltexture"
+	
+        "$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+        "$basetexturetransform2" "center .5 .5 scale 1 1 rotate 10 translate 0 0"
+
+	"$seamless_scale" .0065
+
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "grass"
+}

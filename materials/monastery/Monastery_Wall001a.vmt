@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Monastery/Monastery_Wall001a"
+	"$surfaceprop" "brick"
+	"$bumpmap" "Monastery/Monastery_Wall001a_normal"
+}

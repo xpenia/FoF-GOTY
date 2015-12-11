@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/saloon_window2"
+"$surfaceprop" "glass"
+"%compilepassbullets" 1
+"$model" 1
+
+"$compilepassbullets" 1 
+
+}

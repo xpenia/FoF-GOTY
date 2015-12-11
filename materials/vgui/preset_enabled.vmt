@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI\preset_enabled"
+	"$vertexalpha" 1
+	"$nolod" "1"
+}

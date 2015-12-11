@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/brick_window2a"
+"$surfaceprop" "brick"
+
+"$model" 1
+}

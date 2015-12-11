@@ -1,0 +1,23 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "peligro/grass"
+	"$basetexture2" "nature/dirtfloor006a"
+
+	//"$bumpmap" "peligro/rockwall1_ssbump"
+	//"$bumpmap2" "eliminator/dirt_wall_ssbump"
+
+	//"$ssbump" "1"
+	//$SSBumpMathFix	1
+
+	"%detailtype" "eliminator_sway" 
+		
+	"%tooltexture" "nature/blenddirtgrass008a_tooltexture"
+	
+        "$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+        "$basetexturetransform2" "center .5 .5 scale 1 1 rotate 10 translate 0 0"
+
+	"$seamless_scale" .0065
+
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "grass"
+}

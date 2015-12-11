@@ -1,0 +1,123 @@
+"List"
+{
+	"preset"
+	{
+		"name"		"Left-handed"
+		"item_list"		",42,"
+	}
+	"preset"
+	{
+		"name"		"Right-handed"
+		"item_list"		",41,"
+	}
+	"preset"
+	{
+		"name"		"Brass Knuckles"
+		"item_list"		",34,"
+	}
+	"preset"
+	{
+		"name"		"Boots"
+		"item_list"		",20,"
+	}
+	"preset"
+	{
+		"name"		"Deringer"
+		"item_list"		",3,"
+	}
+	"preset"
+	{
+		"name"		"Knives"
+		"item_list"		",1,"
+	}
+	"preset"
+	{
+		"name"		"Volcanic"
+		"item_list"		",28,"
+	}
+	"preset"
+	{
+		"name"		"Axe"
+		"item_list"		",19,"
+	}
+	"preset"
+	{
+		"name"		"Bow"
+		"item_list"		",11,"
+	}
+	"preset"
+	{
+		"name"		"Colt Navy"
+		"item_list"		",2,"
+	}
+	"preset"
+	{
+		"name"		"Navy + Sawed Off"
+		"item_list"		",2,13,"
+	}
+	"preset"
+	{
+		"name"		"Sawed Off Shotgun"
+		"item_list"		",13,"
+	}
+	"preset"
+	{
+		"name"		"Dynamite"
+		"item_list"		",7,"
+	}
+	"preset"
+	{
+		"name"		"Schofield + dynamite"
+		"item_list"		",31,7,"
+	}
+	"preset"
+	{
+		"name"		"Schofield + boots"
+		"item_list"		",31,20,"
+	}
+	"preset"
+	{
+		"name"		"Smith Carbine"
+		"item_list"		",5,"
+	}
+	"preset"
+	{
+		"name"		"Mare's Leg"
+		"item_list"		",33,"
+	}
+	"preset"
+	{
+		"name"		"Peacemaker"
+		"item_list"		",21,"
+	}
+	"preset"
+	{
+		"name"		"Henry"
+		"item_list"		",4,"
+	}
+	"preset"
+	{
+		"name"		"Coachgun"
+		"item_list"		",6,"
+	}
+	"preset"
+	{
+		"name"		"Pump Shotgun"
+		"item_list"		",29,"
+	}
+	"preset"
+	{
+		"name"		"Sharps Rifle"
+		"item_list"		",12,"
+	}
+	"preset"
+	{
+		"name"		"Walker"
+		"item_list"		",32,"
+	}
+	"preset"
+	{
+		"name"		"Black Dynamite"
+		"item_list"		",27,"
+	}
+}

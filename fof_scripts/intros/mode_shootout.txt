@@ -1,0 +1,169 @@
+// screen size is 400x300
+
+"Intro"
+{
+	"item"
+	{
+		"page"		"0"
+		"text"		"#intro_howto"	
+		"font_size"	"2"
+		"color"		"1"
+		"align"		"0"
+		"sizex"		"400"
+		"sizey"		"60"
+		"posx"		"0"
+		"posy"		"80"
+	}
+	"item"
+	{
+		"page"		"0"
+		"text"		"#intro_shootout_gm"	
+		"font_size"	"2"
+		"align"		"0"
+		"sizex"		"450"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"140"
+	}
+//1
+	"item"
+	{
+		"page"		"1"
+		"text"		"#intro_primary_obj"	
+		"font_size"	"2"
+		"color"		"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"20"
+	}
+	"item"
+	{
+		"page"		"1"
+		"text"		"#intro_dm_obj1"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"75"
+	}	
+	"item"
+	{
+		"page"		"1"
+		"text"		"#intro_dm_obj2"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"100"
+		"posx"		"0"
+		"posy"		"165"
+	}
+//2
+"item"
+	{
+		"page"		"2"
+		"text"		"#intro_dm_noto1"	
+		"color"		"1"
+		"font_size"	"2"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"20"
+	}
+	"item"
+	{
+		"page"		"2"
+		"text"		"#intro_dm_noto2"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"85"
+		"posx"		"0"
+		"posy"		"75"
+	}
+	"item"
+	{
+		"page"		"2"
+		"text"		"#intro_dm_noto3"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"100"
+		"posx"		"0"
+		"posy"		"160"
+	}
+//4
+	"item"
+	{
+		"page"		"3"
+		"text"		"#intro_dm_surv_title"	
+		"color"		"1"
+		"font_size"	"2"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"30"
+	}
+	"item"
+	{
+		"page"		"3"
+		"text"		"#intro_dm_surv1"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"50"
+		"posx"		"0"
+		"posy"		"95"
+	}
+	"item"
+	{
+		"page"		"4"
+		"text"		"#intro_dm_surv_title"	
+		"color"		"1"
+		"font_size"	"2"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"30"
+	}	
+	"item"
+	{
+		"page"		"4"
+		"text"		"#intro_dm_surv2"
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"90"
+		"posx"		"0"
+		"posy"		"95"
+	}
+	"item"
+	{
+		"page"		"5"
+		"text"		"#intro_dm_surv_title"	
+		"color"		"1"
+		"font_size"	"2"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"30"
+	}
+	"item"
+	{
+		"page"		"5"
+		"text"		"#intro_dm_surv3"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"100"
+		"posx"		"0"
+		"posy"		"95"
+	}
+
+}

@@ -1,0 +1,107 @@
+// DSP Effects
+// 0 : "Normal (off)"
+// 1 : "Generic"
+// 2 : "Metal Small"
+// 3 : "Metal Medium"
+// 4 : "Metal Large"
+// 5 : "Tunnel Small"
+// 6 : "Tunnel Medium"
+// 7 : "Tunnel Large"
+// 8 : "Chamber Small"
+// 9 : "Chamber Medium"
+// 10: "Chamber Large"
+// 11: "Bright Small"
+// 12: "Bright Medium"
+// 13: "Bright Large"
+// 14: "Water 1"
+// 15: "Water 2"
+// 16: "Water 3"
+// 17: "Concrete Small"
+// 18: "Concrete Medium"
+// 19: "Concrete Large"
+// 20: "Big 1"
+// 21: "Big 2"
+// 22: "Big 3"
+// 23: "Cavern Small"
+// 24: "Cavern Medium"
+// 25: "Cavern Large"
+// 26: "Weirdo 1"
+// 27: "Weirdo 2"
+// 28: "Weirdo 3"
+
+
+
+
+"peligro_general"
+{
+
+	
+	"dsp"	"1"
+
+	"playsoundscape"
+	{
+		"name"	"peligro_lavapit"
+		"volume" "0.35"
+	}
+
+	"playsoundscape"
+	{
+		"name"	"presidio"
+		"volume" "1.0"
+	}
+
+
+
+
+}
+
+
+"peligrobig_general"
+{
+
+	
+	"dsp"	"1"
+
+
+	"playsoundscape"
+	{
+		"name"	"presidio"
+		"volume" "1.0"
+	}
+
+
+
+
+}
+
+"peligro_lavapit"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	"0.7"
+		"wave"		"ambient/lava/lavaflow.wav"
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

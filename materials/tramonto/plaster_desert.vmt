@@ -1,0 +1,6 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "tramonto/plaster_desert"
+	"$bumpmap" "tramonto/plaster_desert_normal"
+	"$surfaceprop" "concrete" 
+}

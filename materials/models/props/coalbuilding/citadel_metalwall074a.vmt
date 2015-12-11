@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	// original shader: basetimeslightmap
+	"$basetexture" "metal/metalwall074a"
+	"$surfaceprop" "metal"
+	"$nocull" 1
+	"%keywords" "c17industrial,wasteland"
+}

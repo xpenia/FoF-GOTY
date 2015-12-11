@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+      "$basetexture2" "monastery/redground6"
+"$bumpmap2" "monastery/blank_normal"
+   
+ 
+"$basetexture" "monastery/redground5"
+"$bumpmap" "monastery/blank_normal"
+
+   "$surfaceprop" "dirt"
+
+
+   "%tooltexture" "monastery/redground5"
+
+} 

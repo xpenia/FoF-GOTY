@@ -1,0 +1,19 @@
+"WorldVertexTransition"
+{
+"$basetexture" "monastery/redground2"
+//"%detailtype" "crosses"
+   
+//"$bumpmap" "monastery/blank_normal"
+//"$bumpmap2" "monastery/blank_normal"
+
+   
+"$detail" "overlays/macro01a"
+"$detailscale" .1
+ 
+   "$surfaceprop" "dirt"
+
+   "$basetexture2" "monastery/redground5"
+
+   "%tooltexture" "monastery/redground5"
+        
+} 

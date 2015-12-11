@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\tijuana/w1_col"
+
+"$surfaceprop" "boulder"
+
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\tijuana/w1_col_spec"
+
+	"$envmapcontrast" .7
+	"$envmapsaturation" .7
+
+
+}

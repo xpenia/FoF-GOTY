@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+
+
+"$surfaceprop" "rock" 
+  
+"$basetexture" "forest/grass_01"
+"$bumpmap" "forest/rock_bump"
+ $ssbump		1
+
+"$basetexture2" "forest/rock"
+"$bumpmap2" "forest/rock_bump"
+
+
+"%tooltexture" "forest/grass_01"
+
+} 

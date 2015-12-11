@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/forest/wood_sheet_03"
+	"$surfaceprop" "Wood_Plank"
+}

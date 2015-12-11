@@ -1,0 +1,166 @@
+// DSP Effects
+// 0 : "Normal (off)"
+// 1 : "Generic"
+// 2 : "Metal Small"
+// 3 : "Metal Medium"
+// 4 : "Metal Large"
+// 5 : "Tunnel Small"
+// 6 : "Tunnel Medium"
+// 7 : "Tunnel Large"
+// 8 : "Chamber Small"
+// 9 : "Chamber Medium"
+// 10: "Chamber Large"
+// 11: "Bright Small"
+// 12: "Bright Medium"
+// 13: "Bright Large"
+// 14: "Water 1"
+// 15: "Water 2"
+// 16: "Water 3"
+// 17: "Concrete Small"
+// 18: "Concrete Medium"
+// 19: "Concrete Large"
+// 20: "Big 1"
+// 21: "Big 2"
+// 22: "Big 3"
+// 23: "Cavern Small"
+// 24: "Cavern Medium"
+// 25: "Cavern Large"
+// 26: "Weirdo 1"
+// 27: "Weirdo 2"
+// 28: "Weirdo 3"
+
+"outdoor_crickets_night"
+{
+	"dsp"	"20"
+
+
+	"playlooping"
+	{
+		"volume"	"0.25"
+		"wave"		"ambient/outdoor/desert_nightcrickets.wav"
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+}
+
+
+"tijuana"
+{
+
+	"dsp"	"1"
+
+	
+	"playlooping"
+	{
+		"volume"	"0.20"
+		"wave"		"ambient/outdoor/desert_nightcrickets.wav"
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+		"playrandom"
+	{
+		"volume"	"0.5,0.7"
+		"pitch"		"100"
+		"time"		"25.0, 45.0"
+		"pitch"		"70,100"
+		"soundlevel"	"SNDLVL_100dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "animals/cockrel.wav"
+			"wave"	"animals/coyote.wav"
+			"wave"	"animals/bird_looncall1.wav"
+			"wave"	"animals/bird_looncall2.wav"
+		}
+	}
+
+
+	"playrandom"
+	{
+		"time"		"30, 46"
+		"volume"	"0.55, 0.75"
+		"pitch"		"98,102"
+		"position"	"0"
+		"soundlevel"	"SNDLVL_100db"
+
+		"rndwave"
+		{
+			"wave" "animals/cat_meow1.wav"
+			"wave" "animals/cat_meow2.wav"
+		}
+
+	}
+		
+
+}
+
+"tijuana_wind"
+{
+
+	"dsp"	"1"
+
+	
+	"playrandom"
+	{
+		"volume"	"0.8,1.0"
+		"pitch"		"100"
+		"time"		"5.0, 7.0"
+		"pitch"		"80,130"
+		"soundlevel"	"SNDLVL_160dB"
+		"position"	"random"
+		
+		"rndwave"
+		{
+			"wave"		 "ambient/wind/wind_desert_gust1.wav"
+			"wave"		 "ambient/wind/wind_desert_gust2.wav"
+			"wave"		 "ambient/wind/wind_desert_gust3.wav"
+			"wave"		 "ambient/wind/wind_desert_gust4.wav"
+			"wave"		 "ambient/wind/wind_desert_gust5.wav"
+			"wave"		 "ambient/wind/wind_desert_gust6.wav"
+			"wave"		 "ambient/wind/wind_desert_gust7.wav"
+		}
+	
+	
+	
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.5,0.7"
+		"pitch"		"100"
+		"time"		"25.0, 45.0"
+		"pitch"		"70,100"
+		"soundlevel"	"SNDLVL_100dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"  "animals/cockrel.wav"
+			"wave"	"animals/coyote.wav"
+			"wave"	"animals/bird_looncall1.wav"
+			"wave"	"animals/bird_looncall2.wav"
+		}
+	}
+
+
+}
+
+"tijuana_wind_low"
+{
+
+	"dsp"	"6"
+
+	
+		"playsoundscape"
+	{
+		"name"	"tijuana_wind"
+		"volume" "0.60"
+	}
+
+
+
+}
+
+
+

@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "monastery/adobe1"
+	"$bumpmap" "monastery/adobe1_normal"
+	"$surfaceprop" "boulder"
+
+}

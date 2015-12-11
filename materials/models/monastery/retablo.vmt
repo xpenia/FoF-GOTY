@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\monastery/retablo"
+
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\monastery/retablo_mask"
+	"$envmaptint" "[.5 .6 .7]"
+"$envmapsaturation" .3
+"$envmapcontrast" .5
+}

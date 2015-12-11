@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "mv\terra1" 
+	"$basetexture2" "elpaso\sandground1"
+	"%tooltexture" "err\blend_sandterra_tooltexture"
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0" 
+	"$basetexturetransform2" "center .5 .5 scale 4 4 rotate 0 translate 0 0"
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "sand"
+	"%keywords" fof
+}

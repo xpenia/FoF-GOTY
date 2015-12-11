@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/ml_diffuse"
+	"$bumpmap"  "models/weapons/ml_normal"
+	"$envmap" env_cubemap
+	$envmapsaturation 0.2	
+	$envmapcontrast 1
+
+	$normalmapalphaenvmapmask 1
+	
+	"$phong" "1"
+	"$phongboost" 0.4
+	"$phongexponenttexture" "models\weapons\ml_gloss"
+	$phongfresnelranges "[10 10 30]"
+	
+	$envmapFresnelMinMaxExp "[0 5 .4]"
+
+	$phongalbedotint 1
+	"$halflambert" "1"
+	
+	$envmaptint "[0.25 0.25 0.45]"
+
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "peligro/red"
+	"$selfillum" 1
+	"$nodecal" 1
+
+}

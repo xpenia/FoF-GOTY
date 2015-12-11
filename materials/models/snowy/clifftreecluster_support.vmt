@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\snowy/clifftreecluster_support"
+	"$alphatest" "1"
+	"$nocull" "1"
+	"$model" 1
+	"$surfaceprop" "wood"
+
+}

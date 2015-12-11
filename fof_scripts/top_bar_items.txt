@@ -1,0 +1,27 @@
+"TopBar"
+{
+	"item"
+	{
+		"title"		"#TopBar_Notes"
+		"cmd"		"http://steamcommunity.com/app/265630/discussions/0/606068060837855406/"
+		"icon"		"notes_icon"
+	}	
+	"item"
+	{
+		"title"		"#TopBar_FoFCL"
+		"cmd"		"http://steamcommunity.com/groups/FOFCL"
+		"icon"		"fofcl"
+	}
+	"item"
+	{
+		"title"		"#TopBar_Bug"
+		"cmd"		"http://steamcommunity.com/app/265630/discussions/2/"
+		"icon"		"bug_icon"
+	}
+	"item"
+	{
+		"title"		"#TopBar_Res"
+		"cmd"		"http://steamcommunity.com/app/265630/discussions/2/"
+		"icon"		"whiskey"
+	}
+}

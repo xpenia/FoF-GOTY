@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+"$baseTexture" "models/mv/juniper"
+//"$bumpmap" "models/mv/mv_tree_normal"
+
+"$model" 1
+}

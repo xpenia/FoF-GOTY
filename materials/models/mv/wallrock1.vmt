@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+"$baseTexture" "models/mv/wallrock1"
+"$bumpmap" "models/monastery/rockgen_normal"
+//"$bumpmap" "models/mv/butt2_normal"
+"$model" 1
+	
+}

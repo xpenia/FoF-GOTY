@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "Models/Props/Halloween/scarecrow"
+	"$alphatest" 1
+}

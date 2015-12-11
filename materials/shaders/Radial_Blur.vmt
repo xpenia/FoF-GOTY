@@ -1,0 +1,5 @@
+"Radial_Blur"
+{
+"$fbtexture" "_rt_FullFrameFB"
+"$scopethreshold" 0
+}

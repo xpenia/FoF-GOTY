@@ -1,0 +1,15 @@
+"LightMappedGeneric"
+{
+"$baseTexture" "Halloween/bats"
+"$surfaceprop" "Default"
+$translucent 1
+"Proxies"
+{
+"AnimatedTexture"
+{
+"animatedTextureVar" "$basetexture"
+"animatedTextureFrameNumVar" "$frame"
+"animatedTextureFrameRate" "12"
+}
+}
+}

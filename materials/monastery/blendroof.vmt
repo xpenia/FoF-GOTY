@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+      "$basetexture" "monastery/shingles005"
+
+   "$bumpmap" "monastery/shingles005_normal"
+"$bumpmap2" "monastery/shingles005_normal"
+
+ 
+   "$surfaceprop" "ceiling_tile"
+
+   "$basetexture2" "monastery/marketwall05"
+
+
+} 

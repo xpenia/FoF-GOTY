@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models\playermodels\bandito/HeadTexture08"
+	"$bumpmap"	"models\playermodels\bandito/Head_Normalsmap08"
+
+	"$phong" "1"
+	"$phongexponent" "1"
+	"$phongboost" "0.1"	
+	"$lightwarptexture" "models\playermodels\player2\lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "0"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "0.01"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "0.1"	
+}

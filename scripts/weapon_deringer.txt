@@ -1,0 +1,82 @@
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"Deringer"
+	"viewmodel"			"models/weapons/v_deringer.mdl"
+	"playermodel"		"models/weapons/w_deringer.mdl"
+	"anim_prefix"		"python"
+	"bucket"			"2"
+	"bucket_position"	"7"
+
+	"clip_size"			"2"
+	"default_clip"		"2"
+	"primary_ammo"		"357"
+	"secondary_ammo"	"None"
+
+	"weight"		"1"
+	"item_flags"		"0"
+
+	"damage"		"42"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"		"Weapon_Pistol.Empty"
+		"single_shot"	"Weapon_Deringer.Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"D"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"D"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"q"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+ 	
+	ExpOffset // Ironsight
+  	{
+	     "x"   "-1"
+ 	     "y"   "-2"
+	     "z"   "0"
+      	}
+
+	Spread // 
+  	{
+	     "crouch"	"0.044"
+ 	     "idle"	"0.046"
+	     "walk"	"0.06"
+	     "run"	"0.16"
+	     "jump"	"0.35"
+	     "speed"	"0.7"		
+      	}
+
+
+	"break_limit"		"5"
+	"break_drop_penalty"	"2"
+	"GunSmokeMult"		"0.35"
+}

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "monastery/shingles005"
+	
+   "$bumpmap" "monastery/shingles005_normal"
+"$surfaceprop" "ceiling_tile"
+
+}

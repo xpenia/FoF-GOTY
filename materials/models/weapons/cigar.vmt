@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons/cigar"
+	"$bumpmap" "models\weapons/cigar_normal"
+}

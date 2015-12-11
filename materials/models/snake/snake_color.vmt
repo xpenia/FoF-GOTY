@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\snake/snake_color"
+	"$bumpmap" "models\snake/snake_normal"
+
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+
+	"$phong" "1"
+	"$phongexponent" "1"
+	"$phongboost" "0.5"	
+	"$lightwarptexture" "models\playermodels\player2\lightwarp"
+	"$phongexponenttexture" "models\snake/snake_phong"
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "0"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "0.01"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "0.1"
+}

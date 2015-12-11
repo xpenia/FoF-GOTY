@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+"$baseTexture" "models/mv/butt2"
+"$bumpmap" "models/mv/butt2_normal"
+"$model" 1
+	
+}

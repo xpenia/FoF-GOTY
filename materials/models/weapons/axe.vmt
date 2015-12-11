@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/weapons/axe_d"
+	"$bumpmap"  "models/weapons/axe_n"
+
+	"$envmapmask" "models/weapons/axe_spec"
+	"$envmap" "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.15 0.15 0.15]"
+
+	"$phong" "1"
+	$phongexponent	4
+	"$phongfresnelranges"	"[1 3 8]"
+	"$phongboost" "1"
+
+	"$detail" "models/weapons/axe_d_detail"	
+	"$detailscale" "1"
+	"$detailblendfactor" 0
+	"$detailblendmode" 1	
+}

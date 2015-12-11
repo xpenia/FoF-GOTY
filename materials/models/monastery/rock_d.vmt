@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "peligro/rockwall"
+	"$bumpmap" "peligro/rockwall_normal"
+ 	"$surfaceprop" "boulder"
+}

@@ -1,0 +1,11 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "elpaso/glass1"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "glass"
+	"%keywords" "elpaso"
+	"$envmapmask" "elpaso/glass1_mask"
+		"$envmapcontrast" .6
+	"$envmapsaturation" .6
+	"$envmaptint" "[.66 .66 .66]"
+}

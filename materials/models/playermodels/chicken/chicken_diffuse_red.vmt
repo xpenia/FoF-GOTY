@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models\playermodels\chicken\chicken_diffuse_red"
+	"$bumpmap"	"models\playermodels\chicken\chicken_normal"
+}

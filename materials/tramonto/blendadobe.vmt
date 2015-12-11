@@ -1,0 +1,20 @@
+"WorldVertexTransition"
+{
+
+"$basetexture" "tramonto/adobe"
+"$bumpmap" "tramonto/adobe_normal"
+
+
+"$basetexture2" "tramonto/adobe1"
+"$bumpmap2" "tramonto/adobe1_normal"
+
+"$surfaceprop" "plaster"   
+
+
+
+"$detail" "overlays/macro01a"
+"$detailscale" .1
+  
+ "%tooltexture" "tramonto/adobe"
+
+} 

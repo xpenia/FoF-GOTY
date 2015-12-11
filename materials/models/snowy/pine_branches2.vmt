@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\snowy/pine_branches2"
+
+	"$alphatest" 1
+	"$model" 1
+	"$nocull" 1
+	"$nodecal" "1"
+	"$surfaceprop" "wood"
+
+}

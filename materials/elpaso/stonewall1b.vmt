@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "elpaso/stonewall1b"
+	"$bumpmap" "elpaso/stonewall1b_normal"
+	
+	"$surfaceprop" "boulder"
+}

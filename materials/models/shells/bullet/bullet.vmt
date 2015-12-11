@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\shells\bullet\bullet"
+	"$envmap" "env_cubemap"
+	"$bumpmap" "models\shells\bullet\bullet_normal"
+                "$normalmapalphaenvmapmask" "1"
+                //"$envmaptint" "[.05 .05 .05]"
+}

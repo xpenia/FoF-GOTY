@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	// Original shader: DecalBaseTimesLightmapVertexAlphaBlend
+	"$translucent" 1
+	"$basetexture" "Decals/ivy02"
+	"$nocull" "1"
+}

@@ -1,0 +1,247 @@
+// screen size is 400x300
+
+"Intro"
+{
+	"item"
+	{
+		"page"		"0"
+		"text"		"#intro_howto"	
+		"font_size"	"2"
+		"color"		"1"
+		"align"		"0"
+		"sizex"		"400"
+		"sizey"		"60"
+		"posx"		"0"
+		"posy"		"80"
+	}
+	"item"
+	{
+		"page"		"0"
+		"text"		"#intro_gm_bb"	
+		"font_size"	"2"
+		"align"		"0"
+		"sizex"		"450"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"140"
+	}
+//1
+	"item"
+	{
+		"page"		"1"
+		"text"		"#intro_primary_obj"	
+		"font_size"	"2"
+		"color"		"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"20"
+	}
+	"item"
+	{
+		"page"		"1"
+		"text"		"#intro_tip_killarmed"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"75"
+	}	
+	"item"
+	{
+		"page"		"1"
+		"text"		"#intro_label_armed"	
+		"font_size"	"1"
+		"align"		"0"
+		"sizex"		"100"
+		"sizey"		"50"
+		"posx"		"30"
+		"posy"		"250"
+	}
+	"item"
+	{
+		"page"		"1"
+		"text"		"#intro_label_armed"	
+		"font_size"	"1"
+		"align"		"0"
+		"sizex"		"100"
+		"sizey"		"50"
+		"posx"		"115"
+		"posy"		"250"
+	}
+	"item"
+	{
+		"page"		"1"
+		"text"		"#intro_label_disarmed"	
+		"font_size"	"1"
+		"align"		"0"
+		"sizex"		"100"
+		"sizey"		"50"
+		"posx"		"200"
+		"posy"		"250"
+	}
+	"item"
+	{
+		"page"		"1"
+		"text"		"intros/armed_disarmed"
+		"font_size"	"0"
+		"align"		"2"
+		"sizex"		"250"
+		"sizey"		"125"
+		"posx"		"30"
+		"posy"		"135"
+	}
+//2
+	"item"
+	{
+		"page"		"2"
+		"text"		"#intro_title_warning"
+		"color"		"1"
+		"font_size"	"2"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"20"
+	}
+	"item"
+	{
+		"page"		"2"
+		"text"		"#fof_hint_bb_unarmed"
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"120"
+		"posx"		"0"
+		"posy"		"65"
+	}
+	"item"
+	{
+		"page"		"2"
+		"text"		"jailbars"
+		"font_size"	"0"
+		"align"		"2"
+		"sizex"		"250"
+		"sizey"		"130"
+		"posx"		"220"
+		"posy"		"160"
+	}
+//3
+"item"
+	{
+		"page"		"3"
+		"text"		"#intro_title_secondary_obj"	
+		"color"		"1"
+		"font_size"	"2"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"20"
+	}
+	"item"
+	{
+		"page"		"3"
+		"text"		"#intro_tip_teamcash"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"125"
+		"posx"		"0"
+		"posy"		"150"
+	}
+	"item"
+	{
+		"page"		"3"
+		"text"		"#intro_tip_cash"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"75"
+	}
+//4
+	"item"
+	{
+		"page"		"4"
+		"text"		"#intro_title_getcash"	
+		"color"		"1"
+		"font_size"	"2"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"20"
+	}
+	"item"
+	{
+		"page"		"4"
+		"text"		"#intro_tip_cash1"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"50"
+		"posx"		"0"
+		"posy"		"75"
+	}	
+	"item"
+	{
+		"page"		"4"
+		"text"		"#intro_tip_cash2"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"50"
+		"posx"		"0"
+		"posy"		"125"
+	}
+	"item"
+	{
+		"page"		"4"
+		"text"		"#intro_tip_cash3"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"75"
+		"posx"		"0"
+		"posy"		"175"
+	}
+//5
+	"item"
+	{
+		"page"		"5"
+		"text"		"#intro_title_tips"
+		"color"		"1"
+		"font_size"	"2"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"20"
+	}
+	"item"
+	{
+		"page"		"5"
+		"text"		"#intro_tip_buy"
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"75"
+		"posx"		"0"
+		"posy"		"75"
+	}
+	"item"	
+	{
+		"page"		"5"
+		"text"		"#intro_tip_disarmed"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"125"
+		"posx"		"0"
+		"posy"		"150"
+	}
+}

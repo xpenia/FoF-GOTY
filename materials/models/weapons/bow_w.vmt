@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\bow_w"
+
+	"$alphatest" "1"
+	"$nodecal" "1"
+	//model+textures by Paul68Rageous
+
+}

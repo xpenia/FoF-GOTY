@@ -1,0 +1,25 @@
+"WorldVertexTransition"
+{
+   "$basetexture" "snowy/snow01"
+
+"$basetexture2" "snowy/snowystones"
+
+  "$surfaceprop" "snow"
+  "$surfaceprop2" "concrete"
+
+
+   "%tooltexture" "snowy/snow01"
+//"$seamless_scale" "0.0045"
+	//"$blendmodulatetexture" "snowy/blendtexture01"
+
+
+	"$bumpmap" "snowy/snow_normal"
+	"$bumpmap2" "snowy/snow_normal"
+	"$normalmapalphaenvmapmask" 1
+
+  	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.55 0.55 0.55 ]"
+	
+
+
+} 

@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "monastery/plasterwall01"
+	"%keywords" "cstrike" 
+	"$surfaceprop" "plaster"
+	"$bumpmap" "monastery/plasterwall01_normal"
+}

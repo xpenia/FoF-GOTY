@@ -1,0 +1,10 @@
+"Unlitgeneric"
+{
+	"$baseTexture" "models/tramonto/vulture"
+	"$selfillum" 1
+	"$alphatest" 1
+	//"$additive" 1
+	//"$alpha" 1
+	"$model" 1
+	"$nocull" 1
+}

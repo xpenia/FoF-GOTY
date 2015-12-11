@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/theatre_sign"
+"$nocull" 1
+}

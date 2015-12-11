@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/texture-wagon"
+"$nocull" 1
+"$translucent" "1"
+"$alphatest" "1"
+"$nodecal" "1"
+}

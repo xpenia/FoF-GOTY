@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+
+	"$basetexture" "textures/wood/woodshelf003a"
+	"$surfaceprop" "wood"
+	"%keywords" "c17downtown"
+}

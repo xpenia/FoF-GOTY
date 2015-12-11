@@ -1,0 +1,84 @@
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			""
+	"viewmodel"			"models/weapons/v_schofield.mdl"
+	"playermodel"		"models/weapons/w_schofield.mdl"
+	"anim_prefix"		"python"
+	"bucket"			"2"
+	"bucket_position"	"3"
+
+	"clip_size"			"6"
+	"default_clip"		"6"
+	"primary_ammo"		"357"
+	"secondary_ammo"	"None"
+
+	"weight"		"3"
+	"item_flags"		"0"
+
+	"damage"		"40"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"		"Weapon_Pistol.Empty"
+		"single_shot"	"Weapon_Schofield.Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"T"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"T"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"q"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+ 	
+	ExpOffset // Ironsight
+  	{
+	     "x"   "-2"
+ 	     "y"   "-2"
+	     "z"   "0.5"
+	     "xf"   "-2"
+ 	     "yf"   "-3.66"
+	     "zf"   "-0.5"
+      	}
+
+	Spread // 
+  	{
+	     "crouch"	"0.02"
+ 	     "idle"	"0.022"
+	     "walk"	"0.04"
+	     "run"	"0.19"
+	     "jump"	"0.35"
+	     "speed"	"0.45"		
+      	}
+
+	"break_limit"		"18"
+	"break_drop_penalty"	"5"
+	"GunSmokeMult"		"0.75"
+}

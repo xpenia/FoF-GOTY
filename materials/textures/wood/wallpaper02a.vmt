@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "textures/wood/wallpaper02a"
+	"%keywords" "cstrike" 
+	"$surfaceprop" "plaster"
+	"$bumpmap" "textures/wood/wallpaper02a_normal"
+}

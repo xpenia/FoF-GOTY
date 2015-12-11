@@ -1,0 +1,19 @@
+"WorldVertexTransition"
+{
+
+"$ssbump" "1"
+$SSBumpMathFix	1
+
+"$surfaceprop" "boulder" 
+  
+"$basetexture2" "eliminator/dirt_wall"
+"$bumpmap2" "eliminator/dirt_wall_ssbump"
+//"$bumpmap2" "peligro/rockwall_normal"
+
+"$basetexture" "peligro/rock1"
+"$bumpmap" "peligro/rockwall1_ssbump"
+//"$bumpmap" "monastery/rock2m_normal"
+
+"%tooltexture" "peligro/rock1"
+
+} 

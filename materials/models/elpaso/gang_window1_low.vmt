@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/gang_window1"
+"$surfaceprop" "glass"
+	
+
+"$model" 1
+}

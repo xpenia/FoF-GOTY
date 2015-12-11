@@ -1,0 +1,98 @@
+// screen size is 400x300
+
+"Intro"
+{
+	"item"
+	{
+		"page"		"0"
+		"text"		"#intro_howto"	
+		"font_size"	"2"
+		"color"		"1"
+		"align"		"0"
+		"sizex"		"400"
+		"sizey"		"60"
+		"posx"		"0"
+		"posy"		"80"
+	}
+	"item"
+	{
+		"page"		"0"
+		"text"		"#intro_teamplay_gm"	
+		"font_size"	"2"
+		"align"		"0"
+		"sizex"		"450"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"140"
+	}
+//1
+	"item"
+	{
+		"page"		"1"
+		"text"		"#intro_primary_obj"	
+		"font_size"	"2"
+		"color"		"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"0"
+	}
+	"item"
+	{
+		"page"		"1"
+		"text"		"#intro_obj_pushcart"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"75"
+	}	
+	"item"
+	{
+		"page"		"1"
+		"text"		"#intro_obj_zonecap"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"400"
+		"sizey"		"100"
+		"posx"		"0"
+		"posy"		"165"
+	}
+//2
+"item"
+	{
+		"page"		"2"
+		"text"		"#intro_title_tp_cash"	
+		"color"		"1"
+		"font_size"	"2"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"70"
+		"posx"		"0"
+		"posy"		"0"
+	}
+	"item"
+	{
+		"page"		"2"
+		"text"		"#intro_tp_cash_cart"	
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"110"
+		"posx"		"0"
+		"posy"		"55"
+	}
+	"item"
+	{
+		"page"		"2"
+		"text"		"#intro_tp_cash_zonecap"
+		"font_size"	"1"
+		"align"		"2"
+		"sizex"		"450"
+		"sizey"		"120"
+		"posx"		"0"
+		"posy"		"180"
+	}
+}

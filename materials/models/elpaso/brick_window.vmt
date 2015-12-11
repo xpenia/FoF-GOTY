@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+"$baseTexture" "models\elpaso/brick_window"
+"$surfaceprop" "brick"
+"$envmap" "env_cubemap"
+"$envmapmask" "models\elpaso/brick_window_mask"
+"$model" 1
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\monastery/crate3"
+"$bumpmap" "models\monastery/crate3_normal"
+"$normalmapalphaenvmapmask" 1
+ "$surfaceprop" "wood"
+
+}

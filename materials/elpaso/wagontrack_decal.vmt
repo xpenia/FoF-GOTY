@@ -1,0 +1,10 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "elpaso/wagontrack_decal"
+
+"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.250"
+	"%keywords" "elpaso"
+
+}

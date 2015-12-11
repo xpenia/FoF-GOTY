@@ -1,0 +1,18 @@
+"WorldVertexTransition"
+{
+      
+
+"$basetexture" "tramonto/sand1"
+"$bumpmap" "tramonto/sand1_normal"
+
+"$surfaceprop" "sand"   
+
+"$basetexture2" "tramonto/sand1"
+"$bumpmap2" "tramonto/sand1_normal"
+
+"$nodecal" 1
+
+
+   "%tooltexture" "tramonto/sand1"
+
+} 

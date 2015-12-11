@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+
+
+"$surfaceprop" "grass" 
+  
+"$basetexture" "forest/grass_01"
+ 
+"$basetexture2" "forest/grass_02"
+
+
+"%tooltexture" "forest/grass_01"
+
+} 

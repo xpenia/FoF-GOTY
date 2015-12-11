@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "tramonto/ground1"
+
+	"$surfaceprop" "dirt"
+
+	"$detail" "overlays/macro01a"
+	"$detailscale" .05   
+	
+	"%detailtype" "tijuana_drygrass2" 
+	 
+	"$basetexture2" "mv/redground3"
+	"%tooltexture" "tramonto/ground1"
+} 

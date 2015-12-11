@@ -1,0 +1,235 @@
+// You can customize your bots using this script
+// Note that "fof_bot_skill" cvar must be set to 6 ('from script' ) before the game starts so these values are used. To do so, include it in your listenserver.cfg (local server) or server.cfg (dedicated server)
+
+
+// BOT EQUIPMENT: each index is assigned to an item, place several of them separated by commas
+// Leave "-1" value to force auto equipment
+
+//1 knife
+//19 axe
+//0 dynamite
+
+//3 deringer
+//2 navy
+//31 schofield
+//21 peacemaker
+//32 walker
+//33 maresleg
+
+//13 sawedoff_shotgun
+//6 coachgun
+//29 winchester shotgun
+
+//11 bow
+//12 sharps
+//4 henry
+//5 carbine
+
+//34 brass knuckles
+//20 boots
+
+// BOT ROTATION/SHOOT/AIM: they can be any number from 0 (lowest skill) to 10 (highest skill). 
+
+// BOT TEAM: forces a team, 2 for vigilantes, 3 for desperados. Use -1 for auto team selection.
+
+"BotList"
+{
+		"preset"
+	{
+		"bot_name" 		"BOT Tuco"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT Django"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT Monco"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT Sentenza"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT Sartana"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT Nobody"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT Sabata"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT Harmonica"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT Silence"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT Trinity"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT Colonel Mortimer"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT Sugar Colt"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT Cheyenne"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT Indio"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT Bill Carson"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT Frank"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT Smochu"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT Yaster"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT Dienstbeer"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT Zyric"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT ShoubiShot"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+	"preset"
+	{
+		"bot_name" 		"BOT With Axe"
+		"bot_equipment"		"1"
+		"bot_rotation_speed"	"7"
+		"bot_shoot_delay"	"7"
+		"bot_aim_trailing"	"7"
+		"bot_force_team"	"-1"
+	}
+}

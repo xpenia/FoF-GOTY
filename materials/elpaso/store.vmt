@@ -1,0 +1,14 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "elpaso/store"
+"$bumpmap" "elpaso/store_normal"
+"$surfaceprop" "glass"
+"$envmap" "env_cubemap"
+"$normalmapalphaenvmapmask" 1
+
+
+	"$envmapcontrast" .6
+	"$envmapsaturation" .6
+	"$envmaptint" "[.46 .46 .46]"
+
+}

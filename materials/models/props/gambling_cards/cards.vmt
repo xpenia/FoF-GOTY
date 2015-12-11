@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/gambling_cards/cards"
+	"$nocull" 1
+}

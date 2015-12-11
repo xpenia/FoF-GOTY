@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "eliminator/wallrock1"
+"$bumpmap" "models/monastery/rockgen_normal"
+"$model" 1
+ "$surfaceprop" "boulder"
+}

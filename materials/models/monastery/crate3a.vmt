@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\monastery/crate3a"
+"$bumpmap" "models\monastery/crate3_normal"
+"$normalmapalphaenvmapmask" 1
+
+}

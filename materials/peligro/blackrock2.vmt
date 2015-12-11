@@ -1,0 +1,6 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "peligro/rock_b2"
+	"$bumpmap" "models/monastery/rockgen_normal"
+	"$surfaceprop" "boulder"
+}

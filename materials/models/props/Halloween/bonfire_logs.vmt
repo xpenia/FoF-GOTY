@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "Models/Props/Halloween/bonfire_logs"
+ 	$selfillum 1
+}

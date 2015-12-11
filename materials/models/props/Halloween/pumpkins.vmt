@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "Models/Props/Halloween/pumpkins"
+ 	$selfillum 1
+}

@@ -1,0 +1,164 @@
+// DSP Effects
+// 0 : "Normal (off)"
+// 1 : "Generic"
+// 2 : "Metal Small"
+// 3 : "Metal Medium"
+// 4 : "Metal Large"
+// 5 : "Tunnel Small"
+// 6 : "Tunnel Medium"
+// 7 : "Tunnel Large"
+// 8 : "Chamber Small"
+// 9 : "Chamber Medium"
+// 10: "Chamber Large"
+// 11: "Bright Small"
+// 12: "Bright Medium"
+// 13: "Bright Large"
+// 14: "Water 1"
+// 15: "Water 2"
+// 16: "Water 3"
+// 17: "Concrete Small"
+// 18: "Concrete Medium"
+// 19: "Concrete Large"
+// 20: "Big 1"
+// 21: "Big 2"
+// 22: "Big 3"
+// 23: "Cavern Small"
+// 24: "Cavern Medium"
+// 25: "Cavern Large"
+// 26: "Weirdo 1"
+// 27: "Weirdo 2"
+// 28: "Weirdo 3"
+
+
+
+"Steamboat_Indoor"
+{
+
+	"dsp"	"1"
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"	"0.45,0.68"
+		"pitch"		"90,115"
+		"soundlevel"	"SNDLVL_75dB"
+		
+		"position"	"random"
+
+		"rndwave"
+		{
+			"wave"	"ambient/materials/wood_creak1.wav"
+			"wave"	"ambient/materials/wood_creak2.wav"
+			"wave"	"ambient/materials/wood_creak3.wav"
+
+		}
+	}
+
+	"playsoundscape"
+	{
+		"name"	"Steamboat_Outside"
+		"volume" "0.5"
+	}
+}
+
+"Util_SteamEngine"
+{
+	"playlooping"
+	{
+		"volume"	"0.7"		
+		"pitch"		"100"
+		"wave"		"vehicles/steamengine.wav"
+	}
+}
+
+"Steamboat_indoor_engine"
+{
+
+	"dsp"	"1"
+
+
+	"playsoundscape"
+	{
+		"name"	"Steamboat_Outside"
+		"volume" "0.3"
+	}
+}
+
+
+"Steamboat_Outside"
+{
+
+	"dsp"	"1"
+	"playrandom"
+	{
+		"time"		"15,20"
+		"volume"	"0.05,0.1"
+		"pitch"		"85,115"
+		"soundlevel"	"SNDLVL_100dB"
+		"position"	"random"
+		"rndwave"
+		{
+  		"wave"		"ambient/wind/stormgust1.wav"
+		"wave"		"ambient/wind/stormgust2.wav"
+		"wave"		"ambient/wind/stormgust3.wav"
+		"wave"		"ambient/wind/stormgust4.wav"
+		}
+	}
+	
+	"playrandom"
+	{
+		"volume"	"0.6,0.8"
+		"pitch"		"100"
+		"time"		"20, 30"
+		"pitch"		"90,130"
+		"soundlevel"	"SNDLVL_140dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave" "ambient/outdoor/thunder/thunder_dist1.wav"
+			"wave" "ambient/outdoor/thunder/thunder_dist2.wav"
+			"wave" "ambient/outdoor/thunder/thunder_dist3.wav"
+			"wave" "ambient/outdoor/thunder/thunder_med1.wav"
+			"wave" "ambient/outdoor/thunder/thunder_med2.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"1.0"
+		"pitch"		"95,105"
+		"time"		"60,90"
+		"soundlevel"	"SNDLVL_140dB"
+		"rndwave"
+		{
+			"wave"		"ambient/outdoor/boat_whistle01.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.8,1.0"
+		"pitch"		"100"
+		"time"		"5.0, 7.0"
+		"pitch"		"80,130"
+		"soundlevel"	"SNDLVL_120dB"
+		"position"	"random"
+		
+		"rndwave"
+		{
+			"wave"		 "ambient/wind/wind_desert_gust1.wav"
+			"wave"		 "ambient/wind/wind_desert_gust2.wav"
+			"wave"		 "ambient/wind/wind_desert_gust3.wav"
+			"wave"		 "ambient/wind/wind_desert_gust4.wav"
+			"wave"		 "ambient/wind/wind_desert_gust5.wav"
+			"wave"		 "ambient/wind/wind_desert_gust6.wav"
+			"wave"		 "ambient/wind/wind_desert_gust7.wav"
+		}
+	
+	
+	
+	}
+}
+
+
+
+

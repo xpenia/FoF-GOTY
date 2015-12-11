@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "elpaso/bricks_white"
+"$bumpmap" "elpaso/bricks_white_normal"
+	"$surfaceprop" "brick"
+	"%keywords" "elpaso"
+}

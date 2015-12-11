@@ -1,0 +1,6 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "textures\wood/woodwall5"
+	"$detail" "textures\wood/dt_wood2"
+"$surfaceprop" "wood_plank"
+}

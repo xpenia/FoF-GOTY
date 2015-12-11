@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\tijuana/palm_tree_trunk"
+	"$bumpmap" "models\tijuana/palm_tree_trunk_normal"
+
+}

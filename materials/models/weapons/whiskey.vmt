@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons/whiskey"
+	"$nodecal" "1"
+	"$model" "1"
+	"$bumpmap" "models/playermodels/flat_normal"
+	"$phong" "1"
+	"$phongfresnelranges"	"[10 10 30]"
+	"$phongboost" ".2"	
+	"$phongexponenttexture" "models\weapons\whiskey_exp"
+
+	"$envmap" env_cubemap
+	$envmaptint "[.01 .03 .01]"
+
+}

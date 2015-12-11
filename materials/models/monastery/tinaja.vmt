@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\monastery/tinaja"
+"$bumpmap" "models/monastery/tinaja_normal"
+"$model" 1
+ "$surfaceprop" "pottery"
+}

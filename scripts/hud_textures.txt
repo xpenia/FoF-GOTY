@@ -1,0 +1,254 @@
+"sprites/640_hud"
+{
+	TextureData
+	{
+		//
+		// SPECIFIC TEXTURES
+		//
+		"local_kill_highlight"
+		{
+				"file"		"VGUI/kill_highlight"
+				"x"			"0"
+				"y"			"0"
+				"width"		"128"
+				"height"	"32"
+		}
+		"hp_team1_full"
+		{
+				"file"		"VGUI/hp_team1_full"
+				"x"			"0"
+				"y"			"0"
+				"width"		"256"
+				"height"	"256"
+		}
+		"hp_team1_empty"
+		{
+				"file"		"VGUI/hp_team1_empty"
+				"x"			"0"
+				"y"			"0"
+				"width"		"256"
+				"height"	"256"
+		}
+		"hp_team2_full"
+		{
+				"file"		"VGUI/hp_team2_full"
+				"x"			"0"
+				"y"			"0"
+				"width"		"256"
+				"height"	"256"
+		}
+		"hp_team2_empty"
+		{
+				"file"		"VGUI/hp_team2_empty"
+				"x"			"0"
+				"y"			"0"
+				"width"		"256"
+				"height"	"256"
+		}
+		"hp_team3_full"
+		{
+				"file"		"VGUI/hp_team3_full"
+				"x"			"0"
+				"y"			"0"
+				"width"		"256"
+				"height"	"256"
+		}
+		"hp_team3_empty"
+		{
+				"file"		"VGUI/hp_team3_empty"
+				"x"			"0"
+				"y"			"0"
+				"width"		"256"
+				"height"	"256"
+		}
+		"hp_team4_full"
+		{
+				"file"		"VGUI/hp_team4_full"
+				"x"			"0"
+				"y"			"0"
+				"width"		"256"
+				"height"	"256"
+		}
+		"hp_team4_empty"
+		{
+				"file"		"VGUI/hp_team4_empty"
+				"x"			"0"
+				"y"			"0"
+				"width"		"256"
+				"height"	"256"
+		}
+		"hp_team5_full"
+		{
+				"file"		"VGUI/hp_team5_full"
+				"x"			"0"
+				"y"			"0"
+				"width"		"256"
+				"height"	"256"
+		}
+		"hp_team5_empty"
+		{
+				"file"		"VGUI/hp_team5_empty"
+				"x"			"0"
+				"y"			"0"
+				"width"		"256"
+				"height"	"256"
+		}
+		"ff_crosshair"
+		{
+				"file"		"VGUI/ff_crosshair"
+				"x"			"0"
+				"y"			"0"
+				"width"		"32"
+				"height"	"32"
+		}		
+		"AmmoEmpty"
+		{
+				"file"		"VGUI/AmmoEmpty"
+				"x"			"0"
+				"y"			"0"
+				"width"		"32"
+		}
+		"AmmoFull"
+		{
+				"file"		"VGUI/AmmoFull"
+				"x"			"0"
+				"y"			"0"
+				"width"		"32"
+		}		
+		"HP1"
+		{
+				"file"		"VGUI/hp1"
+				"x"			"0"
+				"y"			"0"
+				"width"		"128"
+				"height"	"128"
+		}
+		"HP1+"
+		{
+				"file"		"VGUI/hp1b"
+				"x"			"0"
+				"y"			"0"
+				"width"		"128"
+				"height"	"128"
+		}
+		"HP2"
+		{
+				"file"		"VGUI/hp2"
+				"x"			"0"
+				"y"			"0"
+				"width"		"128"
+				"height"	"128"
+		}
+        	"selection"
+		{
+				"file"		"sprites/640hud3"
+				"x"			"0"
+				"y"			"180"
+				"width"		"170"
+				"height"	"45"
+		}		
+		"arrow"
+		{
+				"file"		"sprites/arrow"
+				"x"			"0"
+				"y"			"0"
+				"width"		"32"
+				"height"	"32"
+		}
+		"ammo_label"
+		{
+				"file"		"sprites/hud1"
+				"x"			"120"
+				"y"			"28"
+				"width"		"40"
+				"height"	"14"
+		}
+		"health_label"
+		{
+				"file"		"sprites/hud1"
+				"x"			"160"
+				"y"			"28"
+				"width"		"50"
+				"height"	"14"
+		}		
+		"microphone"
+		{
+				"file"		"sprites/640hud1"
+				"x"			"0"
+				"y"			"225"
+				"width"		"24"
+				"height"	"24"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/qi_center"
+				"x"			"0"
+				"y"			"0"
+				"width"		"40"
+				"height"	"40"
+		}
+		"crosshair_left"
+		{
+				"font"		"QuickInfo"
+				"character"	"("
+		}
+		"crosshair_right"
+		{
+				"font"		"QuickInfo"
+				"character"	")"
+		}
+		"crosshair_left_full"
+		{
+				"font"		"QuickInfo"
+				"character"	"["
+		}
+		"crosshair_right_full"
+		{
+				"font"		"QuickInfo"
+				"character"	"]"
+		}
+		"crosshair_left_empty"
+		{
+				"font"		"QuickInfo"
+				"character"	"{"
+		}
+		"crosshair_right_empty"
+		{
+				"font"		"QuickInfo"
+				"character"	"}"
+		}
+		"crosshair_default"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"0"
+				"width"		"12"
+				"height"	"12"
+		}
+		"viewhair"
+		{
+				"file"		"sprites/hud/v_crosshair2"
+				"x"			"0"
+				"y"			"0"
+				"width"		"32"
+				"height"	"32"
+		}
+		"gunhair"
+		{
+				"file"		"sprites/hud/v_crosshair1"
+				"x"			"0"
+				"y"			"0"
+				"width"		"32"
+				"height"	"32"
+		}
+
+		"progress_bar"
+		{
+				"file"		"sprites/hud1"
+				"x"			"238"
+				"y"			"0"
+				"width"		"10"
+				"height"	"28"
+		}
+	}	
+}

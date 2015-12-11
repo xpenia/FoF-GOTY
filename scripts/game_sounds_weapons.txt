@@ -1,0 +1,1426 @@
+//**FoF Weapons**
+//===============
+
+"Weapon_Handgun.Throw"
+{
+	"channel" "CHAN_WEAPON"
+	"volume" "1.0"
+	"soundlevel" "SNDLVL_105dB"
+	"pitch" "98,102"
+
+	"rndwave"
+	{
+	"wave" ")#weapons/melee/axe_throw.wav"
+	}
+} 
+
+
+"Weapon_Volcanic.Single"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "1"
+       "soundlevel"            "SNDLVL_GUNFIRE"
+       "pitch"                 "95,105"
+       
+	"wave"          	"^weapons/volcanic/volcanic_single.wav" 
+}
+
+
+"Weapon_Volcanic.Insert"
+{
+       "channel"		"CHAN_ITEM"
+       "volume"			"0.6"
+       "soundlevel"		"SNDLVL_80db"
+       "rndwave"
+       {
+       		"wave"          "weapons/deringer/deringer_insert1.wav"
+       		"wave"          "weapons/deringer/deringer_insert2.wav"
+       }
+}
+
+"Weapon_Volcanic.Open"
+{
+       "channel"               	"CHAN_ITEM"
+       "volume"                	"0.8"
+       "soundlevel"		"SNDLVL_NORM"
+       "wave"          		"weapons/deringer/deringer_open.wav"
+}
+
+"Weapon_Volcanic.Lever"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.25"
+       "soundlevel"            "SNDLVL_NORM"
+       "pitch"                 "98,102"
+       
+	"wave"          	"weapons/volcanic/lever.wav" 
+}
+
+"Weapon_Schofield.Single"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "0.6"
+       "soundlevel"    		"SNDLVL_GUNFIRE"
+       "pitch"                 "95,105"
+       "wave"             	"^weapons/schofield/schofield_fire.wav"
+
+
+}
+
+
+"Weapon_HenryRifle.Single"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "0.6"
+       "soundlevel"    "SNDLVL_GUNFIRE"
+       "pitch"                 "95,105"
+    
+       "wave"           "^weapons/henryrifle/henryrifle_single.wav"
+}
+
+"Weapon_sw_shotgun.Single"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "0.45"
+       "soundlevel"    		"SNDLVL_GUNFIRE"
+       "pitch"                 "97,104"
+       "wave"                  "^weapons/coachgun/sw_shotgun_fire.wav"
+}
+
+"Weapon_sw_shotgun.Double"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "0.55"
+       "soundlevel"    		"SNDLVL_GUNFIRE"
+       "pitch"                 "97,104"
+       "wave"                  "^weapons/coachgun/sw_shotgun_fire_double.wav"
+}
+
+"Weapon_sw_shotgun.Empty"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.5"
+       "soundlevel"    		"SNDLVL_NORM"
+       "pitch"                 "95,100"
+
+       "wave"                  "weapons/coachgun/coach_dry.wav"
+}
+
+
+"Weapon_sw_shotgun.Open"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.7"
+       "soundlevel"    		"SNDLVL_NORM"
+
+       "rndwave"
+       {
+               "wave"                  "weapons/coachgun/coach_open.wav"
+       }
+}
+
+"Weapon_sw_shotgun.Close"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.9"
+       "soundlevel"    		"SNDLVL_NORM"
+
+       "rndwave"
+       {
+               "wave"           "weapons/coachgun/coach_close.wav"
+       }
+}
+
+
+"Weapon_sw_shotgun.Insert"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.8"
+       "pitch"                 "93,108"
+       "soundlevel"            "SNDLVL_NORM"
+
+       "wave"                  "weapons/coachgun/coach_insert.wav"
+}
+
+"Weapon_sw_shotgun.Extract"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.8"
+       "pitch"                 "93,108"
+       "soundlevel"            "SNDLVL_NORM"
+
+       "wave"                  "weapons/coachgun/coach_extract.wav"
+}
+
+
+
+
+// Sounds by Angel Eyes
+
+"Weapon_ColtNavy.Single"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "0.9"
+       "soundlevel"            "SNDLVL_GUNFIRE"
+       "pitch"                 "96,105"
+
+       "wave"                  "^weapons/coltnavy/navy_fire1.wav"
+
+}
+
+"Weapon_winchester.Single"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "0.4"
+       "soundlevel"    		"SNDLVL_GUNFIRE"
+       "pitch"                 "95,105"
+       "wave"          		"^weapons/winchester/winchester_fire1.wav"
+
+}
+
+"Weapon_Deringer.Single"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "0.3"
+       "soundlevel"            "SNDLVL_GUNFIRE"
+       "pitch"                 "95,105"
+       
+	"wave"          "weapons/deringer/deringer_single2.wav" 
+}
+
+
+// General empty sound for several guns
+
+"Weapon_Pistol.Empty"
+{
+"channel" "CHAN_ITEM"
+"volume" "0.8"
+"soundlevel" "SNDLVL_NORM"
+"wave" "weapons/peacemaker/peacemaker_empty.wav"
+}
+
+// Walker
+
+"Weapon_Walker.Single"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "0.9"
+       "soundlevel"    		"SNDLVL_GUNFIRE"
+       "pitch"                 "95,105"
+       "wave"             "^weapons/walker/walker_fire1.wav"
+}
+
+"Weapon_Walker.CockHammer"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.4"
+       "soundlevel"    		"SNDLVL_NORM"
+
+       "wave"                  "weapons/walker/hammer_cock.wav"
+}
+
+
+"Weapon_Walker.Insert"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "1.0"
+       "soundlevel"    "SNDLVL_NORM"
+
+	"wave"          ")weapons/coltnavy/navy_close.wav"
+      
+}
+
+"Weapon_Walker.Lever"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "1.0"
+       "soundlevel"    "SNDLVL_NORM"
+
+	"wave"                  ")weapons/carbine/carbine_close.wav"
+      
+}
+
+
+// Schofield
+
+"Weapon_357.OpenLoader"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"weapons/357/357_reload1.wav"
+}
+
+"Weapon_357.RemoveLoader"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"weapons/357/357_reload4.wav"
+}
+
+"Weapon_357.ReplaceLoader"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"weapons/357/357_reload3.wav"
+}
+
+
+//-=Sounds provided by Sonic Valley Productions 2007=-
+
+
+
+// Winchester 
+// Sound Design by Luke Hatton (luke@sonicvalley.com)
+
+"Weapon_winchster.Empty"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.6"
+       "soundlevel"    "SNDLVL_NORM"
+       "pitch"                 "95,100"
+       "wave"                  "weapons/winchester/winchester_empty.wav"
+}
+
+"Weapon_winchster.insert"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.7"
+       "soundlevel"    "SNDLVL_NORM"
+
+       "rndwave"
+       {
+               "wave"                  "weapons/winchster/winchster_insert1.wav"
+               "wave"                  "weapons/winchster/winchster_insert2.wav"
+               "wave"                  "weapons/winchster/winchster_insert3.wav"
+       }
+}
+
+"Weapon_Winchester.Lever"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.75"
+       "soundlevel"    "SNDLVL_NORM"
+
+	"rndwave"
+	{
+	       "wave"                 "weapons/winchester/winchester_lever1.wav"
+       	       "wave"                 "weapons/winchester/winchester_lever2.wav"
+	}
+}
+
+
+//Whiskey Jug
+
+"Weapon_Whiskey.Uncork"
+{
+
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.2,0.3"
+       "soundlevel"   		"SNDLVL_60db"
+       "pitch"                 "98,101"
+       "rndwave"
+       {
+               "wave"                  "^weapons/whiskey/whiskey_uncork.wav"
+       }
+
+
+}
+
+
+// Smith Carbine .50
+// Sound Design by Dimitris Plagiannis (dimitris@sonicvalley.com)
+
+
+"Weapon_Carbine.Single"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "1.0"
+       "soundlevel"    "SNDLVL_GUNFIRE"
+       "pitch"                 "98,101"
+       "rndwave"
+       {
+               "wave"                  "^weapons/carbine/smith_carbine_fire.wav"
+       }
+}
+
+"Weapon_Carbine.Empty"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.8"
+       "soundlevel"    "SNDLVL_NORM"
+       "pitch"                 "95,100"
+
+       "wave"                  ")weapons/carbine/carbine_dry.wav"
+}
+
+"Weapon_Carbine.Open"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.7"
+       "soundlevel"    "SNDLVL_NORM"
+
+       "wave"                  ")weapons/carbine/carbine_open.wav"
+}
+
+"Weapon_Carbine.Close"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.7"
+       "soundlevel"    "SNDLVL_NORM"
+
+       "wave"                  ")weapons/carbine/carbine_close.wav"
+}
+
+
+
+"Weapon_Carbine.Extract"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "1.0"
+       "pitch"                 "93,108"
+       "soundlevel"            "SNDLVL_NORM"
+
+       "wave"                  ")weapons/carbine/carbine_extract.wav"
+}
+
+"Weapon_Carbine.Insert"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "1.0"
+       "soundlevel"    "SNDLVL_NORM"
+
+       "wave"                  ")weapons/carbine/carbine_insert.wav"
+}
+
+
+"Weapon_Carbine.Cock"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "1.0"
+       "soundlevel"            "SNDLVL_NORM"
+
+       "wave"                  ")weapons/carbine/carbine_cock.wav"
+}
+
+
+
+"Weapon_Coachgun.Double"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "1.0"
+       "soundlevel"    "SNDLVL_GUNFIRE"
+       "pitch"                 "98,102"
+
+        "wave"                  "^weapons/coachgun/coach_fire1_double.wav"
+}
+
+// Coachgun
+// Sound Design by Kim Burgess (kim@sonicvalley.com)
+
+
+"Weapon_Coachgun.Single"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "1.0"
+       "soundlevel"    "SNDLVL_GUNFIRE"
+       "pitch"                 "98,102"
+       "rndwave"
+       {
+               "wave"                  "^weapons/coachgun/coach_fire1.wav"
+               "wave"                  "^weapons/coachgun/coach_fire2.wav"
+       }
+}
+
+
+"Weapon_Coachgun.Empty"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.5"
+       "soundlevel"    "SNDLVL_NORM"
+       "pitch"                 "95,100"
+
+       "wave"                  "weapons/coachgun/coach_dry.wav"
+}
+
+
+"Weapon_Coachgun.Open"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.7"
+       "soundlevel"    "SNDLVL_NORM"
+
+       "rndwave"
+       {
+               "wave"                  "weapons/coachgun/coach_open.wav"
+       }
+}
+
+"Weapon_Coachgun.Close"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.9"
+       "soundlevel"    "SNDLVL_NORM"
+
+       "rndwave"
+       {
+               "wave"                  "weapons/coachgun/coach_close.wav"
+       }
+}
+
+
+"Weapon_Coachgun.Insert"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.8"
+       "pitch"                 "93,108"
+       "soundlevel"            "SNDLVL_NORM"
+
+       "wave"                  "weapons/coachgun/coach_insert.wav"
+}
+
+"Weapon_Coachgun.Extract"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.8"
+       "pitch"                 "93,108"
+       "soundlevel"            "SNDLVL_NORM"
+
+       "wave"                  "weapons/coachgun/coach_extract.wav"
+}
+
+
+// Bow
+// Sound Design by Luke Hatton (luke@sonicvalley.com)
+
+
+"Weapon_Bow.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.8"
+	"soundlevel"		"SNDLVL_NORM"
+	"pitch"			"93,108"
+
+	"rndwave"
+       	{
+		"wave"			")weapons/bow/bow_fire1.wav"
+		"wave"			")weapons/bow/bow_fire2.wav"
+	}
+}
+
+"Weapon_Bow.FireySingle"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NORM"
+	"pitch"			"93,108"
+
+	"rndwave"
+       	{
+		"wave"			")weapons/bow/fire_arrow_shot1.wav"
+		"wave"			")weapons/bow/fire_arrow_shot2.wav"
+	}
+}
+
+"Weapon_Bow.Reload"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.3"
+	"pitch"			"93,108"
+	"soundlevel"		"SNDLVL_NORM"
+
+	"wave"			"weapons/bow/reload1.wav"
+}
+
+"Weapon_Bow.ArrowFly"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.5"
+	"pitch"			"95,105"
+	"soundlevel"		"SNDLVL_70db"
+
+	"wave"			"<weapons/bow/arrow.wav"
+}
+
+"Weapon_Bow.FireIdleLoop"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.8"
+	"pitch"			"95,105"
+	"soundlevel"		"SNDLVL_50db"
+
+	"wave"			"weapons/bow/fire_arrow_idle.wav"
+}
+
+"Weapon_Bow.FieryArrowFly"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.8"
+	"pitch"			"95,105"
+	"soundlevel"		"SNDLVL_75db"
+
+	"wave"			"weapons/bow/fire_arrow_fly.wav"
+}
+
+
+"Weapon_Crossbow.BoltHitBody"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"1.0"
+	"pitch"			"93,108"
+	"soundlevel"		"SNDLVL_85db"
+
+	"rndwave"
+	{
+		"wave"		"weapons/bow/hitplayer1.wav"
+		"wave"		"weapons/bow/hitplayer2.wav"
+	}
+}
+
+"Weapon_Crossbow.BoltHitWorld"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		".95,1.0"
+	"pitch"			"110,130"
+	"soundlevel"		"SNDLVL_85db"
+
+	"wave"			"weapons/bow/hit1.wav"
+}
+
+
+"Weapon_Crossbow.BoltHitWorldWood"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		".95,1.0"
+	"pitch"			"110,130"
+	"soundlevel"		"SNDLVL_85db"
+
+	"rndwave"
+	{
+	"wave"			"weapons/bow/arrow_woodwall1.wav"
+	"wave"			"weapons/bow/arrow_woodwall2.wav"
+	"wave"			"weapons/bow/arrow_woodwall3.wav"
+	}
+}
+
+"Weapon_Crossbow.BoltSkewer"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_85db"
+	"pitch"			"90,110"
+
+	"rndwave"
+	{
+		"wave"		"weapons/bow/hitplayer1.wav"
+		"wave"		"weapons/bow/hitplayer2.wav"
+	}
+	
+}
+
+
+
+// Fists
+// Sound Design by Dimitris Plagiannis (dimitris@sonicvalley.com)
+
+"Weapon_Fists.Miss"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.8"
+       "soundlevel"    "SNDLVL_75dB"
+       "pitch"                 "95,102"
+
+       "rndwave"
+       {
+               "wave"          "weapons/fists/fists_miss1.wav"
+               "wave"          "weapons/fists/fists_miss2.wav"
+               "wave"          "weapons/fists/fists_miss3.wav"
+               "wave"          "weapons/fists/fists_miss4.wav"
+       }
+}
+
+
+"Weapon_Fists.Hit"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "0.9"
+       "soundlevel"    "SNDLVL_75dB"
+       "pitch"                 "95,105"
+
+       "rndwave"
+       {
+               "wave"          "weapons/fists/fists_punch1.wav"
+               "wave"          "weapons/fists/fists_punch2.wav"
+               "wave"          "weapons/fists/fists_punch3.wav"
+               "wave"          "weapons/fists/fists_punch4.wav"
+       }
+}
+
+"Weapon_Fists.HitWorld"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "0.5"
+       "soundlevel"    "SNDLVL_75dB"
+       "pitch"                 "85,90"
+
+       "rndwave"
+       {
+               "wave"          "weapons/fists/fists_punch1.wav"
+               "wave"          "weapons/fists/fists_punch2.wav"
+               "wave"          "weapons/fists/fists_punch3.wav"
+               "wave"          "weapons/fists/fists_punch4.wav"
+       }
+}
+
+
+// Deringer Pocket Pistol .41
+// Sound Design by Hermann Rauth (hermann@sonicvalley.com)
+
+
+"Weapon_Deringer.Cock"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.8"
+       "soundlevel"		"SNDLVL_80db"
+       "wave"                  "weapons/deringer/deringer_cock.wav"
+}
+
+"Weapon_Deringer.Empty"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.6"
+       "soundlevel"	       "SNDLVL_80db"
+       "wave"                  "weapons/deringer/deringer_empty.wav"
+}
+
+
+"Weapon_Deringer.ExtractInsert"
+{
+       "channel"		"CHAN_ITEM"
+       "volume"			"0.7"
+       "soundlevel"		"SNDLVL_80db"
+       "rndwave"
+       {
+       		"wave"          "weapons/deringer/deringer_insert1.wav"
+       		"wave"          "weapons/deringer/deringer_insert2.wav"
+       }
+}
+
+"Weapon_Deringer.OpenClose"
+{
+       "channel"               	"CHAN_ITEM"
+       "volume"                	"0.8"
+       "soundlevel"		"SNDLVL_NORM"
+       "wave"          		"weapons/deringer/deringer_open.wav"
+}
+
+"Weapon_Deringer.Open"
+{
+       "channel"               	"CHAN_ITEM"
+       "volume"                	"0.8"
+       "soundlevel"		"SNDLVL_NORM"
+       "wave"          		"weapons/deringer/deringer_open.wav"
+}
+
+"Weapon_Deringer.Close"
+{
+       "channel"               	"CHAN_ITEM"
+       "volume"                	"0.8"
+       "soundlevel"		"SNDLVL_NORM"
+       "wave"          		"weapons/deringer/deringer_close.wav"
+}
+
+
+// Colt Navy .36 Revolver
+// Sound Design by Luke Hatton (luke@sonicvalley.com)
+
+"Weapon_ColtNavy.Cock"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.9"
+       "soundlevel"    "SNDLVL_NORM"
+
+       "rndwave"
+       {
+               "wave"                  ")weapons/coltnavy/navy_cock1.wav"
+               "wave"                  ")weapons/coltnavy/navy_cock2.wav"
+       }
+}
+
+"Weapon_ColtNavy.Cockfast"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.6"
+       "soundlevel"    "SNDLVL_NORM"
+       "pitch"                 "95,102"
+
+       "rndwave"
+       {
+               "wave"                  ")weapons/coltnavy/navy_cock_fast1.wav"
+               "wave"                  ")weapons/coltnavy/navy_cock_fast2.wav"
+       }
+}
+
+"Weapon_ColtNavy.OpenClose"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.9"
+       "soundlevel"    "SNDLVL_NORM"
+
+       "wave"          ")weapons/coltnavy/navy_close.wav"
+}
+
+"Weapon_ColtNavy.Open"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.9"
+       "soundlevel"    "SNDLVL_NORM"
+
+       "wave"          ")weapons/coltnavy/navy_close.wav"
+}
+
+"Weapon_ColtNavy.Close"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.9"
+       "soundlevel"    "SNDLVL_NORM"
+
+       "wave"          ")weapons/coltnavy/navy_close.wav"
+}
+
+"Weapon_ColtNavy.Insert"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.5"
+       "soundlevel"		"SNDLVL_NORM"
+
+       "wave"          ")weapons/coltnavy/navy_insert.wav"
+}
+
+
+"Weapon_ColtNavy.DrawSpin"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.5"
+       "soundlevel"   		"SNDLVL_NORM"
+
+       "wave"          "weapons/coltnavy/navy_spin_finger.wav"
+}
+
+
+"Weapon_ColtNavy.Spin"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.9"
+       "soundlevel"            "SNDLVL_NORM"
+
+       "wave"                  ")weapons/coltnavy/navy_spin.wav"
+}
+
+
+// Colt Peacemaker .45 Revolver
+
+"Weapon_Peacemaker.Empty"
+{
+"channel" "CHAN_ITEM"
+"volume" "0.8"
+"soundlevel" "SNDLVL_NORM"
+"wave" "weapons/peacemaker/peacemaker_empty.wav"
+}
+
+"Weapon_Peacemaker.Open"
+{
+"channel" "CHAN_ITEM"
+"volume" "0.9"
+"soundlevel" "SNDLVL_NORM"
+"wave" "weapons/peacemaker/peacemaker_open.wav"
+}
+
+"Weapon_Peacemaker.Close"
+{
+"channel" "CHAN_ITEM"
+"volume" "1.0"
+"soundlevel" "SNDLVL_NORM"
+"wave" "weapons/peacemaker/peacemaker_close.wav"
+}
+
+"Weapon_Peacemaker.Cock"
+{
+"channel" "CHAN_ITEM"
+"volume" "0.8"
+"soundlevel" "SNDLVL_NORM"
+"wave" "weapons/peacemaker/peacemaker_cock.wav"
+}
+
+"Weapon_Peacemaker.Insert"
+{
+"channel" "CHAN_ITEM"
+"volume" "0.8"
+"soundlevel" "SNDLVL_NORM"
+"rndwave"
+{
+"wave" "weapons/peacemaker/peacemaker_insert1.wav"
+"wave" "weapons/peacemaker/peacemaker_insert2.wav"
+"wave" "weapons/peacemaker/peacemaker_insert3.wav"
+}
+}
+
+"Weapon_Peacemaker.Single"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "1.0"
+       "soundlevel"            "SNDLVL_GUNFIRE"
+       "pitch"                 "100"
+       "rndwave"
+       {
+               "wave"                  "^weapons/peacemaker/peacemaker_single1.wav"
+               "wave"                  "^weapons/peacemaker/peacemaker_single2.wav"
+               "wave"                  "^weapons/peacemaker/peacemaker_single3.wav"
+       }
+}
+
+"Weapon_Peacemaker.Spin"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "1.0"
+       "soundlevel"            "SNDLVL_NORM"
+       "wave"                  "weapons/peacemaker/peacemaker_spin.wav"
+}
+
+// Dynamite
+//Sound Design by Luke Hatton (luke@sonicvalley.com)
+
+
+"Weapon_Dynamite.Burn"
+{
+       "channel"               "CHAN_STATIC"
+       "soundlevel"    		"SNDLVL_NORM"
+       "volume"                "0.6"
+
+       "wave"                  "weapons/dynamite/dynamite_fuse.wav"
+}
+
+
+"Weapon_Mortar.Impact"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "1.0"
+       "soundlevel"            "SNDLVL_150dB"
+       "rndwave"
+       {
+               "wave"                  "^weapons/dynamite/dynamite_explode1.wav"
+               "wave"                  "^weapons/dynamite/dynamite_explode2.wav"
+               "wave"                  "^weapons/dynamite/dynamite_explode3.wav"
+       }
+}
+
+
+// Sharps SharpShooter Rifle 
+// Sound Design by Dimitris Plagiannis (dimitris@sonicvalley.com)
+
+
+"Weapon_sharps.Single"
+{
+   "channel"               "CHAN_WEAPON"
+       "volume"                "1.0"
+       "soundlevel"            "SNDLVL_GUNFIRE"
+	
+       "pitch"                 "105,120"
+	
+       "rndwave"
+       {
+      
+      	       "wave"                  "^weapons/sharps/sharps_rifle_fire1.wav"
+               "wave"                  "^weapons/sharps/sharps_rifle_fire2.wav"
+       }
+}
+
+"Weapon_sharps.Extract"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "1.0"
+       "pitch"                 "93,108"
+       "soundlevel"            "SNDLVL_NORM"
+
+       "wave"                  ")weapons/sharps/sharps_extract.wav"
+}
+
+
+"Weapon_Sharps.OpenBreech"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "1.0"
+       "soundlevel"            "SNDLVL_NORM"
+
+       "wave"                  ")weapons/sharps/sharps_open.wav"
+}
+
+"Weapon_Sharps.Cock"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "1.0"
+       "soundlevel"            "SNDLVL_NORM"
+
+       "wave"                  ")weapons/sharps/sharps_cock.wav"
+}
+
+"Weapon_Sharps.Insert"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "1.0"
+       "soundlevel"    "SNDLVL_NORM"
+	"soundlevel"		"SNDLVL_NORM"
+
+       "wave"          ")weapons/sharps/sharps_insert.wav"
+}
+
+
+// Henry Rifle .45 Repeating Rifle
+// Sound Design by Hermann Rauth (hermann@sonicvalley.com)
+
+"Weapon_HenryRifle.Empty"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.5"
+       "soundlevel"    "SNDLVL_NORM"
+       "pitch"                 "95,100"
+       "wave"                  "weapons/henryrifle/henryrifle_empty.wav"
+}
+
+"Weapon_HenryRifle.Insert"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.4"
+       "soundlevel"    "SNDLVL_NORM"
+
+       "rndwave"
+       {
+               "wave"                  "weapons/henryrifle/henryrifle_insert1.wav"
+               "wave"                  "weapons/henryrifle/henryrifle_insert2.wav"
+               "wave"                  "weapons/henryrifle/henryrifle_insert3.wav"
+       }
+}
+
+"Weapon_HenryRifle.Lever"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.4"
+       "soundlevel"    "SNDLVL_NORM"
+       "wave"                 ")weapons/henryrifle/henryrifle_lever.wav"
+}
+
+
+// Knife
+
+"Weapon_Knife.Single"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.55"
+       "soundlevel"    "SNDLVL_65dB"
+       "pitch"                 "95,100"
+
+       "wave"                  "weapons/melee/iceaxe_swing1.wav"
+}
+
+"Weapon_Knife.Melee_Hit"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "1.0"
+       "soundlevel"    "SNDLVL_85dB"
+       "pitch"                 "98,102"
+
+       "rndwave"
+       {
+               "wave"          "weapons/melee/knife_stab1.wav"
+               "wave"          "weapons/melee/knife_stab2.wav"
+               "wave"          "weapons/melee/knife_stab3.wav"
+       }
+}
+
+"Weapon_Knife.Melee_HitWorld"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "0.3"
+       "soundlevel"    "SNDLVL_90dB"
+       "pitch"                 "90,94"
+
+       "wave"          "weapons/melee/crowbar_impact2.wav"
+}
+
+"Knife.Throw"
+{
+	"channel" "CHAN_WEAPON"
+	"volume" "0.8"
+	"soundlevel" "SNDLVL_105dB"
+	"pitch" "98,102"
+
+	"rndwave"
+	{
+	"wave" ")#weapons/melee/knife_throw.wav"
+	}
+} 
+
+// Axe
+
+"Weapon_Axe.Single"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.55"
+       "soundlevel"    "SNDLVL_65dB"
+       "pitch"                 "95,100"
+
+       "wave"                  "weapons/melee/iceaxe_swing1.wav"
+}
+
+"Weapon_Axe.Melee_Hit"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "1.0"
+       "soundlevel"    "SNDLVL_85dB"
+       "pitch"                 "98,102"
+
+       "rndwave"
+       {
+               "wave"          "weapons/melee/axe_hit1.wav"
+               "wave"          "weapons/melee/axe_hit2.wav"
+               "wave"          "weapons/melee/axe_hit3.wav"
+       }
+}
+
+"Weapon_Axe.Melee_HitWorld"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "0.7"
+       "soundlevel"    "SNDLVL_90dB"
+       "pitch"                 "90,120"
+
+       "wave"          "weapons/melee/crowbar_impact2.wav"
+}
+
+"Weapon_Axe.Melee_Throw"
+{
+	"channel" "CHAN_WEAPON"
+	"volume" "1.0"
+	"soundlevel" "SNDLVL_105dB"
+	"pitch" "98,102"
+
+	"rndwave"
+	{
+	"wave" ")#weapons/melee/axe_throw.wav"
+	}
+} 
+
+
+// HL2 Weapons
+
+// *******
+// BULLETS
+
+"Bullets.DefaultNearmiss"
+{
+       "channel"               "CHAN_STATIC"
+       "volume"                "1.0"
+       "soundlevel"    "SNDLVL_NORM"
+       "pitch"                 "PITCH_NORM"
+
+       "rndwave"
+       {
+		"wave"  ">weapons/whizz/whizz1.wav"
+		"wave"  ">weapons/whizz/whizz2.wav"
+		"wave"  ">weapons/whizz/whizz3.wav"
+		"wave"  ">weapons/whizz/whizz4.wav"
+		"wave"  ">weapons/whizz/whizz5.wav"
+		"wave"  ">weapons/whizz/whizz6.wav"
+		"wave"  ">weapons/whizz/whizz7.wav"
+       }
+}
+
+
+"FX_RicochetSound.Ricochet"
+{
+       "channel"       "CHAN_STATIC"
+       "volume"        "0.8, 1.0"
+       "soundlevel"  "SNDLVL_NORM"
+       "pitch" "100, 110"
+
+       "rndwave"
+       {
+               "wave"  "weapons/fx/rics/ric1.wav"
+               "wave"  "weapons/fx/rics/ric2.wav"
+               "wave"  "weapons/fx/rics/ric3.wav"
+               "wave"  "weapons/fx/rics/ric4.wav"
+               "wave"  "weapons/fx/rics/ric5.wav"
+       }
+}
+
+"FX_RicochetSound.BoilerPlate"
+{
+       "channel"       "CHAN_STATIC"
+       "volume"        "0.6, 0.8"
+       "soundlevel"  "SNDLVL_NORM"
+       "pitch" "85, 95"
+
+       "rndwave"
+       {
+               "wave"  "weapons/fx/rics/ric1.wav"
+               "wave"  "weapons/fx/rics/ric2.wav"
+               "wave"  "weapons/fx/rics/ric3.wav"
+               "wave"  "weapons/fx/rics/ric4.wav"
+               "wave"  "weapons/fx/rics/ric5.wav"
+       }
+}
+
+// weapon_shotgun.txt
+"Weapon_Shotgun.Empty"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "0.7"
+       "soundlevel"    "SNDLVL_NORM"
+       "pitch"                 "95,100"
+
+       "wave"                  "weapons/shotgun/shotgun_empty.wav"
+}
+
+"Weapon_Shotgun.Special1"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.6"
+       "soundlevel"    "SNDLVL_60dB"
+
+       "rndwave"
+        {
+	       	"wave"          "weapons/shotgun/shotgun_pump1.wav"
+		"wave"          "weapons/shotgun/shotgun_pump2.wav"
+	}
+}
+
+"Weapon_Shotgun.Single"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "0.7"
+       "soundlevel"    "SNDLVL_GUNFIRE"
+       "pitch"                 "98,101"
+	"wave"	"^weapons/shotgun/shotgun_fire_1.wav"
+}
+
+
+"Weapon_Shotgun.NPC_Reload"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.7"
+       "soundlevel"    "SNDLVL_NORM"
+
+       "rndwave"
+       {
+               "wave"                  "weapons/shotgun/shotgun_reload1.wav"
+               "wave"                  "weapons/shotgun/shotgun_reload2.wav"
+               "wave"                  "weapons/shotgun/shotgun_reload3.wav"
+       }
+}
+
+
+
+"WeaponFrag.Throw"
+{
+       "channel"       "CHAN_VOICE"
+       "volume"        "0.7"
+       "soundlevel"  "SNDLVL_75dB"
+
+       "wave"  "weapons/slam/throw.wav"
+}
+
+"WeaponFrag.Roll"
+{
+       "channel"       "CHAN_VOICE"
+       "volume"        "0.7"
+       "soundlevel"  "SNDLVL_75dB"
+
+       "wave"  "weapons/slam/throw.wav"
+}
+
+"Weapon_Mortar.Single"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "1.0"
+       "pitch"                 "90,110"
+       "soundlevel"    "SNDLVL_GUNFIRE"
+       "wave"                  "^weapons/mortar/mortar_fire1.wav"
+}
+
+"Weapon_Mortar.Incomming"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "0.7"
+       "pitch"                 "90,110"
+       "soundlevel"            "SNDLVL_120dB"
+       "wave"                  "weapons/mortar/mortar_shell_incomming1.wav"
+}
+
+
+// *************
+// BASE GRENADES
+
+"BaseExplosionEffect.Sound"
+{
+       "channel"       "CHAN_STATIC"
+       "volume"        "0.4"
+       "soundlevel"    "SNDLVL_120dB"
+       "pitch" "PITCH_NORM"
+
+       "rndwave"
+       {
+                       "wave"  "^weapons/dynamite/dynamite_explode1.wav"
+                       "wave"  "^weapons/dynamite/dynamite_explode2.wav"
+                       "wave"  "^weapons/dynamite/dynamite_explode3.wav"
+       }
+
+}
+
+"BaseExplosionEffect.SoundLoud"
+{
+       "channel"       "CHAN_STATIC"
+       "volume"        "1.0"
+       "soundlevel"    "SNDLVL_150dB"
+       "pitch" "PITCH_NORM"
+
+       "rndwave"
+       {
+                       "wave"  "^weapons/dynamite/dynamite_explode1.wav"
+                       "wave"  "^weapons/dynamite/dynamite_explode2.wav"
+                       "wave"  "^weapons/dynamite/dynamite_explode3.wav"
+       }
+
+}
+
+
+// dynamiter self explosion
+
+"BaseGrenade.ExplodeBig"
+{
+       "channel"       "CHAN_STATIC"
+       "volume"        "1.0"
+       "soundlevel"    "SNDLVL_150dB"
+       "pitch" "PITCH_NORM"
+
+       "rndwave"
+       {
+                       "wave"  "^weapons/dynamite/dynamite_explode1.wav"
+                       "wave"  "^weapons/dynamite/dynamite_explode2.wav"
+                       "wave"  "^weapons/dynamite/dynamite_explode3.wav"
+       }
+}
+
+
+"WaterExplosionEffect.Sound"
+{
+       "channel"       "CHAN_STATIC"
+       "volume"        "1.0"
+       "soundlevel"    "SNDLVL_140dB"
+       "pitch" "80,130"
+
+       "rndwave"
+       {
+                       "wave"  "^weapons/underwater_explode3.wav"
+                       "wave"  "^weapons/underwater_explode4.wav"
+       }
+
+}
+
+// Debris by Luke@sonicvalley.com
+
+"BaseGrenade.Explode"
+{
+       "channel"       "CHAN_VOICE"
+       "volume"        "0.0"
+       "soundlevel"  "SNDLVL_80dB"
+
+       "rndwave"
+       {
+               "wave"  "^weapons/debris1.wav"
+               "wave"  "^weapons/debris2.wav"
+       }
+}
+
+"BaseGrenade.StopSounds"
+{
+       "channel"       "CHAN_WEAPON"
+       "volume"        "0.7"
+       "soundlevel"  "SNDLVL_75dB"
+
+       "wave"  "common/null.wav"
+}
+
+"BaseGrenade.BounceSound"
+{
+       "channel"       "CHAN_VOICE"
+       "volume"        "0.7"
+       "soundlevel"    "SNDLVL_NORM"
+
+       "wave"          "weapons/slam/bounce1.wav"
+}
+
+
+
+"GrenadeBottle.Detonate"
+{
+       "channel"       "CHAN_VOICE"
+       "volume"        "1.0"
+       "soundlevel"  "SNDLVL_75dB"
+
+       "rndwave"
+       {
+               "wave"  "physics/glass/glass_bottle_break2.wav"
+       }
+}
+
+
+// GATLING
+
+
+"Weapon_functank.Single"
+{
+       "channel"               "CHAN_WEAPON"
+       "volume"                "1.0"
+       "soundlevel"		"SNDLVL_GUNFIRE"
+
+       "rndwave"
+       {
+               "wave"           "^weapons/gatling/gattling_fire1.wav"
+               "wave"           "^weapons/gatling/gattling_fire2.wav"
+       }
+
+}
+
+
+"Func_Tank.BeginUse"
+{
+       "channel"               "CHAN_ITEM"
+       "volume"                "0.7"
+       "soundlevel"    "SNDLVL_NORM"
+       "wave"          ")weapons/sharps/sharps_insert.wav"
+}
+
+
+
+// **************
+// BASE CHARACTER
+
+"GenericNPC.GunSound"
+{
+       "channel"       "CHAN_WEAPON"
+       "soundlevel"  "SNDLVL_75dB"
+       "pitch" "95,105"
+
+       "rndwave"
+       {
+               "wave"  "^weapons/ar1/ar1_dist1.wav"
+               "wave"  "^weapons/ar1/ar1_dist1.wav"
+               "wave"  "^weapons/ar1/ar1_dist2.wav"
+       }
+}
+

@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\snowy/3dskybox_snowy"
+	"$translucent" "1"
+	"$nofog" "1"
+	"$nolod" "1"
+	"$nomip" "1"
+
+}

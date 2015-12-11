@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\snowy/raft"
+	"$model" 1
+	"$surfaceprop" "wood"
+
+}

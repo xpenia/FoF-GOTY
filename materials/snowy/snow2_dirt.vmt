@@ -1,0 +1,23 @@
+"WorldVertexTransition"
+{
+  "$basetexture" "loothill/wetmud"
+"$basetexture2" "snowy/snow02"
+
+  "$surfaceprop" "concrete"
+  "$surfaceprop2" "snow"
+
+"$bumpmap" "loothill/wetmud_normal"
+"$bumpmap2" "snowy/snow01b_normal"
+
+//"%detailtype" "elpasograss_sway_low"
+
+  "$basetexturetransform2" "center .5 .5 scale 6 6 rotate 0 translate 0 0"
+
+   "%tooltexture" "snowy/snow02"
+
+"$blendmodulatetexture" "snowy/blendtexture01"	
+
+	"$normalmapalphaenvmapmask" 1
+  	"$envmap" "cubemaps/cubemap_01"
+	"$envmaptint" "[0.55 0.55 0.55 ]"
+} 

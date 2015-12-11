@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/tumbleweed"
+"$nocull" 1
+"$translucent" "1"
+"$alphatest" "1"
+"$nodecal" "1"
+"$surfaceprop" "foliage"
+}

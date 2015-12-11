@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/brick_window2a"
+"$surfaceprop" "brick"
+"$envmap" "env_cubemap"
+"$envmapmask" "models\elpaso/brick_window2_mask"
+
+	"$envmapcontrast" .6
+	"$envmapsaturation" .6
+	"$envmaptint" "[.66 .66 .66]"
+"$model" 1
+}

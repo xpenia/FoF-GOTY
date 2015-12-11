@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\snowy/pine_trunk"
+	"$bumpmap" "models\monastery\treebeam_normal"
+
+	"$model" 1
+	"$surfaceprop" "wood"
+
+}

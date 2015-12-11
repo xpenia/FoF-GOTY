@@ -1,0 +1,6 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "monastery/siteBwall01"
+	"$surfaceprop" "concrete"
+"$bumpmap" "monastery/siteBwall01_normal"
+}

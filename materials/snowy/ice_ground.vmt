@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 	"snowy/ice01"
+	"$surfaceprop" "ice"	
+	//"$bumpmap" "snowy/ice01_normal"
+	"$bumpmap" "models/playermodels/flat_normal"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[ .5 .5 .55]"
+	"$envmap" "env_cubemap"
+	"$nodecal" "1"
+}
