@@ -1,0 +1,85 @@
+// CoachShotgun
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"	""
+	"viewmodel"			"models/weapons/v_coachgun.mdl"
+	"playermodel"			"models/weapons/w_coachgun.mdl"
+	"anim_prefix"			"shotgun"
+	"bucket"				"3"
+	"bucket_position"		"4"
+
+	"clip_size"				"2"
+	"clip2_size"				"2"
+
+	"primary_ammo"			"Buckshot"
+	"secondary_ammo"		"RockSalt"
+
+	"weight"			"4"
+	"item_flags"			"0"
+	"damage"			"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+
+		"empty"			"Weapon_Coachgun.Empty"
+		//"reload"		"Weapon_Coachgun.OpenClose"
+		"single_shot"		"Weapon_coachgun.Single"
+		"double_shot"		"Weapon_coachgun.Double"
+		
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"l"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"l"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"s"
+		}
+		"ammo2"
+		{
+				"font"		"WeaponIcons"
+				"character"	"s"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+
+	Spread // 
+  	{
+	     "crouch"	"0.05"
+ 	     "idle"	"0.05"
+	     "walk"	"0.08"
+	     "run"	"0.20"
+	     "jump"	"0.25"
+	     "speed"	"0.3"		
+      	}
+
+	"break_limit"		"20"
+	"break_drop_penalty"	"6"
+	"GunSmokeMult"		"0.9"
+}

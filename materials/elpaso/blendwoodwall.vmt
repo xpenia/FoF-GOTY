@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+      "$basetexture2" "textures/wood/woodwall15"
+"$bumpmap2" "textures/wood/woodwall15_normal"
+   
+ "$surfaceprop" "wood"
+"$basetexture" "textures/wood/woodwall15b"
+"$bumpmap" "textures/wood/woodwall15_normal"
+
+//"$detail" "overlays/macro01a"
+//"$detailscale" .05
+   "%tooltexture" "textures/wood/woodwall15"
+
+} 

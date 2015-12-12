@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+
+	"$basetexture" "VGUI\whiskey_meter_2"
+	"$translucent" 1
+	"$ignorez" 1
+	"$no_fullbright" 1
+	"$nolod" "1"
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/hotel_window2"
+"$surfaceprop" "glass"
+	
+"$model" 1
+}

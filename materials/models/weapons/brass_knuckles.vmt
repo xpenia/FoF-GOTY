@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/Weapons/brass_knuckles"	
+	"$envmap" env_cubemap
+	$envmapsaturation 0.5
+	$BasemapAlphaPhongMask 1
+	$normalmapalphaenvmapmask 1
+	"$phong" "1"
+	$phongboost 15
+	$phongexponent 50
+	$phongfresnelranges "[10 10 30]"
+
+
+	$envmaptint "[.6 .6 .6]"
+	$phongalbedotint 1
+	"$halflambert" "1"
+		//textures by Paul68Rageous
+}

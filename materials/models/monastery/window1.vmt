@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\monastery/window1"
+"$selfillum" 1
+	"$surfaceprop" "glass"
+"$model" 1
+}

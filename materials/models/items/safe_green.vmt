@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/items/safe_green_d"
+	"$bumpmap" "models/items/safe_gold_n"
+	"$surfaceprop" "metal"
+	
+	
+
+	$phong 1
+	$phongexponent 10
+	
+	$phongboost	.8
+	$phongfresnelranges	"[1 5 8]"
+	$envmap "env_cubemap"	
+	$envmaptint "[1 .7 .3]"
+
+	$normalmapalphaenvmapmask  "1"
+
+}
+
+
+
+
+

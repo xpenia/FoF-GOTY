@@ -1,0 +1,8 @@
+// envmaptint_fix
+"LightmappedGeneric"
+{
+	"$basetexture" "Wood/woodfloor008a"
+	"$surfaceprop" "wood"
+	"$bumpmap" "Wood/woodfloor008a_normal"
+
+}

@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "props/bed/Bed"
+	"$bumpmap" "props/bed/Bed_normal"
+
+	"$envmaptint" "[0.1 0.1 0.1]"
+
+	$envmap env_cubemap 
+
+	"$model" 1
+}

@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+
+
+"$surfaceprop" "boulder" 
+  
+
+"$basetexture" "peligro/rockwall"
+"$bumpmap" "peligro/rockwall_normal"
+
+"$basetexture2" "tramonto/ground1"
+"$bumpmap2" "monastery/blank_normal"
+
+
+"%tooltexture" "peligro/rockwall"
+
+} 

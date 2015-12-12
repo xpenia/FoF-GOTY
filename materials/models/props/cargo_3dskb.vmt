@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/cargo_3dskb"
+"$bumpmap" "models/props/cargo_3dskb_normal"
+
+}

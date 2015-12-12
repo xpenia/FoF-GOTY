@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "mv/stonewall"
+	"$bumpmap" "mv/stonewall_ssbump"
+	"$ssbump" 1
+  	"$surfaceprop" "concrete"
+}

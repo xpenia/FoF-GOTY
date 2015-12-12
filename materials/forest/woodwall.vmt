@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "forest/woodwall"
+	"$surfaceprop" "wood"
+	"$bumpmap" "textures\wood/woodwall6_normal"
+}

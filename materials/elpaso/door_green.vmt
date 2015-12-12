@@ -1,0 +1,15 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "elpaso/door_green"
+	"$surfaceprop" "wood"
+	"$bumpmap" "elpaso/door_green_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+
+
+	"$envmapcontrast" .2
+	"$envmapsaturation" .6
+	"$envmaptint" "[.46 .46 .46]"
+
+}

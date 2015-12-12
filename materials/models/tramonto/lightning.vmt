@@ -1,0 +1,16 @@
+"UnLitGeneric"
+{
+	"$baseTexture" "models\tramonto/lightning"
+
+	
+	"$selfillum" 1
+	"$translucent" 1 
+	//"$additive" 1
+	//"$alpha" 1
+	"$model" 1
+	"$nocull" 1
+
+"$color" "[0.5 0.5 1.0]"
+	
+
+}

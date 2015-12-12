@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/elpaso_3dskb"
+"$bumpmap" "models\elpaso/elpaso_3dskb1_normal"
+"$model" 1
+"$surfaceprop" "rock"
+}

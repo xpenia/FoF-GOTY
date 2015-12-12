@@ -1,0 +1,28 @@
+"WorldVertexTransition"
+{
+  "$basetexture2" "tijuana/ground_tijuana"
+"$basetexture" "tijuana/cobblestone"
+
+  "$surfaceprop2" "sand"
+  "$surfaceprop" "concrete"
+
+//"$ssbump" "1"
+//"$bumpmap2" "peligro/flat_ssbump"
+//"$bumpmap" "tijuana/cobblestone_ssbump"
+
+"$bumpmap2" "tramonto/blank1024_normal"
+"$bumpmap" "tijuana/cobble_normal"
+
+//"%detailtype" "tijuana_drygrass2" 
+
+//"$detail" "elpaso/macro01c"
+//"$detailscale" 0.7
+//$detailblendfactor 3.7
+//$detailblendmode 1
+//$detailtint "1 0.7 0.3"
+
+   "%tooltexture" "tijuana/cobblestone"
+
+"$blendmodulatetexture" "tijuana/cobblestone_mod"	
+
+} 

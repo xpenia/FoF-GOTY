@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/SNOWY/SNOW1_SNOW2.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/fof_sawmill_12/c4472_3068_372"
+	}
+}

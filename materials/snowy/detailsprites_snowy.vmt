@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "snowy/detailsprites_snowy"
+	"$nocull" 1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+}

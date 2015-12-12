@@ -1,0 +1,6 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "elpaso/stucco_white_bottom"
+	"$bumpmap" "elpaso/stucco_red_normal"
+	"$surfaceprop" "plaster"
+}

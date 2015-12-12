@@ -1,0 +1,17 @@
+soundscaples_manifest
+{
+	"file"		"scripts/soundscapes.txt"
+        "file"		"scripts/ddsound.txt"
+	// List additional soundscape files here
+
+	"file"		"scripts/soundscapes_canals.txt"
+	"file"		"scripts/soundscapes_coast.txt"
+        "file"		"scripts/soundscapes_presidio.txt"
+	"file"		"scripts/soundscapes_tramonto.txt"
+	"file"		"scripts/soundscapes_peligro.txt"
+	"file"		"scripts/soundscapes_tijuana.txt"
+	"file"		"scripts/soundscapes_eliminator.txt"
+	"file"		"scripts/soundscapes_desperados.txt"
+	"file"		"scripts/soundscapes_fof_misc.txt"
+	"file"		"scripts/soundscapes_snowy.txt"
+}

@@ -1,0 +1,97 @@
+// Sharps
+
+WeaponData
+{
+       // Weapon data is loaded by both the Game and Client DLLs.
+       "printname"             "1885"
+       "viewmodel"             "models/weapons/v_sharps.mdl"
+       "playermodel"   "models/weapons/w_sharps.mdl"
+       "anim_prefix"   "shotgun"
+       "bucket"                        "3"
+       "bucket_position"       "0"
+
+       "clip_size"             "1"
+       "primary_ammo"          "Rifle2"
+       "secondary_ammo"        "None"
+
+       "weight"                "6"
+       "item_flags"            "0"
+
+       "damage"                "125"
+
+       // Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+       SoundData
+       {
+               "single_shot"   "Weapon_sharps.Single"
+               "reload"        "Weapon_Sharps.OpenBreech"
+
+       }
+
+       // Weapon Sprite data is loaded by the Client DLL.
+       TextureData
+       {
+               "weapon"
+               {
+                               "font"          "WeaponIcons"
+                               "character"     "h"
+               }
+               "weapon_s"
+               {
+                               "font"          "WeaponIconsSelected"
+                               "character"     "h"
+               }
+               "ammo"
+               {
+                               "font"          "WeaponIcons"
+                               "character"     "q"
+               }
+              
+               "autoaim"
+               {
+                       "file"          "sprites/crosshairs"
+                       "x"             "0"
+                       "y"             "96"
+                       "width"         "24"
+                       "height"        "24"
+               }
+               "zoom"
+               {
+                               "font"          "Crosshairs"
+                               "character"     "O"
+               }
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"O"
+		}
+               "zoom_autoaim"
+               {
+                       "file"          "sprites/crosshairs"
+                       "x"             "24"
+                       "y"             "112"
+                       "width"         "104"
+                       "height"        "16"
+               }
+       }
+
+	ExpOffset // Ironsight
+  	{
+	     "xf"   "-10.7"
+ 	     "yf"   "-2.965"
+	     "zf"   "0.666"
+     
+   	}
+
+Spread // 
+  	{
+	     "crouch"	"0.00001"
+ 	     "idle"	"0.02"
+	     "walk"	"0.05"
+	     "run"	"0.50"
+	     "jump"	"0.7"
+	     "speed"	"0.3"		
+      	}
+
+	"break_limit"		"10"
+	"break_drop_penalty"	"5"
+}

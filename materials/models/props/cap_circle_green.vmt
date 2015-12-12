@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/props/cap_circle_green" 
+	"$translucent" 1
+	"$no_fullbright" 1
+	"$nocull" "1"
+}

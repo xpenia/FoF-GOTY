@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/WOOD/WOODFLOOR006B.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/fof_sawmill_12/c4768_2882_89"
+	}
+}

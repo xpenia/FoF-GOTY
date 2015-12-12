@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+      "$basetexture" "nature/rockwall011d"
+
+   
+ 
+"$surfaceprop" "boulder"
+   "$surfaceprop2" "dirt"
+
+   "$basetexture2" "mv/redground3"
+
+   "%tooltexture" "nature/rockwall011d"
+
+} 

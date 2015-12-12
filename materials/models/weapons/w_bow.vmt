@@ -1,0 +1,31 @@
+"VertexLitGeneric"
+{
+	$basetexture models/weapons/w_bow_col
+	$bumpmap models/weapons/w_bow_nor
+
+
+	"$normalmapalphaenvmapmask" 1
+	"$surfaceprop" "wood"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .2 .2 ]"
+	"$envmapconstrast" "1"
+	$envmapsaturation 1
+
+	"$phong"     "1"
+	"$phongexponent"  "8"
+	
+	"$phongboost"   1
+	"$phongfresnelranges"   "[.75 .5 1]"
+	"$phongalbedotint" "1"
+
+	"$halflambert" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "512"	
+	"$rimexponent" "512"
+	"$rimlightboost" ".1"
+
+
+
+	
+}

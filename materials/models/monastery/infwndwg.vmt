@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\monastery/infwndwg"
+"$surfaceprop" "glass"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\monastery/infwndwg_ref"
+"$model" 1
+}

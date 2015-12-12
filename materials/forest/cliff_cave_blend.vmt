@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+
+
+"$surfaceprop" "rock" 
+  
+"$basetexture" "models/monastery/rock_b"
+//"$bumpmap" "tramonto/blank1024_normal"
+ 
+"$basetexture2" "forest/rock"
+$ssbump		1
+//"$bumpmap2" "eliminator/cliff_ssbump"
+
+
+"%tooltexture" "forest/rock"
+
+} 

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "forest/fog_ring"
+	"$translucent" 1
+}

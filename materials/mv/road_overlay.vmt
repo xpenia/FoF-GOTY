@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "mv/road_overlay"
+"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.500"
+}

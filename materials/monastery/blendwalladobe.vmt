@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+      "$basetexture" "cs_italy/plasterwall04a"
+
+ 
+
+ 
+   "$surfaceprop" "dirt"
+
+   "$basetexture2" "de_dust/residbwall01"
+
+   "%tooltexture" "cs_italy/marketwall03a"
+        "$basetexturetransform" "center .5 .5 scale 1 1 rotate 0  translate 0 0"
+        "$basetexturetransform2" "center .5 .5 scale 4 4 rotate 0 translate 0 0"
+} 

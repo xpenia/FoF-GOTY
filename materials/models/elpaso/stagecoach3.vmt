@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/stagecoach3"
+	"$bumpmap" "models\elpaso/stagecoach3_normal"
+}

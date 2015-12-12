@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/metal_black"
+	"$surfaceprop" "metal"
+
+	"$model" 1
+
+}

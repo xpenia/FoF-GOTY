@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "elpaso/plaster_cracked"
+"$bumpmap" "elpaso/plaster_normal"
+"$surfaceprop" "boulder"
+"%keywords" "elpaso"
+}

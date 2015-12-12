@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "textures/metal/rust4"
+	"%keywords" "c17industrial"
+	"$surfaceprop" "metal"
+}

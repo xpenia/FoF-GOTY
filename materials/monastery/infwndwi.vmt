@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"monastery\infwndwi"
+	"$surfaceprop" "plaster"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "monastery\infwndwi_ref"
+
+}

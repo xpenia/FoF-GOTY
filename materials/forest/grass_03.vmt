@@ -1,0 +1,21 @@
+"WorldVertexTransition"
+{
+
+
+"$surfaceprop" "grass" 
+
+  
+"$basetexture" "forest/grass_03"
+
+"$basetexture2" "forest/grass_01"
+ 
+
+"$blendmodulatetexture" "forest/grass_modulate"
+
+"$blendmasktransform" "center .5 .5 scale 2 2  rotate 0 translate 0 0"
+
+
+"%tooltexture" "forest/grass_01"
+"%detailtype" "eliminator_sway"
+
+} 

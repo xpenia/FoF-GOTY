@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "Models/Props/piano/piano_diffuse"
+
+	$basealphaenvmapmask 1
+	$surfaceprop wood
+	$envmap env_cubemap
+	$envmaptint "{ 220 200 110}"
+	$envmapcontrast 0.3
+	$envmapsaturation .5
+}

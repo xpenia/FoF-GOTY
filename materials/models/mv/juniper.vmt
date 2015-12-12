@@ -1,0 +1,10 @@
+"UnLitGeneric"
+{
+"$baseTexture" "models/mv/juniper"
+
+"$alphatest" 1
+
+"$nocull" "1"
+
+"$model" 1
+}

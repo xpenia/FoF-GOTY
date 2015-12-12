@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/forest/wood_sheet_04"
+	"$bumpmap" "models/props/forest/train_normals"
+	"$envmap" env_cubemap
+	$envmapsaturation 0.1	
+	$envmapcontrast 4
+	$envmaptint "[.15 .15 .15]"
+
+	$normalmapalphaenvmapmask 1
+	
+	"$phong" "1"
+	//$phongexponenttexture "models/props/forest/train"
+	$phongboost 1
+	$phongexponent 25
+	"$phongfresnelranges"	"[1 3 8]"
+
+	$rimlight             1
+	$rimlightexponent       2
+	$rimlightboost          0.2
+
+}

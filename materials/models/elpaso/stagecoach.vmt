@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\elpaso/stagecoach"
+
+"$translucent" "1"
+"$model" 1
+"$alphatest" "1"
+}

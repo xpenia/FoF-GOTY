@@ -1,0 +1,11 @@
+"Sprite"
+{
+	"$spriteorientation"	"vp_parallel"
+	"$spriteorigin"			"[ 0.50 0.50 ]"
+	"$basetexture"			"sprites/laser"
+	"$ignorez"				"1"
+	"$no_fullbright"		"1"
+	"$vertexalpha"			"1"
+}
+
+	

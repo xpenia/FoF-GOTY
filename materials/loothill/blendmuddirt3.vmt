@@ -1,0 +1,22 @@
+"WorldVertexTransition"
+{
+   "$basetexture" "loothill/wetmud"
+   "$bumpmap" "loothill/wetmud_normal"
+
+"$envmap" "env_cubemap"
+"$normalmapalphaenvmapmask" 1
+"$envmapsaturation" "0.5"
+"$envmapcontrast" "0.7"
+"$envmaptint" "[1 0.7 0.6]"
+"$bumpscale" "2"
+
+  "$bumpmap2" "nature/rockfloor003a_normal"
+  "$basetexture2" "nature/rockfloor003a"
+
+  "$surfaceprop" "dirt"
+  "$surfaceprop2" "mud"
+
+   "%tooltexture" "loothill/wetmud"
+        "$basetexturetransform" "center .5 .5 scale 1 1 rotate 0  translate 0 0"
+        "$basetexturetransform2" "center .5 .5 scale 4 4 rotate 0 translate 0 0"
+} 

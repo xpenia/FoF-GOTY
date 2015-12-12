@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/weapons/axw"
+		
+	"$detail" "models/weapons/axe_d_detail"	
+	"$detailscale" "1"
+	"$detailblendfactor" 0
+	"$detailblendmode" 1
+	
+	"Proxies"
+	{		
+		"Booster"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+	}
+}

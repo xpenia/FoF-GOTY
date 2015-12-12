@@ -1,0 +1,12 @@
+"vertexlitGeneric"
+{
+	"$basetexture" "Nature/cliffface002a"
+	"$surfaceprop" "boulder"
+	"$bumpmap" "eliminator/cliff_normal"
+
+"$detail" "elpaso/macro01a"
+"$detailscale" .1
+
+	"$model" 1
+}
+

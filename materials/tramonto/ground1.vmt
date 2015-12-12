@@ -1,0 +1,6 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "tramonto/ground1"
+	"$bumpmap2" "tramonto/blank1024_normal"
+	"$surfaceprop" "sand" 
+}

@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "forest/cliff_01"
+"$ssbump	"	1
+	"$bumpmap" "forest/cliff_01_bump"
+	"$surfaceprop" "rock"
+
+
+}

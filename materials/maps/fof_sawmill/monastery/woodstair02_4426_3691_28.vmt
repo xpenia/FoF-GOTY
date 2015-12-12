@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/MONASTERY/WOODSTAIR02.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/fof_sawmill_12/c4426_3691_28"
+	}
+}

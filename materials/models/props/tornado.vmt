@@ -1,0 +1,21 @@
+"UnlitTwoTexture"
+{
+	"$baseTexture" "models/props/tornado_mask" 
+	"$texture2" "models/props/tornado"
+	"$additive" 1
+	//"$no_fullbright" 1
+	//"$translucent" 1
+	//"$nocull" "1"
+
+	Proxies
+	{
+		TextureScroll
+		{
+			texturescrollvar $texture2Transform
+			texturescrollrate 0.8
+			texturescrollangle -20
+		}
+
+	}
+
+}

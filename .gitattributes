@@ -1,0 +1,14 @@
+# use crlf instead of lf for line-endings to unconfuse gitlab (hopefully)
+text eol=crlf
+*.bsp binary
+*.mdl binary
+*.nav binary
+*.phy binary
+*.tga binary
+*.ttf binary
+*.vbsp binary
+*.vcs binary
+*.vpk binary
+*.vtf binary
+*.vtx binary
+*.vvd binary

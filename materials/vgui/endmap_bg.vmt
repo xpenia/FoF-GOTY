@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI\endmap_bg"
+	"$vertexcolor" 1
+	"$nolod" "1"
+	"$vertexalpha" 1
+}

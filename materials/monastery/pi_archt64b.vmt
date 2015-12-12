@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "monastery/pi_archt64b"
+	"$surfaceprop" "rock"
+	"$bumpmap" "monastery/pi_archt64b_normal"
+	"%keywords" "dod"
+}

@@ -1,0 +1,6 @@
+"lightmappedgeneric"
+{
+	"$baseTexture" "elpaso/oldbrick_sheriff"
+"$bumpmap" "elpaso/oldbrick_saloon_normal"
+	"$surfaceprop" "brick"
+}

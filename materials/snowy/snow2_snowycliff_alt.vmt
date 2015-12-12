@@ -1,0 +1,21 @@
+"WorldVertexTransition"
+{
+  "$basetexture" "snowy/snowycliff"
+"$basetexture2" "snowy/snow02"
+
+  "$surfaceprop" "concrete"
+  "$surfaceprop2" "snow"
+
+"$bumpmap" "peligro/rockwall_normal"
+"$bumpmap2" "snowy/snow01b_normal"
+
+"$seamless_scale" .0015
+
+  "$basetexturetransform2" "center .5 .5 scale 4 4 rotate 0 translate 0 0"
+
+   "%tooltexture" "snowy/snow02"
+
+//"$blendmodulatetexture" "snowy/blendtexture02"	
+
+
+} 

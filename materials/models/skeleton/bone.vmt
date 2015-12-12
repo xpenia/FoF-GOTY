@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/skeleton/bone"
+
+
+	"$bumpmap" "models/Items_misc/flat_normal"
+	"$phong" "1"
+	"$phongboost" "5"	
+	"$phongfresnelranges"	"[0.5 2 10]"
+	"$phongalbedotint" "1"	
+
+}

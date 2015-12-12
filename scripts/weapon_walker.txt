@@ -1,0 +1,82 @@
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"		"Walker"
+	"viewmodel"		"models/weapons/v_walker.mdl"
+	"playermodel"		"models/weapons/w_walker.mdl"
+	"anim_prefix"		"python"
+	"bucket"			"2"
+	"bucket_position"	"0"
+
+	"clip_size"			"6"
+	"default_clip"		"6"
+	"primary_ammo"		"357"
+	"secondary_ammo"	"None"
+
+	"weight"		"3"
+	"item_flags"		"0"
+
+	"damage"		"70"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"		"Weapon_Pistol.Empty"
+		"single_shot"	"Weapon_Walker.Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"V"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"V"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"q"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+ 	
+	ExpOffset // Ironsight
+  	{
+	     "x"   "-1"
+ 	     "y"   "-1.9"
+	     "z"   "0.5"
+      	}
+
+	Spread // 
+  	{
+	     "crouch"	"0.035"
+ 	     "idle"	"0.038"
+	     "walk"	"0.06"
+	     "run"	"0.18"
+	     "jump"	"0.35"
+	     "speed"	"0.37"		
+      	}
+
+
+	"break_limit"		"20"
+	"break_drop_penalty"	"5"
+	"GunSmokeMult"		"0.95"
+}

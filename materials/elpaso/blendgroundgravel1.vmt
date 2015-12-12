@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+      "$basetexture" "nature/gravelfloor002a"
+//"$bumpmap2" "monastery/blank_normal"
+   "$surfaceprop" "dirt"
+ 
+"$basetexture2" "elpaso/ground1"
+//"$bumpmap" "monastery/blank_normal"
+
+"$detail" "elpaso/macro01a"
+"$detailscale" .1
+   "%tooltexture" "elpaso/sandground1"
+
+} 

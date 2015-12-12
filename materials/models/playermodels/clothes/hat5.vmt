@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+        "$basetexture" "models/playermodels\clothes\hat5"
+	"$bumpmap" "models/playermodels/flat_normal"
+	//"$lightwarptexture" "models/playermodels/warp"	
+	"$phong" "1"
+	"$phongfresnelranges"	"[1 3 8]"
+	"$phongboost" ".01"	
+
+		"$nodecal" 1
+}

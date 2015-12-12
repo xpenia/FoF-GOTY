@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI\fofcl"
+	"$ignorez" 1
+	"$no_fullbright" 1
+	"$nolod" "1"
+}

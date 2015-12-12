@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+   "$basetexture" "snowy/snowylogbarricade"
+
+  "$surfaceprop" "wood"
+
+
+"$bumpmap" "snowy/snowylogbarricade_normal"
+
+
+
+
+} 

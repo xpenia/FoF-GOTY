@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+"$baseTexture" "textures\etc/flag"
+"$alphatest" "1"
+"$nodecal" "1"
+}

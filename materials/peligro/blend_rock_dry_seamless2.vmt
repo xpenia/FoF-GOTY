@@ -1,0 +1,22 @@
+"WorldVertexTransition"
+{
+
+"$ssbump" "1"
+
+"$surfaceprop" "boulder" 
+  
+"$basetexture2" "tijuana/ground_tijuana"
+"$bumpmap2" "eliminator/dirt_wall_ssbump"
+//"$bumpmap2" "monastery/rock2m_normal"
+
+"$basetexture" "peligro/rockwall_canyon"
+//"$bumpmap" "peligro/rockwall_canyon_normal"
+"$bumpmap" "peligro/rockwall_canyon_ssbump"
+
+"$seamless_scale" .002
+
+"%detailtype" "elpasograss_sway_low"
+
+"%tooltexture" "peligro/rock1"
+
+} 

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture"		"snowy/snowycliff"
+	"$surfaceprop"		"concrete"
+	"$bumpmap"		"nature/rockwall001a_normal"
+	"$basetexturetransform2"		"center .5 .5 scale 6 6 rotate 0 translate 0 0"
+	"%tooltexture"		"snowy/snow01"
+}

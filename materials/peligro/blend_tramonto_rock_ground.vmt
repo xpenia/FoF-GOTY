@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "peligro/rockwall_tramonto1"
+	"$bumpmap" "peligro/rockwall_tramonto1_normal"
+
+	"$basetexture2" "mv/redground3"	
+	"$bumpmap2" "models\playermodels\flat_normal"
+			
+	"%tooltexture" "peligro/rockwall_tramonto1"
+
+	"%detailtype" "elpasograss_sway_low"
+
+	"$surfaceprop" "boulder"
+	"$surfaceprop2" "boulder"
+}

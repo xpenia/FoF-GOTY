@@ -1,0 +1,87 @@
+// Peacemaker
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			""
+	"viewmodel"			"models/weapons/v_peacemaker.mdl"
+	"playermodel"		        "models/weapons/w_peacemaker.mdl"
+	"anim_prefix"		"python"
+	"bucket"			"2"
+	"bucket_position"	"2"
+
+	"clip_size"			"6"
+	"default_clip"		"6"
+	"primary_ammo"		"357"
+	"secondary_ammo"	"None"
+
+	"weight"		"2"
+	"item_flags"		"0"
+
+	"damage"		"45"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"		"Weapon_Peacemaker.Empty"
+		"single_shot"	"Weapon_Peacemaker.Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"P"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"P"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"q"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+	
+	ExpOffset // Ironsight
+  	{
+	     "x"   "-2"
+ 	     "y"   "-1.9"
+	     "z"   "0.44"
+	     "xf"   "-2"
+ 	     "yf"   "-3.66"
+	     "zf"   "-0.5"
+      	}
+
+	Spread // 
+  	{
+	     "crouch"	"0.025"
+ 	     "idle"	"0.029"
+	     "walk"	"0.055"
+	     "run"	"0.18"
+	     "jump"	"0.35"
+	     "speed"	"0.5"		
+      	}
+
+
+	"break_limit"		"18"
+	"break_drop_penalty"	"4"
+	"GunSmokeMult"		"0.7"
+}
