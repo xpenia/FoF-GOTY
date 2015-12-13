@@ -1,11 +1,11 @@
 "TopBar"
 {
-//	"item"
-//	{
-//		"title"		"#TopBar_Notes"
-//		"cmd"		"http://steamcommunity.com/app/265630/discussions/0/606068060837855406/"
-//		"icon"		"notes_icon"
-//	}	
+	"item"
+	{
+		"title"		"#TopBar_Notes"
+		"cmd"		"http://steamcommunity.com/groups/xpenia/discussions/9/487876558941385702/"
+		"icon"		"notes_icon"
+	}	
 //	"item"
 //	{
 //		"title"		"#TopBar_FoFCL"
@@ -18,16 +18,16 @@
 		"cmd"		"http://steamcommunity.com/groups/xpenia/discussions/9/"
 		"icon"		"bug_icon"
 	}
-//	"item"
-//	{
-//		"title"		"#TopBar_Res"
-//		"cmd"		"http://steamcommunity.com/app/265630/discussions/2/"
-//		"icon"		"whiskey"
-//	}
 	"item"
 	{
-		"title"		"#TopBar_Stats"
-		"cmd"		"stats"
-		"icon"		"top_bar_stats"
+		"title"		"XPenia"
+		"cmd"		"http://xpenia.org"
+		"icon"		"whiskey"
 	}
+//	"item"
+//	{
+//		"title"		"#TopBar_Stats"
+//		"cmd"		"stats"
+//		"icon"		"top_bar_stats"
+//	}
 }
