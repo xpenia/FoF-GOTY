@@ -2,7 +2,7 @@
 {
 	game	"Fistful of Frags - Game of the Year Edition"
 	title	""
-	title2	"11.12.2015"
+	title2	"15.12.2015"
 	GameData	"fof.fgd"
 	InstancePath "maps/instances/"
 	type multiplayer_only
